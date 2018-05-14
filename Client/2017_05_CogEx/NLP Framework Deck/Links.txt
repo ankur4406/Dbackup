@@ -1,0 +1,13 @@
+https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/
+
+https://bigsnarf.wordpress.com/2016/05/22/nlp-use-cases/
+
+https://elitedatascience.com/python-nlp-libraries
+
+https://www.programmableweb.com/news/how-5-natural-language-processing-apis-stack/analysis/2014/07/28
+
+http://textminingonline.com/dive-into-nltk-part-i-getting-started-with-nltk
+
+
+https://textblob.readthedocs.io/en/dev/
+

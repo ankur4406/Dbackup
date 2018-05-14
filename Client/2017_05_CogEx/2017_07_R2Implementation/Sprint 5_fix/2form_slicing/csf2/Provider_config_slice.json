@@ -1,0 +1,2126 @@
+{
+    "GroupInfo_MidLevelProvidersIncluded": {
+        "slice_file": "GroupInfo_MidLevelProvidersIncluded_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5865,
+            "y2": 5915,
+            "x2": 899,
+            "x1": 74
+        }
+    },
+    "GroupInfo_BlanketAgreement": {
+        "slice_file": "GroupInfo_BlanketAgreement_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5803,
+            "y2": 5834,
+            "x2": 1130,
+            "x1": 368
+        }
+    },
+    "ContractReimbursement_IndexAdjustment": {
+        "slice_file": "ContractReimbursement_IndexAdjustment_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12296,
+            "y2": 12326,
+            "x2": 699,
+            "x1": 80
+        }
+    },
+    "ContractType_Contract1_RBRVS": {
+        "slice_file": "ContractType_Contract1_RBRVS_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9964,
+            "y2": 10002,
+            "x2": 1112,
+            "x1": 949
+        }
+    },
+    "ContractStatus_DateReturnedFromAndover": {
+        "slice_file": "ContractStatus_DateReturnedFromAndover_slice.png",
+        "confidence": 0.9771182537078857,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8789,
+            "y2": 8814,
+            "x2": 1318,
+            "x1": 1081
+        }
+    },
+    "ContractReimbursement_ChargemasterAdjustmentComments": {
+        "slice_file": "ContractReimbursement_ChargemasterAdjustmentComments_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 12046,
+            "y2": 12145,
+            "x2": 1930,
+            "x1": 1080
+        }
+    },
+    "LocationInfo_Address3_Fax": {
+        "slice_file": "LocationInfo_Address3_Fax_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7302,
+            "y2": 7327,
+            "x2": 1006,
+            "x1": 655
+        }
+    },
+    "ContractType_Contract2_BlankAgreementTerminationDate": {
+        "slice_file": "ContractType_Contract2_BlankAgreementTerminationDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10521,
+            "y2": 10552,
+            "x2": 1956,
+            "x1": 1787
+        }
+    },
+    "GroupInfo_ReqNewPricingGrid": {
+        "slice_file": "GroupInfo_ReqNewPricingGrid_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5790,
+            "y2": 5846,
+            "x2": 1924,
+            "x1": 1524
+        }
+    },
+    "PDOUpdates_NoOfIndividualProviders": {
+        "slice_file": "PDOUpdates_NoOfIndividualProviders_slice.png",
+        "confidence": 0.9780434370040894,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4350,
+            "y2": 4387,
+            "x2": 1693,
+            "x1": 1493
+        }
+    },
+    "LocationInfo_Address4_State": {
+        "slice_file": "LocationInfo_Address4_State_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7477,
+            "y2": 7514,
+            "x2": 762,
+            "x1": 674
+        }
+    },
+    "ProviderInfo_StateLicenseNo": {
+        "slice_file": "ProviderInfo_StateLicenseNo_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4780,
+            "y2": 4812,
+            "x2": 1399,
+            "x1": 980
+        }
+    },
+    "ContractReimbursement_CustomReimbursement": {
+        "slice_file": "ContractReimbursement_CustomReimbursement_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12240,
+            "y2": 12276,
+            "x2": 1949,
+            "x1": 837
+        }
+    },
+    "ProviderInfo_NPINo": {
+        "slice_file": "ProviderInfo_NPINo_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4780,
+            "y2": 4812,
+            "x2": 2030,
+            "x1": 1587
+        }
+    },
+    "ContractReimbursement_QualifyAsINC": {
+        "slice_file": "ContractReimbursement_QualifyAsINC_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12183,
+            "y2": 12220,
+            "x2": 1949,
+            "x1": 837
+        }
+    },
+    "TaxInfo_TaxName2": {
+        "slice_file": "TaxInfo_TaxName2_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6165,
+            "y2": 6246,
+            "x2": 1462,
+            "x1": 843
+        }
+    },
+    "Retroactivity_RetroAdjustmentsRequested": {
+        "slice_file": "Retroactivity_RetroAdjustmentsRequested_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 3774,
+            "y2": 3831,
+            "x2": 524,
+            "x1": 68
+        }
+    },
+    "LocationInfo_Address3_City": {
+        "slice_file": "LocationInfo_Address3_City_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7227,
+            "y2": 7258,
+            "x2": 525,
+            "x1": 149
+        }
+    },
+    "LocationInfo_Address3_StreetAddress2": {
+        "slice_file": "LocationInfo_Address3_StreetAddress2_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7152,
+            "y2": 7189,
+            "x2": 2031,
+            "x1": 1455
+        }
+    },
+    "ContractType_Contract2_ContractYear": {
+        "slice_file": "ContractType_Contract2_ContractYear_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10589,
+            "y2": 10614,
+            "x2": 807,
+            "x1": 699
+        }
+    },
+    "LocationInfo_Address4_Fax": {
+        "slice_file": "LocationInfo_Address4_Fax_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7546,
+            "y2": 7577,
+            "x2": 1006,
+            "x1": 655
+        }
+    },
+    "ContractType_Contract2_A2": {
+        "slice_file": "ContractType_Contract2_A2_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10646,
+            "y2": 10677,
+            "x2": 1075,
+            "x1": 1006
+        }
+    },
+    "General_CSFPurpose": {
+        "slice_file": "General_CSFPurpose_slice.png",
+        "confidence": 0.9632702469825745,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3087,
+            "y2": 3125,
+            "x2": 1156,
+            "x1": 318
+        }
+    },
+    "CoveringPhysician_CoveringPhysician": {
+        "slice_file": "CoveringPhysician_CoveringPhysician_slice.png",
+        "confidence": 0.978419303894043,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7752,
+            "y2": 7814,
+            "x2": 2030,
+            "x1": 62
+        }
+    },
+    "TaxInfo_TaxName": {
+        "slice_file": "TaxInfo_TaxName_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6052,
+            "y2": 6133,
+            "x2": 1462,
+            "x1": 843
+        }
+    },
+    "ContractType_Contract1_IfCapitatedOverAndAbove": {
+        "slice_file": "ContractType_Contract1_IfCapitatedOverAndAbove_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9871,
+            "y2": 9908,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "ContractType_Contract1_ExpirationDate": {
+        "slice_file": "ContractType_Contract1_ExpirationDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9639,
+            "y2": 9671,
+            "x2": 1937,
+            "x1": 1774
+        }
+    },
+    "ContractReimbursement_FeeReductionMoreThanOnce": {
+        "slice_file": "ContractReimbursement_FeeReductionMoreThanOnce_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12346,
+            "y2": 12383,
+            "x2": 1949,
+            "x1": 837
+        }
+    },
+    "ContractType_Contract1_ContractID": {
+        "slice_file": "ContractType_Contract1_ContractID_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9589,
+            "y2": 9614,
+            "x2": 975,
+            "x1": 893
+        }
+    },
+    "LocationInfo_Address1_County": {
+        "slice_file": "LocationInfo_Address1_County_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6721,
+            "y2": 6820,
+            "x2": 1981,
+            "x1": 1699
+        }
+    },
+    "Language_PractitionerLanguage": {
+        "slice_file": "Language_PractitionerLanguage_slice.png",
+        "confidence": 0.9703472256660461,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8483,
+            "y2": 8583,
+            "x2": 1987,
+            "x1": 1349
+        }
+    },
+    "ContractStatus_CAQH": {
+        "slice_file": "ContractStatus_CAQH_slice.png",
+        "confidence": 0.9771182537078857,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8726,
+            "y2": 8751,
+            "x2": 830,
+            "x1": 687
+        }
+    },
+    "GroupInfo_ProviderGroupName": {
+        "slice_file": "GroupInfo_ProviderGroupName_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5622,
+            "y2": 5690,
+            "x2": 2024,
+            "x1": 1362
+        }
+    },
+    "ContractType_Contract1_LesserOfCharges": {
+        "slice_file": "ContractType_Contract1_LesserOfCharges_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9708,
+            "y2": 9746,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "BillingContactInfo_BillingFormat": {
+        "slice_file": "BillingContactInfo_BillingFormat_slice.png",
+        "confidence": 0.978670060634613,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9201,
+            "y2": 9233,
+            "x2": 787,
+            "x1": 312
+        }
+    },
+    "ContractReimbursement_ChangeInCapitationReportingRequirements": {
+        "slice_file": "ContractReimbursement_ChangeInCapitationReportingRequirements_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12402,
+            "y2": 12439,
+            "x2": 699,
+            "x1": 80
+        }
+    },
+    "ContractType_Contract2_RegardlessOfBilled": {
+        "slice_file": "ContractType_Contract2_RegardlessOfBilled_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10283,
+            "y2": 10321,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "Speciality_Speciality": {
+        "slice_file": "Speciality_Speciality_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7896,
+            "y2": 8002,
+            "x2": 693,
+            "x1": 243
+        }
+    },
+    "ProviderInfo_DEAExpirationDate": {
+        "slice_file": "ProviderInfo_DEAExpirationDate_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5086,
+            "y2": 5118,
+            "x2": 1312,
+            "x1": 1030
+        }
+    },
+    "MemberMove_MemberMove": {
+        "slice_file": "MemberMove_MemberMove_slice.png",
+        "confidence": 0.9787359237670898,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8976,
+            "y2": 9051,
+            "x2": 2037,
+            "x1": 68
+        }
+    },
+    "ProviderInfo_Title": {
+        "slice_file": "ProviderInfo_Title_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4955,
+            "y2": 4981,
+            "x2": 568,
+            "x1": 418
+        }
+    },
+    "CompletedBy_Phone": {
+        "slice_file": "CompletedBy_Phone_slice.png",
+        "confidence": 0.9801361560821533,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4600,
+            "y2": 4630,
+            "x2": 2037,
+            "x1": 1793
+        }
+    },
+    "ContractType_Contract1_ContractIDType": {
+        "slice_file": "ContractType_Contract1_ContractIDType_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9589,
+            "y2": 9614,
+            "x2": 875,
+            "x1": 731
+        }
+    },
+    "ContractType_Contract1_A1": {
+        "slice_file": "ContractType_Contract1_A1_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10027,
+            "y2": 10058,
+            "x2": 744,
+            "x1": 674
+        }
+    },
+    "LocationInfo_Address4_City": {
+        "slice_file": "LocationInfo_Address4_City_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7477,
+            "y2": 7514,
+            "x2": 525,
+            "x1": 149
+        }
+    },
+    "ContractType_Contract1_UseCurrentDate": {
+        "slice_file": "ContractType_Contract1_UseCurrentDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9639,
+            "y2": 9671,
+            "x2": 1337,
+            "x1": 999
+        }
+    },
+    "LocationInfo_Address2_StreetAddress1": {
+        "slice_file": "LocationInfo_Address2_StreetAddress1_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6908,
+            "y2": 6945,
+            "x2": 1275,
+            "x1": 705
+        }
+    },
+    "LocationInfo_Address2_Fax": {
+        "slice_file": "LocationInfo_Address2_Fax_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7052,
+            "y2": 7077,
+            "x2": 1006,
+            "x1": 655
+        }
+    },
+    "Speciality_AgeHigh": {
+        "slice_file": "Speciality_AgeHigh_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7902,
+            "y2": 7939,
+            "x2": 1875,
+            "x1": 1699
+        }
+    },
+    "TaxInfo_NPINo": {
+        "slice_file": "TaxInfo_NPINo_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6058,
+            "y2": 6089,
+            "x2": 1937,
+            "x1": 1637
+        }
+    },
+    "Retroactivity_PromptPayInterestComments": {
+        "slice_file": "Retroactivity_PromptPayInterestComments_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3955,
+            "y2": 4031,
+            "x2": 2005,
+            "x1": 949
+        }
+    },
+    "ProviderInfo_Gender": {
+        "slice_file": "ProviderInfo_Gender_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5024,
+            "y2": 5056,
+            "x2": 2030,
+            "x1": 1787
+        }
+    },
+    "ContractStatus_DateSentToAndover": {
+        "slice_file": "ContractStatus_DateSentToAndover_slice.png",
+        "confidence": 0.9771182537078857,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8789,
+            "y2": 8814,
+            "x2": 605,
+            "x1": 381
+        }
+    },
+    "General_TrackingNo": {
+        "slice_file": "General_TrackingNo_slice.png",
+        "confidence": 0.9661080241203308,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 2981,
+            "y2": 3025,
+            "x2": 1962,
+            "x1": 1556
+        }
+    },
+    "Speciality_AgeLow": {
+        "slice_file": "Speciality_AgeLow_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7902,
+            "y2": 7939,
+            "x2": 1487,
+            "x1": 1330
+        }
+    },
+    "ContractType_Contract2_A1": {
+        "slice_file": "ContractType_Contract2_A1_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10646,
+            "y2": 10677,
+            "x2": 744,
+            "x1": 674
+        }
+    },
+    "ContractReimbursement_IntentOfReimbursementStructure": {
+        "slice_file": "ContractReimbursement_IntentOfReimbursementStructure_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 12046,
+            "y2": 12145,
+            "x2": 943,
+            "x1": 93
+        }
+    },
+    "ProviderInfo_Suffix": {
+        "slice_file": "ProviderInfo_Suffix_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4955,
+            "y2": 4981,
+            "x2": 300,
+            "x1": 174
+        }
+    },
+    "LocationInfo_Address3_Zip": {
+        "slice_file": "LocationInfo_Address3_Zip_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7227,
+            "y2": 7258,
+            "x2": 1050,
+            "x1": 887
+        }
+    },
+    "LocationInfo_Address4_Primary": {
+        "slice_file": "LocationInfo_Address4_Primary_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 7533,
+            "y2": 7589,
+            "x2": 1450,
+            "x1": 1212
+        }
+    },
+    "ContractType_Contract1_ContractNetwork": {
+        "slice_file": "ContractType_Contract1_ContractNetwork_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9589,
+            "y2": 9614,
+            "x2": 707,
+            "x1": 293
+        }
+    },
+    "Speciality_PanelSize": {
+        "slice_file": "Speciality_PanelSize_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7971,
+            "y2": 8008,
+            "x2": 1050,
+            "x1": 905
+        }
+    },
+    "LocationInfo_Address4_Zip": {
+        "slice_file": "LocationInfo_Address4_Zip_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7477,
+            "y2": 7514,
+            "x2": 1050,
+            "x1": 887
+        }
+    },
+    "ContractReimbursement_ReimbursementTermsChange": {
+        "slice_file": "ContractReimbursement_ReimbursementTermsChange_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12183,
+            "y2": 12220,
+            "x2": 699,
+            "x1": 80
+        }
+    },
+    "LocationInfo_Address4_StreetAddress1": {
+        "slice_file": "LocationInfo_Address4_StreetAddress1_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7402,
+            "y2": 7439,
+            "x2": 1275,
+            "x1": 705
+        }
+    },
+    "Retroactivity_RetroactivityReason": {
+        "slice_file": "Retroactivity_RetroactivityReason_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3612,
+            "y2": 3674,
+            "x2": 2037,
+            "x1": 1505
+        }
+    },
+    "ProviderInfo_QCareID": {
+        "slice_file": "ProviderInfo_QCareID_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4774,
+            "y2": 4806,
+            "x2": 630,
+            "x1": 224
+        }
+    },
+    "ContractType_Contract2_MedicareBasedFee": {
+        "slice_file": "ContractType_Contract2_MedicareBasedFee_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10589,
+            "y2": 10621,
+            "x2": 438,
+            "x1": 87
+        }
+    },
+    "CompletedBy_DateReceived": {
+        "slice_file": "CompletedBy_DateReceived_slice.png",
+        "confidence": 0.9801361560821533,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4612,
+            "y2": 4636,
+            "x2": 1537,
+            "x1": 1262
+        }
+    },
+    "ContractType_Contract2_RBRVS": {
+        "slice_file": "ContractType_Contract2_RBRVS_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10589,
+            "y2": 10621,
+            "x2": 1112,
+            "x1": 949
+        }
+    },
+    "ContractType_Contract2_ContractIDType": {
+        "slice_file": "ContractType_Contract2_ContractIDType_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10214,
+            "y2": 10239,
+            "x2": 875,
+            "x1": 731
+        }
+    },
+    "LocationInfo_Address1_City": {
+        "slice_file": "LocationInfo_Address1_City_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6733,
+            "y2": 6770,
+            "x2": 525,
+            "x1": 149
+        }
+    },
+    "ProviderInfo_Ext": {
+        "slice_file": "ProviderInfo_Ext_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4955,
+            "y2": 4981,
+            "x2": 2030,
+            "x1": 1899
+        }
+    },
+    "General_TaxID": {
+        "slice_file": "General_TaxID_slice.png",
+        "confidence": 0.9571549892425537,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3131,
+            "y2": 3156,
+            "x2": 1918,
+            "x1": 1468
+        }
+    },
+    "Speciality_BoardStatus": {
+        "slice_file": "Speciality_BoardStatus_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7902,
+            "y2": 7939,
+            "x2": 1081,
+            "x1": 943
+        }
+    },
+    "Speciality_WaiverUpdate": {
+        "slice_file": "Speciality_WaiverUpdate_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 8096,
+            "y2": 8145,
+            "x2": 2037,
+            "x1": 1687
+        }
+    },
+    "ProviderType_ProviderTypeComments": {
+        "slice_file": "ProviderType_ProviderTypeComments_slice.png",
+        "confidence": 0.9798938632011414,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6464,
+            "y2": 6533,
+            "x2": 1768,
+            "x1": 462
+        }
+    },
+    "ContractReimbursement_ReimbursementForVaccinesInjectables": {
+        "slice_file": "ContractReimbursement_ReimbursementForVaccinesInjectables_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12402,
+            "y2": 12439,
+            "x2": 1949,
+            "x1": 837
+        }
+    },
+    "General_PriorityHandlingRequest": {
+        "slice_file": "General_PriorityHandlingRequest_slice.png",
+        "confidence": 0.9402199983596802,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 3050,
+            "y2": 3093,
+            "x2": 1843,
+            "x1": 1350
+        }
+    },
+    "BusinessIntent_DemographicChangeOnly": {
+        "lbl_align": "right",
+        "slice_file": "BusinessIntent_DemographicChangeOnly_slice.png",
+        "confidence": 0.9599812626838684,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 3200,
+            "y2": 3243,
+            "x2": 2031,
+            "x1": 1561
+        }
+    },
+    "ProviderInfo_LastName": {
+        "slice_file": "ProviderInfo_LastName_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4874,
+            "y2": 4906,
+            "x2": 2024,
+            "x1": 1212
+        }
+    },
+    "LocationInfo_Address2_State": {
+        "slice_file": "LocationInfo_Address2_State_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6977,
+            "y2": 7014,
+            "x2": 762,
+            "x1": 674
+        }
+    },
+    "ContractStatus_CredentialingDateApproved": {
+        "slice_file": "ContractStatus_CredentialingDateApproved_slice.png",
+        "confidence": 0.9771182537078857,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8789,
+            "y2": 8814,
+            "x2": 2024,
+            "x1": 1787
+        }
+    },
+    "ContractType_Contract2_DrugsReimbursedAtCorporateMethodology": {
+        "slice_file": "ContractType_Contract2_DrugsReimbursedAtCorporateMethodology_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10439,
+            "y2": 10477,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "ContractLanguage_ContractLanguageComments": {
+        "slice_file": "ContractLanguage_ContractLanguageComments_slice.png",
+        "confidence": 0.9529118537902832,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 11689,
+            "y2": 11790,
+            "x2": 943,
+            "x1": 93
+        }
+    },
+    "BillingContactInfo_ContractStatus": {
+        "slice_file": "BillingContactInfo_ContractStatus_slice.png",
+        "confidence": 0.978670060634613,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9283,
+            "y2": 9308,
+            "x2": 787,
+            "x1": 312
+        }
+    },
+    "ContractType_Contract2_SiteOfService": {
+        "slice_file": "ContractType_Contract2_SiteOfService_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10389,
+            "y2": 10427,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "ContractReimbursement_PAExceptions": {
+        "slice_file": "ContractReimbursement_PAExceptions_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 12590,
+            "y2": 12689,
+            "x2": 1930,
+            "x1": 1080
+        }
+    },
+    "GroupInfo_Attention": {
+        "slice_file": "GroupInfo_Attention_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5615,
+            "y2": 5690,
+            "x2": 893,
+            "x1": 237
+        }
+    },
+    "ContractType_Contract2_Contract1_ContractType": {
+        "slice_file": "ContractType_Contract2_Contract1_ContractType_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10214,
+            "y2": 10239,
+            "x2": 275,
+            "x1": 62
+        }
+    },
+    "ContractType_Contract2_UpdateWithMedicare": {
+        "slice_file": "ContractType_Contract2_UpdateWithMedicare_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10646,
+            "y2": 10683,
+            "x2": 450,
+            "x1": 87
+        }
+    },
+    "Speciality_AcceptingNewPatients": {
+        "slice_file": "Speciality_AcceptingNewPatients_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7971,
+            "y2": 8008,
+            "x2": 1812,
+            "x1": 1499
+        }
+    },
+    "ProviderInfo_FirstName": {
+        "slice_file": "ProviderInfo_FirstName_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4868,
+            "y2": 4899,
+            "x2": 599,
+            "x1": 255
+        }
+    },
+    "ContractReimbursement_ChargemasterAdjustment": {
+        "slice_file": "ContractReimbursement_ChargemasterAdjustment_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12346,
+            "y2": 12383,
+            "x2": 699,
+            "x1": 80
+        }
+    },
+    "LocationInfo_Address1_Phone": {
+        "slice_file": "LocationInfo_Address1_Phone_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6802,
+            "y2": 6827,
+            "x2": 543,
+            "x1": 193
+        }
+    },
+    "LocationInfo_Address3_Market": {
+        "slice_file": "LocationInfo_Address3_Market_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7227,
+            "y2": 7258,
+            "x2": 1506,
+            "x1": 1224
+        }
+    },
+    "BillingContactInfo_AffliatedWithAnExistingContract": {
+        "slice_file": "BillingContactInfo_AffliatedWithAnExistingContract_slice.png",
+        "confidence": 0.978670060634613,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9370,
+            "y2": 9408,
+            "x2": 562,
+            "x1": 62
+        }
+    },
+    "LocationInfo_Address2_County": {
+        "slice_file": "LocationInfo_Address2_County_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6971,
+            "y2": 7070,
+            "x2": 1981,
+            "x1": 1699
+        }
+    },
+    "ContractType_Contract2_UseCurrentDate": {
+        "slice_file": "ContractType_Contract2_UseCurrentDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10264,
+            "y2": 10302,
+            "x2": 1337,
+            "x1": 999
+        }
+    },
+    "GroupInfo_PHODesignation": {
+        "slice_file": "GroupInfo_PHODesignation_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5722,
+            "y2": 5753,
+            "x2": 1487,
+            "x1": 837
+        }
+    },
+    "ContractLanguage_ContractLanguage": {
+        "slice_file": "ContractLanguage_ContractLanguage_slice.png",
+        "confidence": 0.9529118537902832,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 11564,
+            "y2": 11596,
+            "x2": 687,
+            "x1": 374
+        }
+    },
+    "ContractType_Contract2_IfCapitatedOverAndAbove": {
+        "slice_file": "ContractType_Contract2_IfCapitatedOverAndAbove_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10496,
+            "y2": 10533,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "TaxInfo_NPINo2": {
+        "slice_file": "TaxInfo_NPINo2_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6208,
+            "y2": 6239,
+            "x2": 1937,
+            "x1": 1637
+        }
+    },
+    "ContractType_Contract1_EffectiveDate": {
+        "slice_file": "ContractType_Contract1_EffectiveDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9639,
+            "y2": 9671,
+            "x2": 1550,
+            "x1": 1387
+        }
+    },
+    "Retroactivity_EstimatedDollarAmtOfAdjustment": {
+        "slice_file": "Retroactivity_EstimatedDollarAmtOfAdjustment_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3843,
+            "y2": 3868,
+            "x2": 849,
+            "x1": 630
+        }
+    },
+    "LocationInfo_Address3_AddressType": {
+        "slice_file": "LocationInfo_Address3_AddressType_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7152,
+            "y2": 7189,
+            "x2": 518,
+            "x1": 312
+        }
+    },
+    "ProviderInfo_MedicareNumber": {
+        "slice_file": "ProviderInfo_MedicareNumber_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5086,
+            "y2": 5118,
+            "x2": 2024,
+            "x1": 1674
+        }
+    },
+    "ContractType_Contract1_TerminationReason": {
+        "slice_file": "ContractType_Contract1_TerminationReason_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10108,
+            "y2": 10146,
+            "x2": 1787,
+            "x1": 424
+        }
+    },
+    "ContractType_Contract1_UpdateWithMedicare": {
+        "slice_file": "ContractType_Contract1_UpdateWithMedicare_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10021,
+            "y2": 10058,
+            "x2": 450,
+            "x1": 87
+        }
+    },
+    "ContractType_Contract2_TerminationDate": {
+        "slice_file": "ContractType_Contract2_TerminationDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10264,
+            "y2": 10302,
+            "x2": 1743,
+            "x1": 1581
+        }
+    },
+    "Retroactivity_InterestOwed": {
+        "slice_file": "Retroactivity_InterestOwed_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 3899,
+            "y2": 3956,
+            "x2": 524,
+            "x1": 68
+        }
+    },
+    "LocationInfo_Address3_State": {
+        "slice_file": "LocationInfo_Address3_State_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7227,
+            "y2": 7258,
+            "x2": 762,
+            "x1": 674
+        }
+    },
+    "ContractReimbursement_TerminationNotForCause": {
+        "slice_file": "ContractReimbursement_TerminationNotForCause_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12296,
+            "y2": 12326,
+            "x2": 1949,
+            "x1": 837
+        }
+    },
+    "ProviderInfo_ContactNo": {
+        "slice_file": "ProviderInfo_ContactNo_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4955,
+            "y2": 4981,
+            "x2": 1774,
+            "x1": 1530
+        }
+    },
+    "LocationInfo_Address2_City": {
+        "slice_file": "LocationInfo_Address2_City_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6977,
+            "y2": 7014,
+            "x2": 525,
+            "x1": 149
+        }
+    },
+    "LocationInfo_Address2_Primary": {
+        "slice_file": "LocationInfo_Address2_Primary_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 7039,
+            "y2": 7089,
+            "x2": 1450,
+            "x1": 1212
+        }
+    },
+    "LocationInfo_Address3_County": {
+        "slice_file": "LocationInfo_Address3_County_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7221,
+            "y2": 7320,
+            "x2": 1981,
+            "x1": 1699
+        }
+    },
+    "BillingContactInfo_ExistingContractID": {
+        "slice_file": "BillingContactInfo_ExistingContractID_slice.png",
+        "confidence": 0.978670060634613,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9208,
+            "y2": 9239,
+            "x2": 1662,
+            "x1": 1331
+        }
+    },
+    "BusinessIntent_BusinessIntent": {
+        "slice_file": "BusinessIntent_BusinessIntent_slice.png",
+        "confidence": 0.966722309589386,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3274,
+            "y2": 3356,
+            "x2": 2037,
+            "x1": 74
+        }
+    },
+    "Language_StaffLanguage": {
+        "slice_file": "Language_StaffLanguage_slice.png",
+        "confidence": 0.9703472256660461,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8483,
+            "y2": 8583,
+            "x2": 1000,
+            "x1": 299
+        }
+    },
+    "LocationInfo_Address1_StreetAddress1": {
+        "slice_file": "LocationInfo_Address1_StreetAddress1_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6658,
+            "y2": 6695,
+            "x2": 1275,
+            "x1": 705
+        }
+    },
+    "GroupInfo_GroupAggrementApplies": {
+        "slice_file": "GroupInfo_GroupAggrementApplies_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 5715,
+            "y2": 5765,
+            "x2": 474,
+            "x1": 74
+        }
+    },
+    "ContractType_Contract1_ContractYear": {
+        "slice_file": "ContractType_Contract1_ContractYear_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9964,
+            "y2": 9989,
+            "x2": 807,
+            "x1": 699
+        }
+    },
+    "CompletedBy_StartDate": {
+        "slice_file": "CompletedBy_StartDate_slice.png",
+        "confidence": 0.9801361560821533,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4612,
+            "y2": 4636,
+            "x2": 1112,
+            "x1": 880
+        }
+    },
+    "ContractType_Contract2_TerminationReason": {
+        "slice_file": "ContractType_Contract2_TerminationReason_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10733,
+            "y2": 10771,
+            "x2": 1787,
+            "x1": 424
+        }
+    },
+    "LocationInfo_Address1_Market": {
+        "slice_file": "LocationInfo_Address1_Market_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6733,
+            "y2": 6770,
+            "x2": 1506,
+            "x1": 1224
+        }
+    },
+    "Retroactivity_ResponsiblePartyMarket": {
+        "slice_file": "Retroactivity_ResponsiblePartyMarket_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3612,
+            "y2": 3643,
+            "x2": 1055,
+            "x1": 474
+        }
+    },
+    "LocationInfo_Address4_AddressType": {
+        "slice_file": "LocationInfo_Address4_AddressType_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7402,
+            "y2": 7439,
+            "x2": 518,
+            "x1": 312
+        }
+    },
+    "ContractType_Contract2_IsContractEvergreen": {
+        "slice_file": "ContractType_Contract2_IsContractEvergreen_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10314,
+            "y2": 10352,
+            "x2": 1937,
+            "x1": 1581
+        }
+    },
+    "ContractType_Contract1_RegardlessOfBilled": {
+        "slice_file": "ContractType_Contract1_RegardlessOfBilled_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9658,
+            "y2": 9696,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "LocationInfo_Address4_StreetAddress2": {
+        "slice_file": "LocationInfo_Address4_StreetAddress2_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7402,
+            "y2": 7439,
+            "x2": 2031,
+            "x1": 1455
+        }
+    },
+    "ContractType_Contract2_EffectiveDate": {
+        "slice_file": "ContractType_Contract2_EffectiveDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10264,
+            "y2": 10302,
+            "x2": 1550,
+            "x1": 1387
+        }
+    },
+    "LocationInfo_Address3_StreetAddress1": {
+        "slice_file": "LocationInfo_Address3_StreetAddress1_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7152,
+            "y2": 7189,
+            "x2": 1275,
+            "x1": 705
+        }
+    },
+    "Retroactivity_ResponsiblePartyPO": {
+        "slice_file": "Retroactivity_ResponsiblePartyPO_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3712,
+            "y2": 3743,
+            "x2": 1055,
+            "x1": 474
+        }
+    },
+    "ProviderInfo_MiddleName": {
+        "slice_file": "ProviderInfo_MiddleName_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4861,
+            "y2": 4899,
+            "x2": 905,
+            "x1": 755
+        }
+    },
+    "PDOUpdates_NoOfQCareRecordsToUpdate": {
+        "slice_file": "PDOUpdates_NoOfQCareRecordsToUpdate_slice.png",
+        "confidence": 0.9780434370040894,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4412,
+            "y2": 4449,
+            "x2": 1693,
+            "x1": 1493
+        }
+    },
+    "LocationInfo_Address3_Primary": {
+        "slice_file": "LocationInfo_Address3_Primary_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 7289,
+            "y2": 7339,
+            "x2": 1450,
+            "x1": 1212
+        }
+    },
+    "LocationInfo_Address1_Zip": {
+        "slice_file": "LocationInfo_Address1_Zip_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6733,
+            "y2": 6770,
+            "x2": 1050,
+            "x1": 887
+        }
+    },
+    "PDOUpdates_PDOUpdatesReq": {
+        "slice_file": "PDOUpdates_PDOUpdatesReq_slice.png",
+        "confidence": 0.9780434370040894,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 4412,
+            "y2": 4462,
+            "x2": 550,
+            "x1": 112
+        }
+    },
+    "LocationInfo_Address1_StreetAddress2": {
+        "slice_file": "LocationInfo_Address1_StreetAddress2_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6658,
+            "y2": 6695,
+            "x2": 2031,
+            "x1": 1455
+        }
+    },
+    "ContractReimbursement_DefaultPricing": {
+        "slice_file": "ContractReimbursement_DefaultPricing_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 12590,
+            "y2": 12689,
+            "x2": 943,
+            "x1": 93
+        }
+    },
+    "LocationInfo_Address2_Zip": {
+        "slice_file": "LocationInfo_Address2_Zip_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6977,
+            "y2": 7014,
+            "x2": 1050,
+            "x1": 887
+        }
+    },
+    "ContractStatus_CurrentPanelSize": {
+        "slice_file": "ContractStatus_CurrentPanelSize_slice.png",
+        "confidence": 0.9771182537078857,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8726,
+            "y2": 8751,
+            "x2": 1374,
+            "x1": 1218
+        }
+    },
+    "ContractType_Contract1_TimelinessOfFiling": {
+        "slice_file": "ContractType_Contract1_TimelinessOfFiling_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10046,
+            "y2": 10077,
+            "x2": 1800,
+            "x1": 1612
+        }
+    },
+    "LocationInfo_Address1_State": {
+        "slice_file": "LocationInfo_Address1_State_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6733,
+            "y2": 6770,
+            "x2": 762,
+            "x1": 674
+        }
+    },
+    "ContractType_Contract1_IsContractEvergreen": {
+        "slice_file": "ContractType_Contract1_IsContractEvergreen_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9696,
+            "y2": 9733,
+            "x2": 1937,
+            "x1": 1581
+        }
+    },
+    "LocationInfo_Address3_Phone": {
+        "slice_file": "LocationInfo_Address3_Phone_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7302,
+            "y2": 7327,
+            "x2": 543,
+            "x1": 193
+        }
+    },
+    "ContractReimbursement_IncludesWithholdOnRiskPool": {
+        "slice_file": "ContractReimbursement_IncludesWithholdOnRiskPool_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12458,
+            "y2": 12489,
+            "x2": 699,
+            "x1": 80
+        }
+    },
+    "ContractType_Contract1_DrugsReimbursedAtCorporateMethodology": {
+        "slice_file": "ContractType_Contract1_DrugsReimbursedAtCorporateMethodology_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9814,
+            "y2": 9852,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "ProviderType_ProviderType": {
+        "slice_file": "ProviderType_ProviderType_slice.png",
+        "confidence": 0.9798938632011414,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6377,
+            "y2": 6408,
+            "x2": 775,
+            "x1": 130
+        }
+    },
+    "LocationInfo_Address2_AddressType": {
+        "slice_file": "LocationInfo_Address2_AddressType_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6908,
+            "y2": 6945,
+            "x2": 518,
+            "x1": 312
+        }
+    },
+    "LocationInfo_Address2_Market": {
+        "slice_file": "LocationInfo_Address2_Market_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6977,
+            "y2": 7014,
+            "x2": 1506,
+            "x1": 1224
+        }
+    },
+    "ContractType_Contract1_SiteOfService": {
+        "slice_file": "ContractType_Contract1_SiteOfService_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9764,
+            "y2": 9802,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "General_NewContractOrAmendment": {
+        "slice_file": "General_NewContractOrAmendment_slice.png",
+        "confidence": 0.9413072466850281,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 2987,
+            "y2": 3037,
+            "x2": 1225,
+            "x1": 137
+        }
+    },
+    "ContractType_Contract1_MedicareBasedFee": {
+        "slice_file": "ContractType_Contract1_MedicareBasedFee_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9964,
+            "y2": 10002,
+            "x2": 438,
+            "x1": 87
+        }
+    },
+    "LocationInfo_Address4_County": {
+        "slice_file": "LocationInfo_Address4_County_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7464,
+            "y2": 7564,
+            "x2": 1981,
+            "x1": 1699
+        }
+    },
+    "TaxInfo_TaxID2": {
+        "slice_file": "TaxInfo_TaxID2_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6208,
+            "y2": 6239,
+            "x2": 643,
+            "x1": 193
+        }
+    },
+    "ContractType_Contract1_BlankAgreementTerminationDate": {
+        "slice_file": "ContractType_Contract1_BlankAgreementTerminationDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9902,
+            "y2": 9933,
+            "x2": 1956,
+            "x1": 1787
+        }
+    },
+    "Retroactivity_DateIssueIdentified": {
+        "slice_file": "Retroactivity_DateIssueIdentified_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3968,
+            "y2": 3999,
+            "x2": 730,
+            "x1": 518
+        }
+    },
+    "LocationInfo_Address2_StreetAddress2": {
+        "slice_file": "LocationInfo_Address2_StreetAddress2_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6908,
+            "y2": 6945,
+            "x2": 2031,
+            "x1": 1455
+        }
+    },
+    "LocationInfo_Address4_Phone": {
+        "slice_file": "LocationInfo_Address4_Phone_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7546,
+            "y2": 7577,
+            "x2": 543,
+            "x1": 193
+        }
+    },
+    "ContractLanguage_SpecifyContractIntent": {
+        "slice_file": "ContractLanguage_SpecifyContractIntent_slice.png",
+        "confidence": 0.9529118537902832,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 11683,
+            "y2": 11777,
+            "x2": 1937,
+            "x1": 1087
+        }
+    },
+    "ContractType_Contract2_ContractNetwork": {
+        "slice_file": "ContractType_Contract2_ContractNetwork_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10214,
+            "y2": 10239,
+            "x2": 707,
+            "x1": 293
+        }
+    },
+    "ContractReimbursement_AutomaticRateIncrease": {
+        "slice_file": "ContractReimbursement_AutomaticRateIncrease_slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 12240,
+            "y2": 12276,
+            "x2": 699,
+            "x1": 80
+        }
+    },
+    "LocationInfo_Address1_Primary": {
+        "slice_file": "LocationInfo_Address1_Primary_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 6789,
+            "y2": 6839,
+            "x2": 1450,
+            "x1": 1212
+        }
+    },
+    "ContractStatus_CredentialedApplication": {
+        "slice_file": "ContractStatus_CredentialedApplication_slice.png",
+        "confidence": 0.9771182537078857,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 8720,
+            "y2": 8770,
+            "x2": 437,
+            "x1": 74
+        }
+    },
+    "Speciality_WaiverIndicator": {
+        "slice_file": "Speciality_WaiverIndicator_slice.png",
+        "confidence": 0.9729622602462769,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 8115,
+            "y2": 8145,
+            "x2": 1375,
+            "x1": 318
+        }
+    },
+    "ContractReimbursement_DateFeeScheduleRequested ": {
+        "slice_file": "ContractReimbursement_DateFeeScheduleRequested _slice.png",
+        "confidence": 0.9655229449272156,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 11915,
+            "y2": 11951,
+            "x2": 824,
+            "x1": 637
+        }
+    },
+    "ContractType_Contract2_ExpirationDate": {
+        "slice_file": "ContractType_Contract2_ExpirationDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10264,
+            "y2": 10302,
+            "x2": 1937,
+            "x1": 1774
+        }
+    },
+    "LocationInfo_Address2_Phone": {
+        "slice_file": "LocationInfo_Address2_Phone_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7052,
+            "y2": 7077,
+            "x2": 543,
+            "x1": 193
+        }
+    },
+    "ProviderInfo_ContactEmail": {
+        "slice_file": "ProviderInfo_ContactEmail_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5024,
+            "y2": 5056,
+            "x2": 1555,
+            "x1": 318
+        }
+    },
+    "ContractType_Contract2_BlankAgreementEffectiveDate": {
+        "slice_file": "ContractType_Contract2_BlankAgreementEffectiveDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10521,
+            "y2": 10552,
+            "x2": 1743,
+            "x1": 1581
+        }
+    },
+    "CompletedBy_Name": {
+        "slice_file": "CompletedBy_Name_slice.png",
+        "confidence": 0.9801361560821533,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4600,
+            "y2": 4624,
+            "x2": 768,
+            "x1": 199
+        }
+    },
+    "ContractType_Contract1_A2": {
+        "slice_file": "ContractType_Contract1_A2_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10027,
+            "y2": 10058,
+            "x2": 1075,
+            "x1": 1006
+        }
+    },
+    "Retroactivity_ResultInRetroactivity": {
+        "slice_file": "Retroactivity_ResultInRetroactivity_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 3455,
+            "y2": 3499,
+            "x2": 1124,
+            "x1": 861
+        }
+    },
+    "ContractType_Contract1_Contract1_ContractType": {
+        "slice_file": "ContractType_Contract1_Contract1_ContractType_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9589,
+            "y2": 9614,
+            "x2": 275,
+            "x1": 62
+        }
+    },
+    "Retroactivity_RetroactivityComments": {
+        "slice_file": "Retroactivity_RetroactivityComments_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3805,
+            "y2": 3881,
+            "x2": 2005,
+            "x1": 949
+        }
+    },
+    "ProviderInfo_DEANumber": {
+        "slice_file": "ProviderInfo_DEANumber_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5086,
+            "y2": 5118,
+            "x2": 662,
+            "x1": 324
+        }
+    },
+    "TaxInfo_TaxID": {
+        "slice_file": "TaxInfo_TaxID_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6058,
+            "y2": 6089,
+            "x2": 643,
+            "x1": 193
+        }
+    },
+    "ContractLanguage_RedLineAttached": {
+        "slice_file": "ContractLanguage_RedLineAttached_slice.png",
+        "confidence": 0.9529118537902832,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 11558,
+            "y2": 11596,
+            "x2": 1337,
+            "x1": 1062
+        }
+    },
+    "LocationInfo_Address1_Fax": {
+        "slice_file": "LocationInfo_Address1_Fax_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6802,
+            "y2": 6827,
+            "x2": 1006,
+            "x1": 655
+        }
+    },
+    "ContractType_Contract2_TimelinessOfFiling": {
+        "slice_file": "ContractType_Contract2_TimelinessOfFiling_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10671,
+            "y2": 10702,
+            "x2": 1800,
+            "x1": 1612
+        }
+    },
+    "ContractType_Contract1_TerminationDate": {
+        "slice_file": "ContractType_Contract1_TerminationDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 9639,
+            "y2": 9671,
+            "x2": 1743,
+            "x1": 1581
+        }
+    },
+    "Retroactivity_CauseNewContractOrAmendment": {
+        "slice_file": "Retroactivity_CauseNewContractOrAmendment_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 3518,
+            "y2": 3574,
+            "x2": 2037,
+            "x1": 961
+        }
+    },
+    "ContractType_Contract2_ContractID": {
+        "slice_file": "ContractType_Contract2_ContractID_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 10214,
+            "y2": 10239,
+            "x2": 975,
+            "x1": 893
+        }
+    },
+    "ContractType_Contract2_LesserOfCharges": {
+        "slice_file": "ContractType_Contract2_LesserOfCharges_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 10333,
+            "y2": 10371,
+            "x2": 725,
+            "x1": 62
+        }
+    },
+    "ProviderInfo_ContactName": {
+        "slice_file": "ProviderInfo_ContactName_slice.png",
+        "confidence": 0.9752249717712402,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 4924,
+            "y2": 4999,
+            "x2": 1343,
+            "x1": 849
+        }
+    },
+    "ContractType_Contract1_BlankAgreementEffectiveDate": {
+        "slice_file": "ContractType_Contract1_BlankAgreementEffectiveDate_slice.png",
+        "confidence": 0.9772713780403137,
+        "type": "omr",
+        "slice_xy": {
+            "y1": 9902,
+            "y2": 9933,
+            "x2": 1743,
+            "x1": 1581
+        }
+    },
+    "LocationInfo_Address4_Market": {
+        "slice_file": "LocationInfo_Address4_Market_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 7477,
+            "y2": 7514,
+            "x2": 1506,
+            "x1": 1224
+        }
+    },
+    "ContractType_OtherComments": {
+        "slice_file": "ContractType_OtherComments_slice.png",
+        "confidence": 0.9529118537902832,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 11190,
+            "y2": 11447,
+            "x2": 943,
+            "x1": 105
+        }
+    },
+    "Retroactivity_RetroactivityEffectiveDate": {
+        "slice_file": "Retroactivity_RetroactivityEffectiveDate_slice.png",
+        "confidence": 0.9617835283279419,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 3718,
+            "y2": 3743,
+            "x2": 1737,
+            "x1": 1524
+        }
+    },
+    "GroupInfo_NotEligibleReapply": {
+        "slice_file": "GroupInfo_NotEligibleReapply_slice.png",
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 5865,
+            "y2": 5915,
+            "x2": 1924,
+            "x1": 1524
+        }
+    },
+    "LocationInfo_Address1_AddressType": {
+        "slice_file": "LocationInfo_Address1_AddressType_slice.png",
+        "confidence": 0.9745414853096008,
+        "type": "txt",
+        "slice_xy": {
+            "y1": 6658,
+            "y2": 6695,
+            "x2": 518,
+            "x1": 312
+        }
+    }
+}

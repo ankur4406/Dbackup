@@ -1,0 +1,372 @@
+/usr/bin/python3.5 /home/ankurarora/Documents/cogx/git/nlp/xpms-nlp/tests/utils/test_intent_util.py
+Update provider's last name from Rose to Morris
+[{'attributes': [],
+  'begin': 33,
+  'confidence': 0.99,
+  'end': 37,
+  'ent_type': [('PERSON', 0.7268077919751573), ('CITY', 0.6120788887313863)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Rose',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 41,
+  'confidence': 0.99,
+  'end': 47,
+  'ent_type': [('PERSON', 0.7268077919751573), ('CITY', 0.6120788887313863)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Morris',
+  'tok_begin': 8,
+  'tok_end': 8},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 27,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Update provider's last name",
+  'tok_begin': 0,
+  'tok_end': 4}]
+                    ROOT                                       
+                     |                                          
+                     NP                                        
+   __________________|_________                                 
+  |                            NP                              
+  |                   _________|______________                  
+  |                  |                        PP               
+  |                  |               _________|___              
+  |                  |              |             NP           
+  |                  |              |     ________|___          
+  |                  NP             |    |            PP       
+  |               ___|_________     |    |         ___|____     
+  NP             NP       |    |    |    NP       |        NP  
+  |        ______|___     |    |    |    |        |        |    
+ NNP      NN        POS   JJ   NN   IN  NNP       TO      NNP  
+  |       |          |    |    |    |    |        |        |    
+Update provider      's  last name from Rose      to     Morris
+
+['from']
+['name']
+['Rose']
+['to']
+['Rose']
+['Morris']
+[{'attributes': [],
+  'begin': 33,
+  'confidence': 0.99,
+  'end': 37,
+  'ent_type': [('PERSON', 0.7268077919751573), ('CITY', 0.6120788887313863)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Rose',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 41,
+  'confidence': 0.99,
+  'end': 47,
+  'ent_type': [('PERSON', 0.7268077919751573), ('CITY', 0.6120788887313863)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Morris',
+  'tok_begin': 8,
+  'tok_end': 8},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 27,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Update provider's last name",
+  'tok_begin': 0,
+  'tok_end': 4}]
+Update provider's last name from Rose to Morris
+                    ROOT                                       
+                     |                                          
+                     NP                                        
+   __________________|_________                                 
+  |                            NP                              
+  |                   _________|______________                  
+  |                  |                        PP               
+  |                  |               _________|___              
+  |                  |              |             NP           
+  |                  |              |     ________|___          
+  |                  NP             |    |            PP       
+  |               ___|_________     |    |         ___|____     
+  NP             NP       |    |    |    NP       |        NP  
+  |        ______|___     |    |    |    |        |        |    
+ NNP      NN        POS   JJ   NN   IN  NNP       TO      NNP  
+  |       |          |    |    |    |    |        |        |    
+Update provider      's  last name from Rose      to     Morris
+
+[]
+Update provider's last name from Smith to Thompson
+[{'attributes': [],
+  'begin': 33,
+  'confidence': 0.99,
+  'end': 38,
+  'ent_type': [('CITY', 0.6120788887313863), ('PERSON', 0.7268077919751573)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Smith',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 42,
+  'confidence': 0.99,
+  'end': 50,
+  'ent_type': [('PERSON', 0.7268077919751573), ('CITY', 0.6120788887313863)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Thompson',
+  'tok_begin': 8,
+  'tok_end': 8},
+ {'attributes': [],
+  'begin': 33,
+  'confidence': 0.0,
+  'end': 50,
+  'ent_type': [('ORG', 0.4)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Smith to Thompson',
+  'tok_begin': 6,
+  'tok_end': 8,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 27,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Update provider's last name",
+  'tok_begin': 0,
+  'tok_end': 4}]
+                    ROOT                                          
+                     |                                             
+                     NP                                           
+   __________________|_________                                    
+  |                            NP                                 
+  |                   _________|_______________                    
+  |                  |                         PP                 
+  |                  |               __________|___                
+  |                  |              |              NP             
+  |                  |              |      ________|___            
+  |                  NP             |     |            PP         
+  |               ___|_________     |     |         ___|_____      
+  NP             NP       |    |    |     NP       |         NP   
+  |        ______|___     |    |    |     |        |         |     
+ NNP      NN        POS   JJ   NN   IN   NNP       TO       NNP   
+  |       |          |    |    |    |     |        |         |     
+Update provider      's  last name from Smith      to     Thompson
+
+['from']
+['name']
+['Smith']
+['to']
+['Smith']
+['Thompson']
+[{'attributes': [],
+  'begin': 33,
+  'confidence': 0.99,
+  'end': 38,
+  'ent_type': [('CITY', 0.6120788887313863), ('PERSON', 0.7268077919751573)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Smith',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 42,
+  'confidence': 0.99,
+  'end': 50,
+  'ent_type': [('PERSON', 0.7268077919751573), ('CITY', 0.6120788887313863)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Thompson',
+  'tok_begin': 8,
+  'tok_end': 8},
+ {'attributes': [],
+  'begin': 33,
+  'confidence': 0.0,
+  'end': 50,
+  'ent_type': [('ORG', 0.4)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Smith to Thompson',
+  'tok_begin': 6,
+  'tok_end': 8,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 27,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Update provider's last name",
+  'tok_begin': 0,
+  'tok_end': 4}]
+Update provider's last name from Smith to Thompson
+                    ROOT                                          
+                     |                                             
+                     NP                                           
+   __________________|_________                                    
+  |                            NP                                 
+  |                   _________|_______________                    
+  |                  |                         PP                 
+  |                  |               __________|___                
+  |                  |              |              NP             
+  |                  |              |      ________|___            
+  |                  NP             |     |            PP         
+  |               ___|_________     |     |         ___|_____      
+  NP             NP       |    |    |     NP       |         NP   
+  |        ______|___     |    |    |     |        |         |     
+ NNP      NN        POS   JJ   NN   IN   NNP       TO       NNP   
+  |       |          |    |    |    |     |        |         |     
+Update provider      's  last name from Smith      to     Thompson
+
+[]
+Update provider's location from Washington to Florida
+[{'attributes': [],
+  'begin': 32,
+  'confidence': 0.99,
+  'end': 42,
+  'ent_type': [('CITY', 0.7316750745131757),
+               ('STATE', 0.7316750745131757),
+               ('PERSON', 0.650248070452912),
+               ('GPE', 0.7316750745131757)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Washington',
+  'tok_begin': 5,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 46,
+  'confidence': 0.99,
+  'end': 53,
+  'ent_type': [('CITY', 0.7316750745131757),
+               ('STATE', 0.7316750745131757),
+               ('PERSON', 0.650248070452912),
+               ('GPE', 0.7316750745131757)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Florida',
+  'tok_begin': 7,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 26,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Update provider's location",
+  'tok_begin': 0,
+  'tok_end': 3}]
+                          ROOT                                      
+                           |                                         
+                           NP                                       
+   ________________________|______                                   
+  |                               NP                                
+  |                   ____________|_______________                   
+  |                  |                            PP                
+  |                  |             _______________|___               
+  |                  |            |                   NP            
+  |                  |            |        ___________|___           
+  |                  NP           |       |               PP        
+  |               ___|_____       |       |            ___|_____     
+  NP             NP        |      |       NP          |         NP  
+  |        ______|___      |      |       |           |         |    
+ NNP      NN        POS    NN     IN     NNP          TO       NNP  
+  |       |          |     |      |       |           |         |    
+Update provider      's location from Washington      to     Florida
+
+['from']
+['location']
+['Washington']
+['to']
+['Washington']
+['Florida']
+[{'attributes': [],
+  'begin': 32,
+  'confidence': 0.99,
+  'end': 42,
+  'ent_type': [('CITY', 0.7316750745131757),
+               ('STATE', 0.7316750745131757),
+               ('PERSON', 0.650248070452912),
+               ('GPE', 0.7316750745131757)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Washington',
+  'tok_begin': 5,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 46,
+  'confidence': 0.99,
+  'end': 53,
+  'ent_type': [('CITY', 0.7316750745131757),
+               ('STATE', 0.7316750745131757),
+               ('PERSON', 0.650248070452912),
+               ('GPE', 0.7316750745131757)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Florida',
+  'tok_begin': 7,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 26,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Update provider's location",
+  'tok_begin': 0,
+  'tok_end': 3}]
+Update provider's location from Washington to Florida
+                          ROOT                                      
+                           |                                         
+                           NP                                       
+   ________________________|______                                   
+  |                               NP                                
+  |                   ____________|_______________                   
+  |                  |                            PP                
+  |                  |             _______________|___               
+  |                  |            |                   NP            
+  |                  |            |        ___________|___           
+  |                  NP           |       |               PP        
+  |               ___|_____       |       |            ___|_____     
+  NP             NP        |      |       NP          |         NP  
+  |        ______|___      |      |       |           |         |    
+ NNP      NN        POS    NN     IN     NNP          TO       NNP  
+  |       |          |     |      |       |           |         |    
+Update provider      's location from Washington      to     Florida
+
+[]
+
+Process finished with exit code 0

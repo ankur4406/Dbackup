@@ -1,0 +1,522 @@
+{
+	"Insured_ID": {
+		"coordinates": {
+			"x1": 1450.0,
+			"y1": 35.0,
+			"x2": 2350.0,
+			"y2": 98.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Patient_name": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 137.0,
+			"x2": 852.0,
+			"y2": 197.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_name": {
+		"coordinates": {
+			"x1": 1450.0,
+			"y1": 134.0,
+			"x2": 2350.0,
+			"y2": 193.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Patient_address": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 233.0,
+			"x2": 854.0,
+			"y2": 300.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Patient_city": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 336.0,
+			"x2": 742.0,
+			"y2": 398.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Patient_state": {
+		"coordinates": {
+			"x1": 743.0,
+			"y1": 336.0,
+			"x2": 852.0,
+			"y2": 398.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Patient_zipcode": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 430.0,
+			"x2": 383.0,
+			"y2": 505.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Patient_telephone": {
+		"coordinates": {
+			"x1": 385.0,
+			"y1": 430.0,
+			"x2": 852.0,
+			"y2": 504.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_address": {
+		"coordinates": {
+			"x1": 1450.0,
+			"y1": 226.0,
+			"x2": 2350.0,
+			"y2": 298.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_city": {
+		"coordinates": {
+			"x1": 1450.0,
+			"y1": 331.0,
+			"x2": 2158.0,
+			"y2": 395.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_state": {
+		"coordinates": {
+			"x1": 2158.0,
+			"y1": 330.0,
+			"x2": 2352.0,
+			"y2": 393.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_zipcode": {
+		"coordinates": {
+			"x1": 1450.0,
+			"y1": 427.0,
+			"x2": 1833.0,
+			"y2": 499.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_telephone": {
+		"coordinates": {
+			"x1": 1833.0,
+			"y1": 426.0,
+			"x2": 2352.0,
+			"y2": 499.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Other_insured_name": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 535.0,
+			"x2": 852.0,
+			"y2": 598.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Other_insured_policy_group": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 634.0,
+			"x2": 852.0,
+			"y2": 693.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Other_9_b_reserved": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 726.0,
+			"x2": 853.0,
+			"y2": 798.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Other_9_c_reserved": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 829.0,
+			"x2": 853.0,
+			"y2": 895.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Other_insured_plan_name": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 929.0,
+			"x2": 853.0,
+			"y2": 995.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_policy_group": {
+		"coordinates": {
+			"x1": 1450.0,
+			"y1": 532.0,
+			"x2": 2352.0,
+			"y2": 597.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Insured_plan_name": {
+		"coordinates": {
+			"x1": 1452.0,
+			"y1": 829.0,
+			"x2": 2353.0,
+			"y2": 893.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Referring_provider": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 1324.0,
+			"x2": 798.0,
+			"y2": 1384.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Referring_provider_a": {
+		"coordinates": {
+			"x1": 930.0,
+			"y1": 1291.0,
+			"x2": 1452.0,
+			"y2": 1336.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Referring_provider_npi": {
+		"coordinates": {
+			"x1": 930.0,
+			"y1": 1336.0,
+			"x2": 1452.0,
+			"y2": 1384.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"1_Nature_of_illness": {
+		"coordinates": {
+			"x1": 57.0,
+			"y1": 1525.0,
+			"x2": 331.0,
+			"y2": 1578.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"2_Nature_of_illness": {
+		"coordinates": {
+			"x1": 444.0,
+			"y1": 1525.0,
+			"x2": 655.0,
+			"y2": 1578.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"1_cpt": {
+		"coordinates": {
+			"x1": 711.0,
+			"y1": 1781.0,
+			"x2": 926.0,
+			"y2": 1880.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"1_modifier": {
+		"coordinates": {
+			"x1": 926.0,
+			"y1": 1781.0,
+			"x2": 1301.0,
+			"y2": 1880.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"1_charges": {
+		"coordinates": {
+			"x1": 1454.0,
+			"y1": 1781.0,
+			"x2": 1718.0,
+			"y2": 1880.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"1_units": {
+		"coordinates": {
+			"x1": 1718.0,
+			"y1": 1781.0,
+			"x2": 1837.0,
+			"y2": 1880.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"1_rendering_provider_id": {
+		"coordinates": {
+			"x1": 1986.0,
+			"y1": 1781.0,
+			"x2": 2354.0,
+			"y2": 1880.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Federal_tax_id": {
+		"coordinates": {
+			"x1": 0.0,
+			"y1": 2403.0,
+			"x2": 466.0,
+			"y2": 2471.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Patient_account_no": {
+		"coordinates": {
+			"x1": 649.0,
+			"y1": 2401.0,
+			"x2": 1086.0,
+			"y2": 2470.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Total_charge": {
+		"coordinates": {
+			"x1": 1456.0,
+			"y1": 2397.0,
+			"x2": 1790.0,
+			"y2": 2469.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Amount_paid": {
+		"coordinates": {
+			"x1": 1790.0,
+			"y1": 2398.0,
+			"x2": 2073.0,
+			"y2": 2468.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Service_facility_location": {
+		"coordinates": {
+			"x1": 649.0,
+			"y1": 2504.0,
+			"x2": 1456.0,
+			"y2": 2666.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Service_facility_location_a": {
+		"coordinates": {
+			"x1": 651.0,
+			"y1": 2668.0,
+			"x2": 995.0,
+			"y2": 2723.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Service_facility_location_b": {
+		"coordinates": {
+			"x1": 995.0,
+			"y1": 2668.0,
+			"x2": 1456.0,
+			"y2": 2722.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Billing_provider": {
+		"coordinates": {
+			"x1": 1456.0,
+			"y1": 2503.0,
+			"x2": 2355.0,
+			"y2": 2663.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Billing_provider_a": {
+		"coordinates": {
+			"x1": 1456.0,
+			"y1": 2665.0,
+			"x2": 1800.0,
+			"y2": 2721.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	},
+	"Billing_provider_b": {
+		"coordinates": {
+			"x1": 1801.0,
+			"y1": 2665.0,
+			"x2": 2355.0,
+			"y2": 2721.0
+		},
+		"type": 0.0,
+		"padding": [
+			0.0,
+			0.0
+		]
+	}
+}

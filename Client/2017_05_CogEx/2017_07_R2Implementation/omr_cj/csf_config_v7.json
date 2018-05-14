@@ -1,0 +1,213 @@
+{
+	"GroupInfo_ReqNewPricingGrid": {
+		"ReqNewPricingGrid": [13, 31, 9, 28],
+		"resize_to": [400, 56]
+	},
+	"ContractType_Contract1_DrugsReimbursedAtCorporateMethodology": {
+		"DrugsReimbursedAtCorporateMethodology": [11, 33, 8, 30],
+		"resize_to": [663, 38]
+	},
+	"ContractType_Contract1_RegardlessOfBilled": {
+		"resize_to": [663, 38],
+		"RegardlessOfBilled": [11, 31, 9, 29]
+	},
+	"Retroactivity_RetroAdjustmentsRequested": {
+		"RetroAdjustmentsRequested": [15, 35, 8, 28],
+		"resize_to": [456, 57]
+	},
+	"ContractType_Contract1_IfCapitatedOverAndAbove": {
+		"IfCapitatedOverAndAbove": [6, 28, 7, 30],
+		"resize_to": [663, 37]
+	},
+	"ContractType_Contract2_IfCapitatedOverAndAbove": {
+		"IfCapitatedOverAndAbove": [6, 25, 8, 30],
+		"resize_to": [663, 37]
+	},
+	"ContractReimbursement_CustomReimbursement": {
+		"CustomReimbursement": [8, 28, 15, 33],
+		"resize_to": [1112, 36]
+	},
+	"ContractType_Contract2_DrugsReimbursedAtCorporateMethodology": {
+		"DrugsReimbursedAtCorporateMethodology": [10, 30, 8, 30],
+		"resize_to": [663, 38]
+	},
+	"ContractStatus_CredentialedApplication": {
+		"resie_to": [363, 50],
+		"CredentialedApplication": [12, 32, 7, 26]
+	},
+	"ContractType_Contract1_SiteOfService": {
+		"SiteOfService": [8, 31, 8, 28],
+		"resize_to": [663, 38]
+	},
+	"BusinessIntent_DemographicChangeOnly": {
+		"yes": [10, 30, 58, 73],
+		"resize_to": [470, 43],
+		"no": [10, 25, 266, 283]
+	},
+	"General_PriorityHandlingRequest": {
+		"PriorityHandlingRequest": [8, 28, 8, 27],
+		"resize_to": [493, 43]
+	},
+	"Retroactivity_CauseNewContractOrAmendment": {
+		"not_result_of_contract_amendment": [15, 32, 20, 35],
+		"negotiation": [15, 30, 610, 620],
+		"quality_issue": [15, 32, 845, 863]
+	},
+	"ContractReimbursement_TerminationNotForCause": {
+		"TerminationNotForCause": [8, 27, 11, 30],
+		"resie_to": [1112, 30]
+	},
+	"GroupInfo_MidLevelProvidersIncluded": {
+		"resize_to": [825, 50],
+		"MidLevelProvidersIncluded": [10, 30, 10, 30]
+	},
+	"ContractType_Contract2_RBRVS": {
+		"RBRVS": [7, 27, 13, 33],
+		"resize_to": [163, 32]
+	},
+	"ContractType_Contract2_MedicareBasedFee": {
+		"resize_to": [351, 32],
+		"MedicareBasedFee": [7, 25, 18, 37]
+	},
+	"ContractType_Contract2_SiteOfService": {
+		"SiteOfService": [7, 27, 8, 30],
+		"resize_to": [663, 38]
+	},
+	"LocationInfo_Address1_Primary": {
+		"Primary": [12, 30, 5, 23],
+		"resize_to": [238, 50]
+	},
+	"Retroactivity_ResultInRetroactivity": {
+		"yes": [5, 20, 15, 32],
+		"resize_to": [263, 44],
+		"no": [5, 18, 170, 185]
+	},
+	"ContractReimbursement_IncludesWithholdOnRiskPool": {
+		"IncludesWithholdOnRiskPool": [7, 27, 7, 27],
+		"resie_to": [619, 31]
+	},
+	"ContractType_Contract1_MedicareBasedFee": {
+		"resize_to": [351, 38],
+		"MedicareBasedFee": [7, 37, 17, 37]
+	},
+	"ContractReimbursement_AutomaticRateIncrease": {
+		"AutomaticRateIncrease": [10, 30, 7, 27],
+		"resize_to": [619, 36]
+	},
+	"ContractType_Contract1_IsContractEvergreen": {
+		"IsContractEvergreen": [5, 25, 5, 25],
+		"resize_to": [356, 37]
+	},
+	"ContractType_Contract1_LesserOfCharges": {
+		"resize_to": [663, 38],
+		"LesserOfCharges": [13, 33, 9, 29]
+	},
+	"ContractReimbursement_IndexAdjustment": {
+		"IndexAdjustment": [5, 25, 7, 27],
+		"resie_to": [619, 30]
+	},
+	"General_NewContractOrAmendment": {
+		"amendment": [22, 38, 675, 690],
+		"NA": [22, 38, 12, 28],
+		"new_contract": [22, 38, 219, 235],
+		"resize_to": [1088, 50]
+	},
+	"ContractReimbursement_ChargemasterAdjustment": {
+		"resie_to": [619, 37],
+		"ChargemasterAdjustment": [10, 30, 7, 27]
+	},
+	"GroupInfo_GroupAggrementApplies": {
+		"GroupAggrementApplies": [8, 28, 8, 27],
+		"resize_to": [400, 50]
+	},
+	"ContractType_Contract1_UseCurrentDate": {
+		"resize_to": [338, 32],
+		"UseCurrentDate": [10, 30, 7, 27]
+	},
+	"LocationInfo_Address4_Primary": {
+		"Primary": [12, 30, 5, 23],
+		"resize_to": [238, 50]
+	},
+	"GroupInfo_NotEligibleReapply": {
+		"NotEligibleReapply": [10, 31, 9, 29],
+		"resize_to": [400, 50]
+	},
+	"LocationInfo_Address2_Primary": {
+		"Primary": [12, 30, 5, 23],
+		"resize_to": [238, 50]
+	},
+	"ContractType_Contract2_UpdateWithMedicare": {
+		"UpdateWithMedicare": [8, 28, 15, 35],
+		"resize_to": [363, 37]
+	},
+	"ContractType_Contract2_IsContractEvergreen": {
+		"IsContractEvergreen": [10, 25, 8, 25],
+		"resize_to": [663, 38]
+	},
+	"ContractReimbursement_FeeReductionMoreThanOnce": {
+		"resie_to": [1112, 37],
+		"FeeReductionMoreThanOnce": [12, 32, 11, 30]
+	},
+	"ContractType_Contract2_RegardlessOfBilled": {
+		"resize_to": [663, 38],
+		"RegardlessOfBilled": [7, 27, 9, 29]
+	},
+	"PDOUpdates_PDOUpdatesReq": {
+		"yes": [15, 30, 7, 23],
+		"resize_to": [438, 50],
+		"no": [15, 30, 320, 335]
+	},
+	"ContractReimbursement_QualifyAsINC": {
+		"resie_to": [1112, 37],
+		"QualifyAsINC": [9, 29, 13, 33]
+	},
+	"ContractReimbursement_ReimbursementForVaccinesInjectables": {
+		"resie_to": [1112, 37],
+		"ReimbursementForVaccinesInjectables": [5, 25, 10, 32]
+	},
+	"BillingContactInfo_AffliatedWithAnExistingContract": {
+		"resize_to": [500, 38],
+		"AffliatedWithAnExistingContract": [10, 28, 10, 28]
+	},
+	"Speciality_WaiverUpdate": {
+		"yes": [18, 38, 45, 60],
+		"resize_to": [350, 49],
+		"no": [15, 32, 212, 230]
+	},
+	"ContractLanguage_RedLineAttached": {
+		"RedLineAttached": [7, 28, 7, 26],
+		"resize_to": [275, 38]
+	},
+	"ContractType_Contract2_LesserOfCharges": {
+		"resize_to": [663, 38],
+		"LesserOfCharges": [13, 33, 9, 29]
+	},
+	"ContractType_Contract1_UpdateWithMedicare": {
+		"UpdateWithMedicare": [10, 30, 15, 35],
+		"resize_to": [363, 37]
+	},
+	"ContractReimbursement_ChangeInCapitationReportingRequirements": {
+		"ChangeInCapitationReportingRequirements": [8, 28, 7, 27],
+		"resize_to": [619, 37]
+	},
+	"LocationInfo_Address3_Primary": {
+		"Primary": [12, 30, 5, 23],
+		"resize_to": [238, 50]
+	},
+	"ContractType_Contract1_RBRVS": {
+		"RBRVS": [8, 28, 13, 33],
+		"resize_to": [163, 38]
+	},
+	"ContractType_Contract2_UseCurrentDate": {
+		"resize_to": [338, 38],
+		"UseCurrentDate": [8, 30, 7, 27]
+	},
+	"Retroactivity_InterestOwed": {
+		"resize_to": [456, 57],
+		"InterestOwed": [20, 38, 7, 27]
+	},
+	"ContractReimbursement_ReimbursementTermsChange": {
+		"ReimbursementTermsChange": [12, 31, 7, 27],
+		"resie_to": [619, 37]
+	}
+}

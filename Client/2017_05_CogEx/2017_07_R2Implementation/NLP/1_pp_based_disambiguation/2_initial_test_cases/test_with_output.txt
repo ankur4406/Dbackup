@@ -1,0 +1,2236 @@
+/usr/bin/python3.5 /home/ankurarora/Documents/cogx/git/nlp/xpms-nlp/tests/utils/test_intent_util.py
+Can we dispense with the formalities?
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.99,
+  'end': 3,
+  'ent_type': [('COUNTRY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Can',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 4,
+  'confidence': 0.4,
+  'end': 6,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'we',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 21,
+  'confidence': 0.4,
+  'end': 37,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the formalities?',
+  'tok_begin': 4,
+  'tok_end': 6}]
+Can we dispense with the formalities?
+                 ROOT                            
+                  |                               
+                  SQ                             
+  ________________|____________________________   
+ |   |                 VP                      | 
+ |   |      ___________|___                    |  
+ |   |     |               PP                  | 
+ |   |     |       ________|___                |  
+ |   NP    |      |            NP              | 
+ |   |     |      |         ___|_______        |  
+ MD PRP    VB     IN       DT         NNS      . 
+ |   |     |      |        |           |       |  
+Can  we dispense with     the     formalities  ? 
+
+[{'V': 'dispense',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'the formalities'}),
+               ({'type': [('NP', 0.33)], 'value': 'we'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+To play tennis with somebody.
+[{'attributes': [],
+  'begin': 8,
+  'confidence': 0.4,
+  'end': 14,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'tennis',
+  'tok_begin': 2,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 20,
+  'confidence': 0.4,
+  'end': 29,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'somebody.',
+  'tok_begin': 4,
+  'tok_end': 5}]
+To play tennis with somebody.
+          ROOT                       
+           |                          
+           S                         
+      _____|_______________________   
+     VP                            | 
+  ___|_____                        |  
+ |         VP                      | 
+ |    _____|__________             |  
+ |   |     |          PP           | 
+ |   |     |      ____|_____       |  
+ |   |     NP    |          NP     | 
+ |   |     |     |          |      |  
+ TO  VB    NN    IN         NN     . 
+ |   |     |     |          |      |  
+ To play tennis with     somebody  . 
+
+[{'V': 'play',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'tennis'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'somebody'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+I have a client with me right now.
+[{'attributes': [],
+  'begin': 24,
+  'confidence': 0.0,
+  'datetime_iso_end': None,
+  'datetime_iso_start': '2018-02-26T07:45:51.000Z',
+  'end': 33,
+  'ent_type': [('DATETIME', 0.4)],
+  'num': 0,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'right now',
+  'tok_begin': 6,
+  'tok_end': 7,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 7,
+  'confidence': 0.4,
+  'end': 15,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a client',
+  'tok_begin': 2,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 21,
+  'confidence': 0.4,
+  'end': 23,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'me',
+  'tok_begin': 5,
+  'tok_end': 5}]
+I have a client with me right now.
+                        ROOT                       
+                         |                          
+                         S                         
+  _______________________|_______________________   
+ |                       VP                      | 
+ |    ___________________|____                   |  
+ |   |        |               PP                 | 
+ |   |        |           ____|_________         |  
+ NP  |        NP         |    NP       ADVP      | 
+ |   |     ___|____      |    |     ____|____    |  
+PRP VBP   DT       NN    IN  PRP   RB        RB  . 
+ |   |    |        |     |    |    |         |   |  
+ I  have  a      client with  me right      now  . 
+
+[{'V': 'have right now',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'a client'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'me'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Are you pleased with the result?
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.99,
+  'end': 3,
+  'ent_type': [('CITY', 0.5), ('COUNTRY', 0.5)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Are',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 4,
+  'confidence': 0.4,
+  'end': 7,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'you',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 21,
+  'confidence': 0.4,
+  'end': 32,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the result?',
+  'tok_begin': 4,
+  'tok_end': 6}]
+Are you pleased with the result?
+                ROOT                       
+                 |                          
+                 SQ                        
+  _______________|_______________________   
+ |   |                VP                 | 
+ |   |      __________|___               |  
+ |   |     |              PP             | 
+ |   |     |      ________|___           |  
+ |   NP    |     |            NP         | 
+ |   |     |     |         ___|____      |  
+VBP PRP   VBN    IN       DT       NN    . 
+ |   |     |     |        |        |     |  
+Are you pleased with     the     result  ? 
+
+[{'V': 'pleased',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'the result'}),
+               ({'type': [('NP', 0.33)], 'value': 'you'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Be careful with the glasses.
+[{'attributes': [],
+  'begin': 16,
+  'confidence': 0.4,
+  'end': 28,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the glasses.',
+  'tok_begin': 3,
+  'tok_end': 5}]
+Be careful with the glasses.
+                 ROOT                
+                  |                   
+                  S                  
+              ____|________________   
+             VP                    | 
+  ___________|____                 |  
+ |     |          PP               | 
+ |     |      ____|____            |  
+ |    ADJP   |         NP          | 
+ |     |     |     ____|_____      |  
+ VB    JJ    IN   DT        NNS    . 
+ |     |     |    |          |     |  
+ Be careful with the      glasses  . 
+
+[{'V': 'Be',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'the glasses'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+At war with a neighbouring country.
+[{'attributes': [],
+  'begin': 3,
+  'confidence': 0.99,
+  'end': 6,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'war',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 12,
+  'confidence': 0.4,
+  'end': 35,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a neighbouring country.',
+  'tok_begin': 3,
+  'tok_end': 6}]
+At war with a neighbouring country.
+             ROOT                             
+              |                                
+             FRAG                             
+          ____|_____________________________   
+         PP                                 | 
+  _______|____                              |  
+ |            NP                            | 
+ |    ________|____                         |  
+ |   |             PP                       | 
+ |   |    _________|_______                 |  
+ |   NP  |                 NP               | 
+ |   |   |     ____________|__________      |  
+ IN  NN  IN   DT           JJ         NN    . 
+ |   |   |    |            |          |     |  
+ At war with  a       neighbouring country  . 
+
+[]
+Sprinkle the dish with salt.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.0,
+  'end': 8,
+  'ent_type': [('PERSON', 0.4)],
+  'num': 0,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Sprinkle',
+  'tok_begin': 0,
+  'tok_end': 0,
+  'value': None},
+ {'attributes': [],
+  'begin': 9,
+  'confidence': 0.4,
+  'end': 17,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the dish',
+  'tok_begin': 1,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 23,
+  'confidence': 0.4,
+  'end': 28,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'salt.',
+  'tok_begin': 4,
+  'tok_end': 5}]
+Sprinkle the dish with salt.
+                      ROOT             
+                       |                
+                       S               
+                   ____|_____________   
+                  VP                 | 
+    ______________|_________         |  
+   |          |             PP       | 
+   |          |         ____|___     |  
+   |          NP       |        NP   | 
+   |       ___|___     |        |    |  
+   VB     DT      NN   IN       NN   . 
+   |      |       |    |        |    |  
+Sprinkle the     dish with     salt  . 
+
+[{'V': 'Sprinkle',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'the dish'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'salt'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Skill comes with practice.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 5,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Skill',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 17,
+  'confidence': 0.4,
+  'end': 26,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'practice.',
+  'tok_begin': 3,
+  'tok_end': 4}]
+Skill comes with practice.
+            ROOT                 
+             |                    
+             S                   
+   __________|_________________   
+  |          VP                | 
+  |      ____|____             |  
+  |     |         PP           | 
+  |     |     ____|_____       |  
+  NP    |    |          NP     | 
+  |     |    |          |      |  
+  NN   VBZ   IN         NN     . 
+  |     |    |          |      |  
+Skill comes with     practice  . 
+
+[{'V': 'comes',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'practice'}),
+               ({'type': [('NP', 0.33)], 'value': 'Skill'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+To fight with somebody.
+[{'attributes': [],
+  'begin': 14,
+  'confidence': 0.4,
+  'end': 23,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'somebody.',
+  'tok_begin': 3,
+  'tok_end': 4}]
+To fight with somebody.
+              ROOT                 
+               |                    
+               S                   
+            ___|_________________   
+           VP                    | 
+  _________|___                  |  
+ |             VP                | 
+ |     ________|____             |  
+ |    |             PP           | 
+ |    |         ____|_____       |  
+ |    |        |          NP     | 
+ |    |        |          |      |  
+ TO   VB       IN         NN     . 
+ |    |        |          |      |  
+ To fight     with     somebody  . 
+
+[{'V': 'fight',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'somebody'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+A man with a suitcase.
+[{'attributes': [],
+  'begin': 2,
+  'confidence': 0.99,
+  'end': 5,
+  'ent_type': [('CITY', 0.5), ('PERSON', 0.5)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'man',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 5,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'A man',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 11,
+  'confidence': 0.4,
+  'end': 22,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a suitcase.',
+  'tok_begin': 3,
+  'tok_end': 5}]
+A man with a suitcase.
+            ROOT                     
+             |                        
+             NP                      
+      _______|_____________________   
+     |            PP               | 
+     |        ____|___             |  
+     NP      |        NP           | 
+  ___|___    |     ___|_____       |  
+ DT      NN  IN   DT        NN     . 
+ |       |   |    |         |      |  
+ A      man with  a      suitcase  . 
+
+[]
+She sleeps with the window open.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'She',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 16,
+  'confidence': 0.4,
+  'end': 32,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the window open.',
+  'tok_begin': 3,
+  'tok_end': 6}]
+She sleeps with the window open.
+                ROOT                    
+                 |                       
+                 S                      
+  _______________|____________________   
+ |               VP                   | 
+ |     __________|____                |  
+ |    |               PP              | 
+ |    |      _________|____           |  
+ NP   |     |              NP         | 
+ |    |     |     _________|_____     |  
+PRP  VBZ    IN   DT        NN    JJ   . 
+ |    |     |    |         |     |    |  
+She sleeps with the      window open  . 
+
+[{'V': 'sleeps',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'the window open'}),
+               ({'type': [('NP', 0.33)], 'value': 'She'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Don't be angry with her.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.99,
+  'end': 5,
+  'ent_type': [('CITY', 0.5), ('PERSON', 0.5)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Don't",
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 20,
+  'confidence': 0.99,
+  'end': 24,
+  'ent_type': [('CITY', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'her.',
+  'tok_begin': 5,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 20,
+  'confidence': 0.4,
+  'end': 24,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'her.',
+  'tok_begin': 5,
+  'tok_end': 6}]
+Don't be angry with her.
+             ROOT                     
+              |                        
+              S                       
+          ____|_____________________   
+         VP                         | 
+  _______|_________                 |  
+ |   |             VP               | 
+ |   |    _________|___             |  
+ |   |   |            ADJP          | 
+ |   |   |     ________|____        |  
+ |   |   |    |             PP      | 
+ |   |   |    |         ____|___    |  
+ |   |   |    |        |        NP  | 
+ |   |   |    |        |        |   |  
+VBP  RB  VB   JJ       IN      PRP  . 
+ |   |   |    |        |        |   |  
+ Do n't  be angry     with     her  . 
+
+[{'V': "Do n't be",
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('CITY', 0.99), ('NP', 0.33)], 'value': 'her'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+I bank with HSBC.
+[{'attributes': [],
+  'begin': 2,
+  'confidence': 0.99,
+  'end': 6,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'bank',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 12,
+  'confidence': 0.0,
+  'end': 16,
+  'ent_type': [('ORG', 0.4)],
+  'num': 0,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'HSBC',
+  'tok_begin': 3,
+  'tok_end': 3,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0}]
+I bank with HSBC.
+         ROOT             
+          |                
+          S               
+  ________|_____________   
+ |        VP            | 
+ |    ____|____         |  
+ |   |         PP       | 
+ |   |     ____|___     |  
+ NP  |    |        NP   | 
+ |   |    |        |    |  
+PRP VBP   IN       NN   . 
+ |   |    |        |    |  
+ I  bank with     HSBC  . 
+
+[{'V': 'bank',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('ORG', 0.4)], 'value': 'HSBC'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Leave it with me.
+[{'attributes': [],
+  'begin': 6,
+  'confidence': 0.4,
+  'end': 8,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'it',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 14,
+  'confidence': 0.4,
+  'end': 17,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'me.',
+  'tok_begin': 3,
+  'tok_end': 4}]
+Leave it with me.
+          ROOT            
+           |               
+           S              
+        ___|____________   
+       VP               | 
+   ____|________        |  
+  |    |        PP      | 
+  |    |    ____|___    |  
+  |    NP  |        NP  | 
+  |    |   |        |   |  
+  VB  PRP  IN      PRP  . 
+  |    |   |        |   |  
+Leave  it with      me  . 
+
+[{'V': 'Leave',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'it'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'me'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Cut it with a knife.
+[{'attributes': [],
+  'begin': 4,
+  'confidence': 0.4,
+  'end': 6,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'it',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 12,
+  'confidence': 0.4,
+  'end': 20,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a knife.',
+  'tok_begin': 3,
+  'tok_end': 5}]
+Cut it with a knife.
+        ROOT                      
+         |                         
+         NP                       
+  _______|______________________   
+ |            NP                | 
+ |    ________|___              |  
+ |   |            PP            | 
+ |   |    ________|___          |  
+ NP  NP  |            NP        | 
+ |   |   |         ___|____     |  
+NNP PRP  IN       DT       NN   . 
+ |   |   |        |        |    |  
+Cut  it with      a      knife  . 
+
+[]
+She won't be able to help us with all the family commitments she has.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'She',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 26,
+  'confidence': 0.4,
+  'end': 28,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'us',
+  'tok_begin': 7,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 34,
+  'confidence': 0.4,
+  'end': 60,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'all the family commitments',
+  'tok_begin': 9,
+  'tok_end': 12},
+ {'attributes': [],
+  'begin': 61,
+  'confidence': 0.4,
+  'end': 64,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'she',
+  'tok_begin': 13,
+  'tok_end': 13}]
+She won't be able to help us with all the family commitments she has.
+                               ROOT                                                 
+                                |                                                    
+                                S                                                   
+  ______________________________|_________________________________________________   
+ |       VP                                                                       | 
+ |    ___|_______                                                                 |  
+ |   |   |       VP                                                               | 
+ |   |   |    ___|____                                                            |  
+ |   |   |   |       ADJP                                                         | 
+ |   |   |   |    ____|____                                                       |  
+ |   |   |   |   |         S                                                      | 
+ |   |   |   |   |         |                                                      |  
+ |   |   |   |   |         VP                                                     | 
+ |   |   |   |   |     ____|____                                                  |  
+ |   |   |   |   |    |         VP                                                | 
+ |   |   |   |   |    |     ____|_________                                        |  
+ |   |   |   |   |    |    |    |         PP                                      | 
+ |   |   |   |   |    |    |    |     ____|________                               |  
+ |   |   |   |   |    |    |    |    |             NP                             | 
+ |   |   |   |   |    |    |    |    |         ____|_____________________         |  
+ |   |   |   |   |    |    |    |    |        |                         SBAR      | 
+ |   |   |   |   |    |    |    |    |        |                          |        |  
+ |   |   |   |   |    |    |    |    |        |                          S        | 
+ |   |   |   |   |    |    |    |    |        |                       ___|____    |  
+ NP  |   |   |   |    |    |    NP   |        NP                     NP       VP  | 
+ |   |   |   |   |    |    |    |    |     ___|______________        |        |   |  
+PRP  MD  RB  VB  JJ   TO   VB  PRP   IN  PDT  DT   NN       NNS     PRP      VBZ  . 
+ |   |   |   |   |    |    |    |    |    |   |    |         |       |        |   |  
+She  wo n't  be able  to  help  us  with all the family commitments she      has  . 
+
+[{'V': "n't be help has",
+  'entities': [({'type': [('NP', 0.33)], 'value': 'us'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)],
+                 'value': 'all the family commitments she'}),
+               ({'type': [('NP', 0.33)], 'value': 'She'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'she'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'help has',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'us'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)],
+                 'value': 'all the family commitments she'}),
+               ({'type': [('NP', 0.33)], 'value': 'she'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'has',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'she'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The bag was stuffed with dirty clothes.
+[{'attributes': [],
+  'begin': 4,
+  'confidence': 0.99,
+  'end': 7,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'bag',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 7,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The bag',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 25,
+  'confidence': 0.4,
+  'end': 39,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'dirty clothes.',
+  'tok_begin': 5,
+  'tok_end': 7}]
+The bag was stuffed with dirty clothes.
+                  ROOT                                
+                   |                                   
+                   S                                  
+      _____________|________________________________   
+     |                   VP                         | 
+     |        ___________|____                      |  
+     |       |                VP                    | 
+     |       |      __________|____                 |  
+     |       |     |               PP               | 
+     |       |     |      _________|____            |  
+     NP      |     |     |              NP          | 
+  ___|___    |     |     |          ____|_____      |  
+ DT      NN VBD   VBN    IN        JJ        NNS    . 
+ |       |   |     |     |         |          |     |  
+The     bag was stuffed with     dirty     clothes  . 
+
+[{'V': 'was stuffed',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'dirty clothes'}),
+               ({'type': [('CITY', 0.99), ('NP', 0.33)], 'value': 'The bag'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The shadows lengthened with the approach of sunset.
+[{'attributes': [],
+  'begin': 44,
+  'confidence': 0.99,
+  'end': 51,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'sunset.',
+  'tok_begin': 7,
+  'tok_end': 8},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 11,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The shadows',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 28,
+  'confidence': 0.4,
+  'end': 40,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the approach',
+  'tok_begin': 4,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 44,
+  'confidence': 0.4,
+  'end': 51,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'sunset.',
+  'tok_begin': 7,
+  'tok_end': 8}]
+The shadows lengthened with the approach of sunset.
+                                ROOT                                    
+                                 |                                       
+                                 S                                      
+      ___________________________|____________________________________   
+     |                           VP                                   | 
+     |               ____________|__________                          |  
+     |              |                       PP                        | 
+     |              |        _______________|______                   |  
+     |              |       |                      NP                 | 
+     |              |       |          ____________|_______           |  
+     |              |       |         |                    PP         | 
+     |              |       |         |                 ___|____      |  
+     NP             |       |         NP               |        NP    | 
+  ___|_____         |       |     ____|_____           |        |     |  
+ DT       NNS      VBD      IN   DT         NN         IN       NN    . 
+ |         |        |       |    |          |          |        |     |  
+The     shadows lengthened with the      approach      of     sunset  . 
+
+[{'V': 'lengthened',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with', 'of']},
+                {'type': [('CITY', 0.99), ('NP', 0.33)],
+                 'value': 'the approach sunset'}),
+               ({'type': [('NP', 0.33)], 'value': 'the approach'},
+                {'qualifiers': ['of']},
+                {'type': [('CITY', 0.99), ('NP', 0.33)], 'value': 'sunset'}),
+               ({'type': [('NP', 0.33)], 'value': 'The shadows'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+I had an argument with my boss.
+[{'attributes': [],
+  'begin': 6,
+  'confidence': 0.99,
+  'end': 8,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'an',
+  'tok_begin': 2,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 23,
+  'confidence': 0.99,
+  'end': 25,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'my',
+  'tok_begin': 5,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 26,
+  'confidence': 0.99,
+  'end': 31,
+  'ent_type': [('CITY', 0.99)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'boss.',
+  'tok_begin': 6,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 6,
+  'confidence': 0.4,
+  'end': 17,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'an argument',
+  'tok_begin': 2,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 23,
+  'confidence': 0.4,
+  'end': 31,
+  'ent_type': [('NP', 0.33)],
+  'num': 6,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'my boss.',
+  'tok_begin': 5,
+  'tok_end': 7}]
+I had an argument with my boss.
+                  ROOT                         
+                   |                            
+                   S                           
+  _________________|_________________________   
+ |                 VP                        | 
+ |    _____________|______                   |  
+ |   |                    NP                 | 
+ |   |        ____________|____              |  
+ |   |       |                 PP            | 
+ |   |       |             ____|____         |  
+ NP  |       NP           |         NP       | 
+ |   |    ___|_____       |     ____|___     |  
+PRP VBD  DT        NN     IN  PRP$      NN   . 
+ |   |   |         |      |    |        |    |  
+ I  had  an     argument with  my      boss  . 
+
+[{'V': 'had',
+  'entities': [({'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'an argument'},
+                {'qualifiers': ['with']},
+                {'type': [('PERSON', 0.99), ('CITY', 0.99), ('NP', 0.33)],
+                 'value': 'my boss'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+A girl with red hair.
+[{'attributes': [],
+  'begin': 12,
+  'confidence': 0.99,
+  'end': 15,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'red',
+  'tok_begin': 3,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 6,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'A girl',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 12,
+  'confidence': 0.4,
+  'end': 21,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'red hair.',
+  'tok_begin': 3,
+  'tok_end': 5}]
+A girl with red hair.
+             ROOT                 
+              |                    
+              NP                  
+      ________|_________________   
+     |             PP           | 
+     |         ____|___         |  
+     NP       |        NP       | 
+  ___|___     |     ___|___     |  
+ DT      NN   IN   JJ      NN   . 
+ |       |    |    |       |    |  
+ A      girl with red     hair  . 
+
+[]
+With all the lesson preparation I have to do I work 12 hours a day.
+[{'attributes': [],
+  'begin': 63,
+  'confidence': 0.99,
+  'end': 67,
+  'ent_type': [('CITY', 0.72561400591251), ('PERSON', 0.4061616551212483)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'day.',
+  'tok_begin': 14,
+  'tok_end': 15},
+ {'attributes': [],
+  'begin': 52,
+  'confidence': 0.0,
+  'end': 60,
+  'ent_type': [('TIME', 0.4)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': '12 hours',
+  'tok_begin': 11,
+  'tok_end': 12,
+  'value': None},
+ {'attributes': [],
+  'begin': 5,
+  'confidence': 0.4,
+  'end': 31,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'all the lesson preparation',
+  'tok_begin': 1,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 32,
+  'confidence': 0.4,
+  'end': 33,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 5,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 45,
+  'confidence': 0.4,
+  'end': 46,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 9,
+  'tok_end': 9}]
+With all the lesson preparation I have to do I work 12 hours a day.
+                                         ROOT                                               
+                                          |                                                  
+                                          S                                                 
+       ___________________________________|_______________________________________________   
+      |                          |        VP                                              | 
+      |                          |    ____|____                                           |  
+      |                          |   |         S                                          | 
+      |                          |   |         |                                          |  
+      |                          |   |         VP                                         | 
+      |                          |   |     ____|___                                       |  
+      |                          |   |    |        VP                                     | 
+      |                          |   |    |     ___|________                              |  
+      |                          |   |    |    |            S                             | 
+      |                          |   |    |    |    ________|________                     |  
+      |                          |   |    |    |   |                 VP                   | 
+      |                          |   |    |    |   |    _____________|____                |  
+      PP                         |   |    |    |   |   |                  NP              | 
+  ____|___                       |   |    |    |   |   |         _________|_______        |  
+ |        NP                     NP  |    |    |   NP  |        NP                NP      | 
+ |     ___|______________        |   |    |    |   |   |     ___|____          ___|___    |  
+ IN  PDT  DT   NN        NN     PRP VBP   TO   VB PRP  VB   CD      NNS       DT      NN  . 
+ |    |   |    |         |       |   |    |    |   |   |    |        |        |       |   |  
+With all the lesson preparation  I  have  to   do  I  work  12     hours      a      day  . 
+
+[{'V': 'have do work',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['With']},
+                {'type': [('NP', 0.33)],
+                 'value': 'all the lesson preparation'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('CITY', 0.72561400591251),
+                          ('PERSON', 0.4061616551212483),
+                          ('TIME', 0.4)],
+                 'value': '12 hours a day'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'do work',
+  'entities': [({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('CITY', 0.72561400591251),
+                          ('PERSON', 0.4061616551212483),
+                          ('TIME', 0.4)],
+                 'value': '12 hours a day'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'work',
+  'entities': [({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('CITY', 0.72561400591251),
+                          ('PERSON', 0.4061616551212483),
+                          ('TIME', 0.4)],
+                 'value': '12 hours a day'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+He looked at her with a hurt expression.
+[{'attributes': [],
+  'begin': 13,
+  'confidence': 0.99,
+  'end': 16,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'her',
+  'tok_begin': 3,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 24,
+  'confidence': 0.99,
+  'end': 28,
+  'ent_type': [('CITY', 0.5), ('PERSON', 0.5)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'hurt',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 2,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'He',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 22,
+  'confidence': 0.4,
+  'end': 40,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a hurt expression.',
+  'tok_begin': 5,
+  'tok_end': 8}]
+He looked at her with a hurt expression.
+                        ROOT                            
+                         |                               
+                         S                              
+  _______________________|____________________________   
+ |                       VP                           | 
+ |     __________________|________                    |  
+ |    |         PP                PP                  | 
+ |    |      ___|___      ________|___                |  
+ NP   |     |       NP   |            NP              | 
+ |    |     |       |    |     _______|_______        |  
+PRP  VBD    IN     PRP$  IN   DT      NN      NN      . 
+ |    |     |       |    |    |       |       |       |  
+ He looked  at     her  with  a      hurt expression  . 
+
+[{'V': 'looked',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['at']},
+                {'type': [('CITY', 0.99)], 'value': 'her'}),
+               ({'type': [('CITY', 0.99)], 'value': 'her'},
+                {'qualifiers': ['with']},
+                {'type': [('CITY', 0.5), ('PERSON', 0.5), ('NP', 0.33)],
+                 'value': 'a hurt expression'}),
+               ({'type': [('NP', 0.33)], 'value': 'He'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The meal with wine came to $20 each.
+[{'attributes': [],
+  'begin': 28,
+  'confidence': 0.0,
+  'end': 30,
+  'ent_type': [('MONEY', 0.4)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': '20',
+  'tok_begin': 7,
+  'tok_end': 7,
+  'value': None},
+ {'attributes': [],
+  'begin': 27,
+  'confidence': 0.4,
+  'end': 30,
+  'ent_type': [('PRICE', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': '$20',
+  'tok_begin': 6,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 8,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The meal',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 14,
+  'confidence': 0.4,
+  'end': 18,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'wine',
+  'tok_begin': 3,
+  'tok_end': 3}]
+The meal with wine came to $20 each.
+                               ROOT                         
+                                |                            
+                                S                           
+               _________________|_________________________   
+              |                          VP               | 
+              |                  ________|___             |  
+              NP                |            PP           | 
+      ________|________         |     _______|___         |  
+     |                 PP       |    |           NP       | 
+     |             ____|___     |    |        ___|___     |  
+     NP           |        NP   |    |       NP      NP   | 
+  ___|___         |        |    |    |    ___|___    |    |  
+ DT      NN       IN       NN  VBD   TO  $       CD  DT   . 
+ |       |        |        |    |    |   |       |   |    |  
+The     meal     with     wine came  to  $       20 each  . 
+
+[{'V': 'came',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'The meal'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'wine'}),
+               ({'type': [], 'value': ''},
+                {'qualifiers': ['to']},
+                {'type': [('MONEY', 0.4), ('PRICE', 0.99)],
+                 'value': '20 each'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Don't stand with your hands in your pockets.
+[{'attributes': [],
+  'begin': 28,
+  'confidence': 0.99,
+  'end': 30,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'in',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.99,
+  'end': 5,
+  'ent_type': [('CITY', 0.5), ('PERSON', 0.5)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "Don't",
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 17,
+  'confidence': 0.4,
+  'end': 27,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'your hands',
+  'tok_begin': 4,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 31,
+  'confidence': 0.4,
+  'end': 44,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'your pockets.',
+  'tok_begin': 7,
+  'tok_end': 9}]
+Don't stand with your hands in your pockets.
+                             ROOT                         
+                              |                            
+                              S                           
+                     _________|_________________________   
+                    VP                                  | 
+  __________________|_________                          |  
+ |   |                        VP                        | 
+ |   |     ___________________|________                 |  
+ |   |    |         PP                 PP               | 
+ |   |    |     ____|____           ___|____            |  
+ |   |    |    |         NP        |        NP          | 
+ |   |    |    |     ____|____     |    ____|_____      |  
+VBP  RB   VB   IN  PRP$      NNS   IN PRP$       NNS    . 
+ |   |    |    |    |         |    |   |          |     |  
+ Do n't stand with your     hands  in your     pockets  . 
+
+[{'V': "Do n't stand",
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'your hands'}),
+               ({'type': [('NP', 0.33)], 'value': 'your hands'},
+                {'qualifiers': ['in']},
+                {'type': [('NP', 0.33)], 'value': 'your pockets'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+She lives with her parents.
+[{'attributes': [],
+  'begin': 15,
+  'confidence': 0.99,
+  'end': 18,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'her',
+  'tok_begin': 3,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'She',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 15,
+  'confidence': 0.4,
+  'end': 27,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'her parents.',
+  'tok_begin': 3,
+  'tok_end': 5}]
+She lives with her parents.
+          ROOT                         
+           |                            
+           S                           
+  _________|_________________________   
+ |              VP                   | 
+ |     _________|___                 |  
+ |    |             PP               | 
+ |    |     ________|____            |  
+ NP   |    |             NP          | 
+ |    |    |         ____|_____      |  
+PRP  VBZ   IN      PRP$       NNS    . 
+ |    |    |        |          |     |  
+She lives with     her      parents  . 
+
+[{'V': 'lives',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('CITY', 0.99), ('NP', 0.33)],
+                 'value': 'her parents'}),
+               ({'type': [('NP', 0.33)], 'value': 'She'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+A jacket with a hood.
+[{'attributes': [],
+  'begin': 16,
+  'confidence': 0.99,
+  'end': 21,
+  'ent_type': [('CITY', 0.7155195805600197), ('PERSON', 0.6873290161674068)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'hood.',
+  'tok_begin': 4,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 8,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'A jacket',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 14,
+  'confidence': 0.4,
+  'end': 21,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a hood.',
+  'tok_begin': 3,
+  'tok_end': 5}]
+A jacket with a hood.
+               ROOT                 
+                |                    
+                NP                  
+      __________|_________________   
+     |               PP           | 
+     |           ____|___         |  
+     NP         |        NP       | 
+  ___|____      |     ___|___     |  
+ DT       NN    IN   DT      NN   . 
+ |        |     |    |       |    |  
+ A      jacket with  a      hood  . 
+
+[]
+Marine mammals generally swim with the current.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.99,
+  'end': 6,
+  'ent_type': [('PERSON', 0.3333333333333333),
+               ('CITY', 0.3333333333333333),
+               ('ORG', 0.3333333333333333)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Marine',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 14,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Marine mammals',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 35,
+  'confidence': 0.4,
+  'end': 47,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the current.',
+  'tok_begin': 5,
+  'tok_end': 7}]
+Marine mammals generally swim with the current.
+                             ROOT                             
+                              |                                
+                              S                               
+         _____________________|_____________________________   
+        |              |                VP                  | 
+        |              |       _________|___                |  
+        |              |      |             PP              | 
+        |              |      |     ________|___            |  
+        NP            ADVP    |    |            NP          | 
+   _____|_____         |      |    |         ___|_____      |  
+ NNP         NNS       RB    VBP   IN       DT        JJ    . 
+  |           |        |      |    |        |         |     |  
+Marine     mammals generally swim with     the     current  . 
+
+[{'V': 'swim',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'the current'}),
+               ({'type': [('PERSON', 0.3333333333333333),
+                          ('CITY', 0.3333333333333333),
+                          ('ORG', 0.3333333333333333),
+                          ('NP', 0.33)],
+                 'value': 'Marine mammals'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+She acted with a touring company for three years.
+[{'attributes': [],
+  'begin': 37,
+  'confidence': 0.0,
+  'end': 48,
+  'ent_type': [('DATE', 0.4)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'three years',
+  'tok_begin': 7,
+  'tok_end': 8,
+  'value': None},
+ {'attributes': [],
+  'begin': 33,
+  'confidence': 0.0,
+  'datetime_iso_end': None,
+  'datetime_iso_start': '2021-02-01T00:00:00.000Z',
+  'end': 48,
+  'ent_type': [('DATETIME', 0.4)],
+  'num': 0,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'for three years',
+  'tok_begin': 6,
+  'tok_end': 8,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'She',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 15,
+  'confidence': 0.4,
+  'end': 32,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a touring company',
+  'tok_begin': 3,
+  'tok_end': 5}]
+She acted with a touring company for three years.
+                     ROOT                                 
+                      |                                    
+                      S                                   
+  ____________________|_________________________________   
+ |         VP                                           | 
+ |     ____|____                                        |  
+ |    |         PP                                      | 
+ |    |     ____|_____________                          |  
+ |    |    |                  NP                        | 
+ |    |    |           _______|__________               |  
+ |    |    |          |                  PP             | 
+ |    |    |          |              ____|____          |  
+ NP   |    |          NP            |         NP        | 
+ |    |    |     _____|_______      |     ____|____     |  
+PRP  VBD   IN   DT   VBG      NN    IN   CD       NNS   . 
+ |    |    |    |     |       |     |    |         |    |  
+She acted with  a  touring company for three     years  . 
+
+[{'V': 'acted touring',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with', 'for']},
+                {'type': [('DATE', 0.4)], 'value': 'a company three years'}),
+               ({'type': [], 'value': 'a company'},
+                {'qualifiers': ['for']},
+                {'type': [('DATE', 0.4)], 'value': 'three years'}),
+               ({'type': [('NP', 0.33)], 'value': 'She'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+With these students it's pronunciation that's the problem.
+[{'attributes': [],
+  'begin': 5,
+  'confidence': 0.4,
+  'end': 19,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'these students',
+  'tok_begin': 1,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 20,
+  'confidence': 0.4,
+  'end': 24,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "it's",
+  'tok_begin': 3,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 25,
+  'confidence': 0.4,
+  'end': 38,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'pronunciation',
+  'tok_begin': 5,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 46,
+  'confidence': 0.4,
+  'end': 58,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the problem.',
+  'tok_begin': 8,
+  'tok_end': 10}]
+With these students it's pronunciation that's the problem.
+                                     ROOT                                      
+                                      |                                         
+                                      S                                        
+        ______________________________|______________________________________   
+       |                 |                     VP                            | 
+       |                 |    _________________|____                         |  
+       |                 |   |                      NP                       | 
+       |                 |   |         _____________|___                     |  
+       |                 |   |        |                SBAR                  | 
+       |                 |   |        |         ________|____                |  
+       |                 |   |        |        |             S               | 
+       |                 |   |        |        |             |               |  
+       PP                |   |        |        |             VP              | 
+  _____|____             |   |        |        |     ________|___            |  
+ |          NP           NP  |        NP      WHNP  |            NP          | 
+ |      ____|_____       |   |        |        |    |         ___|_____      |  
+ IN    DT        NNS    PRP VBZ       NN      WDT  VBZ       DT        NN    . 
+ |     |          |      |   |        |        |    |        |         |     |  
+With these     students  it  's pronunciation that  's      the     problem  . 
+
+[{'V': "'s 's",
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['With']},
+                {'type': [('NP', 0.33)], 'value': 'these students'}),
+               ({'type': [], 'value': 'it'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'pronunciation the problem'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'the problem'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': "'s",
+  'entities': [({'type': [('NP', 0.33)], 'value': 'the problem'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+She blushed with embarrassment.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'She',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 17,
+  'confidence': 0.4,
+  'end': 31,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'embarrassment.',
+  'tok_begin': 3,
+  'tok_end': 4}]
+She blushed with embarrassment.
+            ROOT                      
+             |                         
+             S                        
+  ___________|______________________   
+ |           VP                     | 
+ |      _____|____                  |  
+ |     |          PP                | 
+ |     |      ____|________         |  
+ NP    |     |             NP       | 
+ |     |     |             |        |  
+PRP   VBD    IN            NN       . 
+ |     |     |             |        |  
+She blushed with     embarrassment  . 
+
+[{'V': 'blushed',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'embarrassment'}),
+               ({'type': [('NP', 0.33)], 'value': 'She'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+A nice steak with a bottle of red wine.
+[{'attributes': [],
+  'begin': 30,
+  'confidence': 0.99,
+  'end': 33,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'red',
+  'tok_begin': 7,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 2,
+  'confidence': 0.99,
+  'end': 6,
+  'ent_type': [('CITY', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'nice',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 12,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'A nice steak',
+  'tok_begin': 0,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 18,
+  'confidence': 0.4,
+  'end': 26,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a bottle',
+  'tok_begin': 4,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 30,
+  'confidence': 0.4,
+  'end': 39,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'red wine.',
+  'tok_begin': 7,
+  'tok_end': 9}]
+A nice steak with a bottle of red wine.
+                    ROOT                                
+                     |                                   
+                     NP                                 
+      _______________|________________________________   
+     |               PP                  PP           | 
+     |           ____|____            ___|___         |  
+     NP         |         NP         |       NP       | 
+  ___|_____     |     ____|____      |    ___|___     |  
+ DT  JJ    NN   IN   DT        NN    IN  JJ      NN   . 
+ |   |     |    |    |         |     |   |       |    |  
+ A  nice steak with  a       bottle  of red     wine  . 
+
+[]
+I could never part with this ring.
+[{'attributes': [],
+  'begin': 29,
+  'confidence': 0.99,
+  'end': 34,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'ring.',
+  'tok_begin': 6,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 24,
+  'confidence': 0.4,
+  'end': 34,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'this ring.',
+  'tok_begin': 5,
+  'tok_end': 7}]
+I could never part with this ring.
+                ROOT                           
+                 |                              
+                 S                             
+  _______________|___________________________   
+ |               VP                          | 
+ |     __________|_________                  |  
+ |    |     |              VP                | 
+ |    |     |     _________|___              |  
+ |    |     |    |             PP            | 
+ |    |     |    |     ________|____         |  
+ NP   |    ADVP  |    |             NP       | 
+ |    |     |    |    |         ____|___     |  
+PRP   MD    RB   VB   IN       DT       NN   . 
+ |    |     |    |    |        |        |    |  
+ I  could never part with     this     ring  . 
+
+[{'V': 'never part',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'this ring'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The keys are with reception.
+[{'attributes': [],
+  'begin': 9,
+  'confidence': 0.99,
+  'end': 12,
+  'ent_type': [('CITY', 0.5082307528862966), ('COUNTRY', 0.489854140952368)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'are',
+  'tok_begin': 2,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 4,
+  'confidence': 0.99,
+  'end': 8,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'keys',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 8,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The keys',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 18,
+  'confidence': 0.4,
+  'end': 28,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'reception.',
+  'tok_begin': 4,
+  'tok_end': 5}]
+The keys are with reception.
+             ROOT                       
+              |                          
+              S                         
+      ________|_______________________   
+     |             VP                 | 
+     |         ____|____              |  
+     |        |         PP            | 
+     |        |     ____|______       |  
+     NP       |    |           NP     | 
+  ___|___     |    |           |      |  
+ DT     NNS  VBP   IN          NN     . 
+ |       |    |    |           |      |  
+The     keys are  with     reception  . 
+
+[{'V': 'are',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'reception'}),
+               ({'type': [('PERSON', 0.99), ('NP', 0.33)], 'value': 'The keys'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+It's much easier compared with last time.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 4,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "It's",
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 31,
+  'confidence': 0.4,
+  'end': 41,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'last time.',
+  'tok_begin': 6,
+  'tok_end': 8}]
+It's much easier compared with last time.
+                      ROOT                             
+                       |                                
+                       S                               
+  _____________________|_____________________________   
+ |                     VP                            | 
+ |    _________________|___________                  |  
+ |   |   |     |                   PP                | 
+ |   |   |     |        ___________|___              |  
+ |   |   |     |       |               PP            | 
+ |   |   |     |       |       ________|____         |  
+ NP  |  ADVP  ADJP     |      |             NP       | 
+ |   |   |     |       |      |         ____|___     |  
+PRP VBZ  JJ   JJR     VBN     IN       JJ       NN   . 
+ |   |   |     |       |      |        |        |    |  
+ It  's much easier compared with     last     time  . 
+
+[{'V': "'s compared",
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'last time'}),
+               ({'type': [], 'value': 'It'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+He behaved with great dignity.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 2,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'He',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 16,
+  'confidence': 0.4,
+  'end': 30,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'great dignity.',
+  'tok_begin': 3,
+  'tok_end': 5}]
+He behaved with great dignity.
+            ROOT                          
+             |                             
+             S                            
+  ___________|__________________________   
+ |                VP                    | 
+ |      __________|____                 |  
+ |     |               PP               | 
+ |     |      _________|____            |  
+ NP    |     |              NP          | 
+ |     |     |          ____|_____      |  
+PRP   VBD    IN        JJ         NN    . 
+ |     |     |         |          |     |  
+ He behaved with     great     dignity  . 
+
+[{'V': 'behaved',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'great dignity'}),
+               ({'type': [('NP', 0.33)], 'value': 'He'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+They're both in bed with flu.
+[{'attributes': [],
+  'begin': 8,
+  'confidence': 0.99,
+  'end': 12,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'both',
+  'tok_begin': 2,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 13,
+  'confidence': 0.99,
+  'end': 15,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'in',
+  'tok_begin': 3,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 7,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "They're",
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 16,
+  'confidence': 0.4,
+  'end': 19,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'bed',
+  'tok_begin': 4,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 25,
+  'confidence': 0.4,
+  'end': 29,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'flu.',
+  'tok_begin': 6,
+  'tok_end': 7}]
+They're both in bed with flu.
+              ROOT                         
+               |                            
+               S                           
+  _____________|_________________________   
+ |             VP                        | 
+ |     ________|_________________        |  
+ |    |   |         PP           PP      | 
+ |    |   |     ____|___     ____|___    |  
+ NP   |   |    |        NP  |        NP  | 
+ |    |   |    |        |   |        |   |  
+PRP  VBP  DT   IN       NN  IN       NN  . 
+ |    |   |    |        |   |        |   |  
+They 're both  in      bed with     flu  . 
+
+[{'V': "'re",
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['in']},
+                {'type': [('NP', 0.33)], 'value': 'bed'}),
+               ({'type': [('NP', 0.33)], 'value': 'bed'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'flu'}),
+               ({'type': [], 'value': 'They'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+
+Process finished with exit code 0

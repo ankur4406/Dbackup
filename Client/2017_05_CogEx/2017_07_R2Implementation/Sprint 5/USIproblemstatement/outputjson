@@ -1,0 +1,782 @@
+{
+  "fields": [
+    "Insured_ID",
+    "Patient_name",
+    "Patient_zipcode",
+    "Insured_name",
+    "Patient_city",
+    "Patient_state",
+    "Insured_city",
+    "Insured_state",
+    "Insured_zipcode",
+    "Insured_plan_name",
+    "1_Nature_of_illness",
+    "1_rendering_provider_id",
+    "Federal_tax_id",
+    "Patient_account_no",
+    "Service_facility_location_a",
+    "Billing_provider_a"
+  ],
+  "coordinates": {
+    "Total_charge": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1456,
+          2397
+        ],
+        [
+          1790,
+          2469
+        ]
+      ],
+      "type": 0
+    },
+    "Patient_telephone": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          385,
+          430
+        ],
+        [
+          852,
+          504
+        ]
+      ],
+      "type": 0
+    },
+    "Other_insured_policy_group": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          634
+        ],
+        [
+          852,
+          693
+        ]
+      ],
+      "type": 0
+    },
+    "Service_facility_location_b": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          995,
+          2668
+        ],
+        [
+          1456,
+          2722
+        ]
+      ],
+      "type": 0
+    },
+    "Other_insured_plan_name": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          929
+        ],
+        [
+          853,
+          995
+        ]
+      ],
+      "type": 0
+    },
+    "Patient_name": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          137
+        ],
+        [
+          852,
+          197
+        ]
+      ],
+      "type": 0
+    },
+    "Other_9_b_reserved": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          726
+        ],
+        [
+          853,
+          798
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_city": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1450,
+          331
+        ],
+        [
+          2158,
+          395
+        ]
+      ],
+      "type": 0
+    },
+    "Referring_provider": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          1324
+        ],
+        [
+          798,
+          1384
+        ]
+      ],
+      "type": 0
+    },
+    "Referring_provider_npi": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          930,
+          1336
+        ],
+        [
+          1452,
+          1384
+        ]
+      ],
+      "type": 0
+    },
+    "1_cpt": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          711,
+          1781
+        ],
+        [
+          926,
+          1880
+        ]
+      ],
+      "type": 0
+    },
+    "Patient_address": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          233
+        ],
+        [
+          854,
+          300
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_state": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          2158,
+          330
+        ],
+        [
+          2352,
+          393
+        ]
+      ],
+      "type": 0
+    },
+    "1_units": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1718,
+          1781
+        ],
+        [
+          1837,
+          1880
+        ]
+      ],
+      "type": 0
+    },
+    "Service_facility_location_a": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          651,
+          2668
+        ],
+        [
+          995,
+          2723
+        ]
+      ],
+      "type": 0
+    },
+    "1_rendering_provider_id": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1986,
+          1781
+        ],
+        [
+          2354,
+          1880
+        ]
+      ],
+      "type": 0
+    },
+    "Billing_provider_b": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1801,
+          2665
+        ],
+        [
+          2355,
+          2721
+        ]
+      ],
+      "type": 0
+    },
+    "Amount_paid": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1790,
+          2398
+        ],
+        [
+          2073,
+          2468
+        ]
+      ],
+      "type": 0
+    },
+    "Referring_provider_a": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          930,
+          1291
+        ],
+        [
+          1452,
+          1336
+        ]
+      ],
+      "type": 0
+    },
+    "2_Nature_of_illness": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          444,
+          1525
+        ],
+        [
+          655,
+          1578
+        ]
+      ],
+      "type": 0
+    },
+    "1_Nature_of_illness": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          57,
+          1525
+        ],
+        [
+          331,
+          1578
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_ID": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1450,
+          35
+        ],
+        [
+          2350,
+          98
+        ]
+      ],
+      "type": 0
+    },
+    "Service_facility_location": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          649,
+          2504
+        ],
+        [
+          1456,
+          2666
+        ]
+      ],
+      "type": 0
+    },
+    "Patient_zipcode": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          430
+        ],
+        [
+          383,
+          505
+        ]
+      ],
+      "type": 0
+    },
+    "Billing_provider_a": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1456,
+          2665
+        ],
+        [
+          1800,
+          2721
+        ]
+      ],
+      "type": 0
+    },
+    "Patient_city": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          336
+        ],
+        [
+          742,
+          398
+        ]
+      ],
+      "type": 0
+    },
+    "1_modifier": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          926,
+          1781
+        ],
+        [
+          1301,
+          1880
+        ]
+      ],
+      "type": 0
+    },
+    "Other_9_c_reserved": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          829
+        ],
+        [
+          853,
+          895
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_zipcode": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1450,
+          427
+        ],
+        [
+          1833,
+          499
+        ]
+      ],
+      "type": 0
+    },
+    "Other_insured_name": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          535
+        ],
+        [
+          852,
+          598
+        ]
+      ],
+      "type": 0
+    },
+    "1_charges": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1454,
+          1781
+        ],
+        [
+          1718,
+          1880
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_plan_name": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1452,
+          829
+        ],
+        [
+          2353,
+          893
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_name": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1450,
+          134
+        ],
+        [
+          2350,
+          193
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_telephone": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1833,
+          426
+        ],
+        [
+          2352,
+          499
+        ]
+      ],
+      "type": 0
+    },
+    "Patient_state": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          743,
+          336
+        ],
+        [
+          852,
+          398
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_policy_group": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1450,
+          532
+        ],
+        [
+          2352,
+          597
+        ]
+      ],
+      "type": 0
+    },
+    "Insured_address": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1450,
+          226
+        ],
+        [
+          2350,
+          298
+        ]
+      ],
+      "type": 0
+    },
+    "Patient_account_no": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          649,
+          2401
+        ],
+        [
+          1086,
+          2470
+        ]
+      ],
+      "type": 0
+    },
+    "Billing_provider": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          1456,
+          2503
+        ],
+        [
+          2355,
+          2663
+        ]
+      ],
+      "type": 0
+    },
+    "Federal_tax_id": {
+      "padding": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          2403
+        ],
+        [
+          466,
+          2471
+        ]
+      ],
+      "type": 0
+    }
+  }
+}

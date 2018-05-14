@@ -1,0 +1,46 @@
+{
+    "ProviderInfo_NPINo": {
+        "slice_file": "ProviderInfo_NPINo_slice.png",
+        "confidence": 0.9357391595840454,
+        "type": "txt",
+        "slice_xy": {
+            "x1": 1573,
+            "x2": 2016,
+            "y1": 4750,
+            "y2": 4782
+        }
+    },
+    "CompletedBy_StartDate": {
+        "slice_file": "CompletedBy_StartDate_slice.png",
+        "confidence": 0.9159046411514282,
+        "type": "txt",
+        "slice_xy": {
+            "x1": 869,
+            "x2": 1101,
+            "y1": 4582,
+            "y2": 4606
+        }
+    },
+    "ProviderInfo_FirstName": {
+        "slice_file": "ProviderInfo_FirstName_slice.png",
+        "confidence": 0.9357391595840454,
+        "type": "txt",
+        "slice_xy": {
+            "x1": 241,
+            "x2": 585,
+            "y1": 4838,
+            "y2": 4869
+        }
+    },
+    "ProviderInfo_Title": {
+        "slice_file": "ProviderInfo_Title_slice.png",
+        "confidence": 0.9357391595840454,
+        "type": "txt",
+        "slice_xy": {
+            "x1": 404,
+            "x2": 554,
+            "y1": 4925,
+            "y2": 4951
+        }
+    }
+}

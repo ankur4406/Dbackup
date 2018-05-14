@@ -1,0 +1,83 @@
+{
+    "Policy_Type": {
+        "coordinates": {
+            "x1": 38,
+            "y2": 631,
+            "y1": 531,
+            "x2": 1508
+        },
+        "type": "omr"
+    },
+    "Services_List": {
+        "coordinates": {
+            "x1": 31,
+            "y2": 2907,
+            "y1": 2326,
+            "x2": 2381
+        },
+        "type": "tbl"
+    },
+    "Insured's_ID": {
+        "coordinates": {
+            "x1": 1502,
+            "y2": 631,
+            "y1": 571,
+            "x2": 2402
+        },
+        "type": "txt"
+    },
+    "Patient_Name": {
+        "coordinates": {
+            "x1": 46,
+            "y2": 731,
+            "y1": 671,
+            "x2": 866
+        },
+        "type": "txt"
+    },
+    "Insured's_Name": {
+        "coordinates": {
+            "x1": 1501,
+            "y2": 731,
+            "y1": 671,
+            "x2": 2391
+        },
+        "type": "txt"
+    },
+    "Patient_Address": {
+        "coordinates": {
+            "x1": 46,
+            "y2": 830,
+            "y1": 760,
+            "x2": 866
+        },
+        "type": "txt"
+    },
+    "Insured_Address": {
+        "coordinates": {
+            "x1": 1501,
+            "y2": 830,
+            "y1": 760,
+            "x2": 2401
+        },
+        "type": "txt"
+    },
+    "Patient_Relationship_to_Insured": {
+        "coordinates": {
+            "x1": 907,
+            "y2": 828,
+            "y1": 728,
+            "x2": 1497
+        },
+        "type": "omr"
+    },
+    "Sex": {
+        "coordinates": {
+            "x1": 1226,
+            "y2": 730,
+            "y1": 630,
+            "x2": 1496
+        },
+        "type": "omr"
+    }
+}

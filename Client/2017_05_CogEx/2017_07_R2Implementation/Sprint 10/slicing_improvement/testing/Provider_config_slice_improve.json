@@ -1,0 +1,90 @@
+{
+    "BusinessIntent_BusinessIntent": {
+        "slice_file": "BusinessIntent_BusinessIntent_slice.png",
+        "slice_xy": {
+            "y1": 3274,
+            "y2": 3356,
+            "x1": 74,
+            "x2": 2037
+        },
+        "type": "txt",
+        "confidence": 0.966722309589386
+    },
+    "LocationInfo_AddressType_3": {
+        "slice_file": "LocationInfo_AddressType_3_slice.png",
+        "slice_xy": {
+            "y1": 7158,
+            "y2": 7195,
+            "x1": 312,
+            "x2": 518
+        },
+        "type": "txt",
+        "confidence": 0.9745414853096008
+    },
+    "LocationInfo_Address1_1": {
+        "slice_file": "LocationInfo_Address1_1_slice.png",
+        "slice_xy": {
+            "y1": 6658,
+            "y2": 6695,
+            "x1": 705,
+            "x2": 1275
+        },
+        "type": "txt",
+        "confidence": 0.9745414853096008
+    },
+    "LocationInfo_Address1_2": {
+        "slice_file": "LocationInfo_Address1_2_slice.png",
+        "slice_xy": {
+            "y1": 6908,
+            "y2": 6945,
+            "x1": 705,
+            "x2": 1275
+        },
+        "type": "txt",
+        "confidence": 0.9745414853096008
+    },
+    "LocationInfo_AddressType_2": {
+        "slice_file": "LocationInfo_AddressType_2_slice.png",
+        "slice_xy": {
+            "y1": 6908,
+            "y2": 6945,
+            "x1": 312,
+            "x2": 518
+        },
+        "type": "txt",
+        "confidence": 0.9745414853096008
+    },
+    "LocationInfo_Address1_3": {
+        "slice_file": "LocationInfo_Address1_3_slice.png",
+        "slice_xy": {
+            "y1": 7158,
+            "y2": 7195,
+            "x1": 705,
+            "x2": 1275
+        },
+        "type": "txt",
+        "confidence": 0.9745414853096008
+    },
+    "LocationInfo_AddressType_1": {
+        "slice_file": "LocationInfo_AddressType_1_slice.png",
+        "slice_xy": {
+            "y1": 6658,
+            "y2": 6695,
+            "x1": 312,
+            "x2": 518
+        },
+        "type": "txt",
+        "confidence": 0.9745414853096008
+    },
+    "ProviderType_ProviderTypeComments": {
+        "slice_file": "ProviderType_ProviderTypeComments_slice.png",
+        "slice_xy": {
+            "y1": 6464,
+            "y2": 6533,
+            "x1": 462,
+            "x2": 1768
+        },
+        "type": "txt",
+        "confidence": 0.9798938632011414
+    }
+}

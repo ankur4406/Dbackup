@@ -1,0 +1,31 @@
+Installing pycharm on ubuntu
+https://askubuntu.com/questions/701618/pycharm-by-jetbrains-installation
+
+- Copy the pycharm-*.tar.gz to an empty directory (make sure you have rw permissions for that directory)
+- Unpack the pycharm-*.tar.gz using the following command:
+		tar xfz pycharm-*.tar.gz
+- Remove the pycharm-*.tar.gz to save disk space (optional)
+- Run pycharm.sh from the bin subdirectory
+		./pycharm.sh
+
+******************************************************************************************************************
+Installing Ocropus and dependencies
+https://askubuntu.com/questions/686513/ocropus-installing-problem 
+
+$ mkdir workingcopy/
+$ cd workingcopy/
+$ git init .
+$ git pull https://github.com/tmbdev/ocropy
+$ sudo apt-get install $(cat PACKAGES)
+$ wget -nd http://www.tmbdev.net/en-default.pyrnn.gz
+$ mv en-default.pyrnn.gz models/
+$ sudo python setup.py install
+
+******************************************************************************************************************
+Installing Tesseract and dependencies
+https://bingrao.github.io/blog/post/2017/07/16/Install-Tesseract-4.0-in-ubuntun-16.04.html
+
+
+
+
+

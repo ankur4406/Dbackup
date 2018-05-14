@@ -1,0 +1,702 @@
+{
+	"Form_Header": {
+		"ref1_xy": {
+			"x1": 500,
+			"x2": 1380,
+			"y1": 2060,
+			"y2": 2130
+		},
+		"type": "head"
+	},
+	"General_TrackingNo": {
+		"ref1_xy": {
+			"x1": 1080,
+			"x2": 1230,
+			"y1": 2170,
+			"y2": 2220
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 165,
+			"x2": 340,
+			"y1": 5,
+			"y2": -10
+		}
+	},
+	"General_TaxID": {
+		"ref1_xy": {
+			"x1": 1090,
+			"x2": 1165,
+			"y1": 2290,
+			"y2": 2320
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 85,
+			"x2": 370,
+			"y1": 5,
+			"y2": -5
+		}
+	},
+	"BusinessIntent_DemographicChangeOnly": {
+		"ref1_xy": {
+			"x1": 835,
+			"x2": 1205,
+			"y1": 2350,
+			"y2": 2385
+		},
+		"type": "omr",
+		"lbl_align": "right",
+		"drift": {
+			"x1": 415,
+			"x2": 420,
+			"y1": 0,
+			"y2": 0
+		}
+	},
+	"TaxInfo_TaxID": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 310,
+			"y1": 4320,
+			"y2": 4365
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 105,
+			"x2": 205,
+			"y1": 75,
+			"y2": 55
+		}
+	},
+	"TaxInfo_TaxName": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 310,
+			"y1": 4320,
+			"y2": 4365
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 625,
+			"x2": 860,
+			"y1": 70,
+			"y2": 90
+		}
+	},
+	"TaxInfo_NPINo": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 310,
+			"y1": 4320,
+			"y2": 4365
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1260,
+			"x2": 1240,
+			"y1": 75,
+			"y2": 55
+		}
+	},
+	"BusinessIntent_BusinessIntent": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 310,
+			"y1": 2320,
+			"y2": 2350
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 10,
+			"x2": 1320,
+			"y1": 90,
+			"y2": 125
+		}
+	},
+	"General_NewContractOrAmendment": {
+		"ref1_xy": {
+			"x1": 110,
+			"x2": 980,
+			"y1": 2180,
+			"y2": 2220
+		},
+		"type": "omr",
+		"drift": {
+			"x1": 0,
+			"x2": 0,
+			"y1": 0,
+			"y2": 0
+		}
+	},
+	"General_PriorityHandlingRequest": {
+		"ref1_xy": {
+			"x1": 1080,
+			"x2": 1475,
+			"y1": 2230,
+			"y2": 2265
+		},
+		"type": "omr",
+		"drift": {
+			"x1": 0,
+			"x2": 0,
+			"y1": 0,
+			"y2": 0
+		}
+	},
+	"General_CSFPurpose": {
+		"ref1_xy": {
+			"x1": 60,
+			"x2": 245,
+			"y1": 2260,
+			"y2": 2290
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 195,
+			"x2": 680,
+			"y1": 0,
+			"y2": 0
+		}
+	},
+	"PDOUpdates_PDOUpdatesReq": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 280,
+			"y1": 3210,
+			"y2": 3240
+		},
+		"type": "omr",
+		"drift": {
+			"x1": 40,
+			"x2": 160,
+			"y1": 110,
+			"y2": 120
+		}
+	},
+	"PDOUpdates_NoOfIndividualProviders": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 280,
+			"y1": 3210,
+			"y2": 3240
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1145,
+			"x2": 1075,
+			"y1": 60,
+			"y2": 60
+		}
+	},
+	"PDOUpdates_NoOfQCareRecordsToUpdate": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 280,
+			"y1": 3210,
+			"y2": 3240
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1145,
+			"x2": 1075,
+			"y1": 110,
+			"y2": 110
+		}
+	},
+	"CompletedBy_Name": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 450,
+			"y1": 3390,
+			"y2": 3425
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 110,
+			"x2": 165,
+			"y1": 80,
+			"y2": 65
+		}
+	},
+	"CompletedBy_StartDate": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 450,
+			"y1": 3390,
+			"y2": 3425
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 655,
+			"x2": 440,
+			"y1": 90,
+			"y2": 75
+		}
+	},
+	"CompletedBy_DateReceived": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 450,
+			"y1": 3390,
+			"y2": 3425
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 960,
+			"x2": 780,
+			"y1": 90,
+			"y2": 75
+		}
+	},
+	"CompletedBy_Phone": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 450,
+			"y1": 3390,
+			"y2": 3425
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1385,
+			"x2": 1180,
+			"y1": 80,
+			"y2": 70
+		}
+	},
+	"ProviderInfo_QCareID": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 130,
+			"x2": 135,
+			"y1": 65,
+			"y2": 60
+		}
+	},
+	"ProviderInfo_StateLicenseNo": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 735,
+			"x2": 750,
+			"y1": 70,
+			"y2": 65
+		}
+	},
+	"ProviderInfo_NPINo": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1220,
+			"x2": 1255,
+			"y1": 70,
+			"y2": 65
+		}
+	},
+	"ProviderInfo_FirstName": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 155,
+			"x2": 110,
+			"y1": 140,
+			"y2": 135
+		}
+	},
+	"ProviderInfo_MiddleName": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 555,
+			"x2": 355,
+			"y1": 135,
+			"y2": 135
+		}
+	},
+	"ProviderInfo_LastName": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 920,
+			"x2": 1250,
+			"y1": 145,
+			"y2": 140
+		}
+	},
+	"ProviderInfo_Suffix": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 90,
+			"x2": -130,
+			"y1": 210,
+			"y2": 200
+		}
+	},
+	"ProviderInfo_Title": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 285,
+			"x2": 85,
+			"y1": 210,
+			"y2": 200
+		}
+	},
+	"ProviderInfo_ContactName": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 630,
+			"x2": 705,
+			"y1": 185,
+			"y2": 215
+		}
+	},
+	"ProviderInfo_ContactNo": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1175,
+			"x2": 1050,
+			"y1": 210,
+			"y2": 200
+		}
+	},
+	"ProviderInfo_Ext": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1470,
+			"x2": 1255,
+			"y1": 210,
+			"y2": 200
+		}
+	},
+	"ProviderInfo_ContactEmail": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 205,
+			"x2": 875,
+			"y1": 265,
+			"y2": 260
+		}
+	},
+	"ProviderInfo_Gender": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1380,
+			"x2": 1255,
+			"y1": 265,
+			"y2": 260
+		}
+	},
+	"ProviderInfo_DEANumber": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 210,
+			"x2": 160,
+			"y1": 315,
+			"y2": 310
+		}
+	},
+	"ProviderInfo_DEAExpirationDate": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 775,
+			"x2": 680,
+			"y1": 315,
+			"y2": 310
+		}
+	},
+	"ProviderInfo_MedicareNumber": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 370,
+			"y1": 3545,
+			"y2": 3575
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1290,
+			"x2": 1250,
+			"y1": 315,
+			"y2": 310
+		}
+	},
+	"GroupInfo_Attention": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 140,
+			"x2": 375,
+			"y1": 60,
+			"y2": 90
+		}
+	},
+	"GroupInfo_ProviderGroupName": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1040,
+			"x2": 1280,
+			"y1": 65,
+			"y2": 90
+		}
+	},
+	"GroupInfo_GroupAggrementApplies": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "omr",
+		"drift": {
+			"x1": 10,
+			"x2": 40,
+			"y1": 140,
+			"y2": 150
+		}
+	},
+	"GroupInfo_PHODesignation": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 620,
+			"x2": 850,
+			"y1": 145,
+			"y2": 140
+		}
+	},
+	"GroupInfo_BlanketAgreement": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 245,
+			"x2": 565,
+			"y1": 210,
+			"y2": 205
+		}
+	},
+	"GroupInfo_ReqNewPricingGrid": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1170,
+			"x2": 1200,
+			"y1": 200,
+			"y2": 215
+		}
+	},
+	"GroupInfo_MidLevelProvidersIncluded": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 10,
+			"x2": 380,
+			"y1": 260,
+			"y2": 270
+		}
+	},
+	"GroupInfo_NotEligibleReapply": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 340,
+			"y1": 3980,
+			"y2": 4010
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1170,
+			"x2": 1200,
+			"y1": 260,
+			"y2": 270
+		}
+	},
+	"TaxInfo_TaxID2": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 310,
+			"y1": 4320,
+			"y2": 4365
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 105,
+			"x2": 205,
+			"y1": 195,
+			"y2": 175
+		}
+	},
+	"TaxInfo_TaxName2": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 310,
+			"y1": 4320,
+			"y2": 4365
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 625,
+			"x2": 860,
+			"y1": 160,
+			"y2": 180
+		}
+	},
+	"TaxInfo_NPINo2": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 310,
+			"y1": 4320,
+			"y2": 4365
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 1260,
+			"x2": 1240,
+			"y1": 195,
+			"y2": 175
+		}
+	},
+	"ProviderType_ProviderType": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 280,
+			"y1": 4590,
+			"y2": 4625
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 55,
+			"x2": 340,
+			"y1": 60,
+			"y2": 50
+		}
+	},
+	"ProviderType_ProviderTypeComments": {
+		"ref1_xy": {
+			"x1": 50,
+			"x2": 280,
+			"y1": 4590,
+			"y2": 4625
+		},
+		"type": "txt",
+		"drift": {
+			"x1": 320,
+			"x2": 1135,
+			"y1": 130,
+			"y2": 150
+		}
+	}
+}

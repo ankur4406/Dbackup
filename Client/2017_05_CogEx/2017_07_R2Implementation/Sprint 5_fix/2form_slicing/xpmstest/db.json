@@ -1,0 +1,107 @@
+{ 
+    "_id" : ObjectId("59b16673461ab9f314e43b66"), 
+    "flow_file_id" : "6c5fb0a6-e8cd-4128-ba74-1deca9e6c213", 
+    "file_name" : "ProviderFormSample_6D6qaN9.pdf", 
+    "pipeline" : "V1", 
+    "processors_name" : [
+        {
+            "MIME" : NumberInt(1)
+        }, 
+        {
+            "PNGC" : NumberInt(1)
+        }, 
+        {
+            "CLSF" : NumberInt(1)
+        }, 
+        {
+            "PPS" : NumberInt(1)
+        }, 
+        {
+            "SLCR" : NumberInt(1)
+        }, 
+        {
+            "OCR" : NumberInt(1)
+        }
+    ], 
+    "timestamp" : ISODate("2017-09-07T16:05:28.661+0000"), 
+    "file_path" : "/cogx_nfsvol/claim_files/6c5fb0a6-e8cd-4128-ba74-1deca9e6c213/ProviderFormSample_6D6qaN9.pdf", 
+    "status" : "processed", 
+    "doc_type" : "CSF", 
+    "png_image" : "/cogx_nfsvol/claim_files/6c5fb0a6-e8cd-4128-ba74-1deca9e6c213/pngs/ProviderFormSample_6D6qaN9-4.png", 
+    "coordinates" : {
+        "Tax_Information_Tax_Name" : {
+            "coordinates" : [
+                [
+                    NumberInt(843), 
+                    NumberInt(6052)
+                ], 
+                [
+                    NumberInt(1462), 
+                    NumberInt(6133)
+                ]
+            ]
+        }, 
+        "Tracking_No" : {
+            "coordinates" : [
+                [
+                    NumberInt(1556), 
+                    NumberInt(2981)
+                ], 
+                [
+                    NumberInt(1962), 
+                    NumberInt(3025)
+                ]
+            ]
+        }, 
+        "Tax_ID" : {
+            "coordinates" : [
+                [
+                    NumberInt(1468), 
+                    NumberInt(3131)
+                ], 
+                [
+                    NumberInt(1918), 
+                    NumberInt(3156)
+                ]
+            ]
+        }, 
+        "Tax_Information_Tax_ID" : {
+            "coordinates" : [
+                [
+                    NumberInt(193), 
+                    NumberInt(6058)
+                ], 
+                [
+                    NumberInt(643), 
+                    NumberInt(6089)
+                ]
+            ]
+        }, 
+        "Demographic_Change_Only" : {
+            "coordinates" : [
+                [
+                    NumberInt(1561), 
+                    NumberInt(3200)
+                ], 
+                [
+                    NumberInt(2031), 
+                    NumberInt(3243)
+                ]
+            ]
+        }, 
+        "Tax_Information_NPI_No" : {
+            "coordinates" : [
+                [
+                    NumberInt(1637), 
+                    NumberInt(6058)
+                ], 
+                [
+                    NumberInt(1937), 
+                    NumberInt(6089)
+                ]
+            ]
+        }
+    }, 
+    "preprocesssed_image_path" : "/cogx_nfsvol/claim_files/6c5fb0a6-e8cd-4128-ba74-1deca9e6c213/preprocessed/preprocessed.png"
+}
+

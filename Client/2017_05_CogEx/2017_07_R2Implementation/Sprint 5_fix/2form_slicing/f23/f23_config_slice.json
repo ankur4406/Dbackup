@@ -1,0 +1,343 @@
+{
+    "BusinessAddress3": {
+        "slice_file": "BusinessAddress3_slice.png",
+        "slice_xy": {
+            "x2": 1870,
+            "y2": 2415,
+            "y1": 2345,
+            "x1": 1100
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "BusinessName3": {
+        "slice_file": "BusinessName3_slice.png",
+        "slice_xy": {
+            "x2": 1090,
+            "y2": 2415,
+            "y1": 2345,
+            "x1": 460
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "Current_Address_Telephone": {
+        "slice_file": "Current_Address_Telephone_slice.png",
+        "slice_xy": {
+            "x2": 1715,
+            "y2": 1875,
+            "y1": 1825,
+            "x1": 980
+        },
+        "type": "txt",
+        "confidence": 0.9999991655349731
+    },
+    "EIN2": {
+        "slice_file": "EIN2_slice.png",
+        "slice_xy": {
+            "x2": 450,
+            "y2": 2340,
+            "y1": 2270,
+            "x1": 250
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "Have_CAFNumber": {
+        "slice_file": "Have_CAFNumber_slice.png",
+        "slice_xy": {
+            "x2": 1520,
+            "y2": 3340,
+            "y1": 3300,
+            "x1": 1260
+        },
+        "type": "omr",
+        "confidence": 1.0
+    },
+    "Full_Legal_Name_Last": {
+        "slice_file": "Full_Legal_Name_Last_slice.png",
+        "slice_xy": {
+            "x2": 1380,
+            "y2": 1370,
+            "y1": 1320,
+            "x1": 985
+        },
+        "type": "txt",
+        "confidence": 0.9999998211860657
+    },
+    "CAF_Number3": {
+        "slice_file": "CAF_Number3_slice.png",
+        "slice_xy": {
+            "x2": 1065,
+            "y2": 3490,
+            "y1": 3420,
+            "x1": 815
+        },
+        "type": "txt",
+        "confidence": 1.0
+    },
+    "CAF_Number5": {
+        "slice_file": "CAF_Number5_slice.png",
+        "slice_xy": {
+            "x2": 1635,
+            "y2": 3490,
+            "y1": 3420,
+            "x1": 1385
+        },
+        "type": "txt",
+        "confidence": 1.0
+    },
+    "Full_Legal_Name_M": {
+        "slice_file": "Full_Legal_Name_M_slice.png",
+        "slice_xy": {
+            "x2": 1900,
+            "y2": 1370,
+            "y1": 1320,
+            "x1": 1840
+        },
+        "type": "txt",
+        "confidence": 0.9999998211860657
+    },
+    "Current_with_Taxes": {
+        "slice_file": "Current_with_Taxes_slice.png",
+        "slice_xy": {
+            "x2": 1470,
+            "y2": 3610,
+            "y1": 3570,
+            "x1": 1210
+        },
+        "type": "omr",
+        "confidence": 0.9999983310699463
+    },
+    "CAF_Number6": {
+        "slice_file": "CAF_Number6_slice.png",
+        "slice_xy": {
+            "x2": 1920,
+            "y2": 3490,
+            "y1": 3420,
+            "x1": 1670
+        },
+        "type": "txt",
+        "confidence": 1.0
+    },
+    "CAF_Number4": {
+        "slice_file": "CAF_Number4_slice.png",
+        "slice_xy": {
+            "x2": 1350,
+            "y2": 3490,
+            "y1": 3420,
+            "x1": 1100
+        },
+        "type": "txt",
+        "confidence": 1.0
+    },
+    "EIN1": {
+        "slice_file": "EIN1_slice.png",
+        "slice_xy": {
+            "x2": 450,
+            "y2": 2260,
+            "y1": 2190,
+            "x1": 250
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "Current_Address_Country": {
+        "slice_file": "Current_Address_Country_slice.png",
+        "slice_xy": {
+            "x2": 1900,
+            "y2": 1625,
+            "y1": 1575,
+            "x1": 1415
+        },
+        "type": "txt",
+        "confidence": 0.9999991655349731
+    },
+    "EIN3": {
+        "slice_file": "EIN3_slice.png",
+        "slice_xy": {
+            "x2": 450,
+            "y2": 2415,
+            "y1": 2345,
+            "x1": 250
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "Date": {
+        "slice_file": "Date_slice.png",
+        "slice_xy": {
+            "x2": 1830,
+            "y2": 4745,
+            "y1": 4675,
+            "x1": 1245
+        },
+        "type": "txt",
+        "confidence": 1.0
+    },
+    "Current_Address_City": {
+        "slice_file": "Current_Address_City_slice.png",
+        "slice_xy": {
+            "x2": 950,
+            "y2": 1620,
+            "y1": 1570,
+            "x1": 245
+        },
+        "type": "txt",
+        "confidence": 0.9999991655349731
+    },
+    "BusinessAddress2": {
+        "slice_file": "BusinessAddress2_slice.png",
+        "slice_xy": {
+            "x2": 1870,
+            "y2": 2340,
+            "y1": 2270,
+            "x1": 1100
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "Full_Legal_Name_First": {
+        "slice_file": "Full_Legal_Name_First_slice.png",
+        "slice_xy": {
+            "x2": 1805,
+            "y2": 1370,
+            "y1": 1320,
+            "x1": 1410
+        },
+        "type": "txt",
+        "confidence": 0.9999998211860657
+    },
+    "Current_Address": {
+        "slice_file": "Current_Address_slice.png",
+        "slice_xy": {
+            "x2": 1900,
+            "y2": 1505,
+            "y1": 1455,
+            "x1": 985
+        },
+        "type": "txt",
+        "confidence": 0.9999991655349731
+    },
+    "CAF_Number1": {
+        "slice_file": "CAF_Number1_slice.png",
+        "slice_xy": {
+            "x2": 495,
+            "y2": 3490,
+            "y1": 3420,
+            "x1": 245
+        },
+        "type": "txt",
+        "confidence": 1.0
+    },
+    "Current_Address_State": {
+        "slice_file": "Current_Address_State_slice.png",
+        "slice_xy": {
+            "x2": 1095,
+            "y2": 1620,
+            "y1": 1570,
+            "x1": 985
+        },
+        "type": "txt",
+        "confidence": 0.9999991655349731
+    },
+    "PTIN_Number": {
+        "slice_file": "PTIN_Number_slice.png",
+        "slice_xy": {
+            "x2": 1875,
+            "y2": 1975,
+            "y1": 1925,
+            "x1": 1460
+        },
+        "type": "txt",
+        "confidence": 0.9999960660934448
+    },
+    "BusinessName2": {
+        "slice_file": "BusinessName2_slice.png",
+        "slice_xy": {
+            "x2": 1090,
+            "y2": 2340,
+            "y1": 2270,
+            "x1": 460
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "Have_EIN": {
+        "slice_file": "Have_EIN_slice.png",
+        "slice_xy": {
+            "x2": 1400,
+            "y2": 2055,
+            "y1": 2020,
+            "x1": 1140
+        },
+        "type": "omr",
+        "confidence": 0.9999998807907104
+    },
+    "Current_Address_Email": {
+        "slice_file": "Current_Address_Email_slice.png",
+        "slice_xy": {
+            "x2": 1715,
+            "y2": 1780,
+            "y1": 1730,
+            "x1": 980
+        },
+        "type": "txt",
+        "confidence": 0.9999991655349731
+    },
+    "BusinessName1": {
+        "slice_file": "BusinessName1_slice.png",
+        "slice_xy": {
+            "x2": 1090,
+            "y2": 2260,
+            "y1": 2190,
+            "x1": 460
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    },
+    "Date_of_Birth": {
+        "slice_file": "Date_of_Birth_slice.png",
+        "slice_xy": {
+            "x2": 1380,
+            "y2": 1230,
+            "y1": 1180,
+            "x1": 985
+        },
+        "type": "txt",
+        "confidence": 0.9999995827674866
+    },
+    "Current_Address_Zip": {
+        "slice_file": "Current_Address_Zip_slice.png",
+        "slice_xy": {
+            "x2": 1380,
+            "y2": 1620,
+            "y1": 1570,
+            "x1": 1125
+        },
+        "type": "txt",
+        "confidence": 0.9999991655349731
+    },
+    "CAF_Number2": {
+        "slice_file": "CAF_Number2_slice.png",
+        "slice_xy": {
+            "x2": 780,
+            "y2": 3490,
+            "y1": 3420,
+            "x1": 530
+        },
+        "type": "txt",
+        "confidence": 1.0
+    },
+    "BusinessAddress1": {
+        "slice_file": "BusinessAddress1_slice.png",
+        "slice_xy": {
+            "x2": 1870,
+            "y2": 2260,
+            "y1": 2190,
+            "x1": 1100
+        },
+        "type": "txt",
+        "confidence": 0.9999998807907104
+    }
+}

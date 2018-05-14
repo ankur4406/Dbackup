@@ -1,0 +1,80 @@
+{
+    "Tax_Information_NPI_No": {
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "x2": 1937,
+            "x1": 1637,
+            "y2": 6089,
+            "y1": 6058
+        },
+        "slice_file": "Tax_Information_NPI_No_slice.png"
+    },
+    "Tracking_No": {
+        "confidence": 0.9661080241203308,
+        "type": "txt",
+        "slice_xy": {
+            "x2": 1962,
+            "x1": 1556,
+            "y2": 3025,
+            "y1": 2981
+        },
+        "slice_file": "Tracking_No_slice.png"
+    },
+    "Demographic_Change_Only": {
+        "type": "omr",
+        "slice_xy": {
+            "x2": 2031,
+            "x1": 1561,
+            "y2": 3243,
+            "y1": 3200
+        },
+        "slice_file": "Demographic_Change_Only_slice.png",
+        "confidence": 0.9599812626838684,
+        "lbl_align": "right"
+    },
+    "Tax_ID": {
+        "confidence": 0.9571549892425537,
+        "type": "txt",
+        "slice_xy": {
+            "x2": 1918,
+            "x1": 1468,
+            "y2": 3156,
+            "y1": 3131
+        },
+        "slice_file": "Tax_ID_slice.png"
+    },
+    "Tax_Information_Tax_Name": {
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "x2": 1462,
+            "x1": 843,
+            "y2": 6133,
+            "y1": 6052
+        },
+        "slice_file": "Tax_Information_Tax_Name_slice.png"
+    },
+    "Business_Intent": {
+        "confidence": 0.966722309589386,
+        "type": "txt",
+        "slice_xy": {
+            "x2": 2037,
+            "x1": 74,
+            "y2": 3356,
+            "y1": 3274
+        },
+        "slice_file": "Business_Intent_slice.png"
+    },
+    "Tax_Information_Tax_ID": {
+        "confidence": 0.9751471281051636,
+        "type": "txt",
+        "slice_xy": {
+            "x2": 643,
+            "x1": 193,
+            "y2": 6089,
+            "y1": 6058
+        },
+        "slice_file": "Tax_Information_Tax_ID_slice.png"
+    }
+}

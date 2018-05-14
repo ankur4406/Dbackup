@@ -1,0 +1,35 @@
+Adam stays with Chris in Europe.
+                 ROOT                       
+                  |                          
+                  S                         
+  ________________|_______________________   
+ |                VP                      | 
+ |      __________|____                   |  
+ |     |               PP                 | 
+ |     |     __________|___               |  
+ |     |    |              NP             | 
+ |     |    |      ________|___           |  
+ |     |    |     |            PP         | 
+ |     |    |     |         ___|____      |  
+ NP    |    |     NP       |        NP    | 
+ |     |    |     |        |        |     |  
+NNP   VBZ   IN   NNP       IN      NNP    . 
+ |     |    |     |        |        |     |  
+Adam stays with Chris      in     Europe  . 
+
+[{'V': 'stays',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['with', 'in']},
+                {'type': [('PERSON', 0.5), ('PERSON', 0.5), ('LOC', 0.4)],
+                 'value': 'Chris Europe'}),
+               ({'type': [('PERSON', 0.5), ('PERSON', 0.5)], 'value': 'Chris'},
+                {'qualifiers': ['in']},
+                {'type': [('LOC', 0.4)], 'value': 'Europe'}),
+               ({'type': [('PERSON', 0.3333333333333333),
+                          ('CITY', 0.3333333333333333),
+                          ('PERSON', 0.3333333333333333)],
+                 'value': 'Adam'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]

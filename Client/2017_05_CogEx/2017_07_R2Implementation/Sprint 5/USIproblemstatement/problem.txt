@@ -1,0 +1,2 @@
+Program should take InputImage and then do required preprocessing like deskewing and then return preprocessed image along with calculated coordinates json. 
+The calculated coordinates should be directly used for slicing the output image.

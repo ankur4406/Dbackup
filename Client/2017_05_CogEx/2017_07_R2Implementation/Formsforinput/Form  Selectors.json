@@ -1,0 +1,3747 @@
+{ 
+    "_id" : ObjectId("595f1e2011bacde968943520"), 
+    "form_type" : "CMS1500", 
+    "Insured_ID" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 35.0, 
+            "x2" : 2350.0, 
+            "y2" : 98.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 137.0, 
+            "x2" : 852.0, 
+            "y2" : 197.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_name" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 134.0, 
+            "x2" : 2350.0, 
+            "y2" : 193.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_address" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 233.0, 
+            "x2" : 854.0, 
+            "y2" : 300.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_city" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 336.0, 
+            "x2" : 742.0, 
+            "y2" : 398.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_state" : {
+        "coordinates" : {
+            "x1" : 743.0, 
+            "y1" : 336.0, 
+            "x2" : 852.0, 
+            "y2" : 398.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_zipcode" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 430.0, 
+            "x2" : 383.0, 
+            "y2" : 505.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_telephone" : {
+        "coordinates" : {
+            "x1" : 385.0, 
+            "y1" : 430.0, 
+            "x2" : 852.0, 
+            "y2" : 504.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_address" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 226.0, 
+            "x2" : 2350.0, 
+            "y2" : 298.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_city" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 331.0, 
+            "x2" : 2158.0, 
+            "y2" : 395.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_state" : {
+        "coordinates" : {
+            "x1" : 2158.0, 
+            "y1" : 330.0, 
+            "x2" : 2352.0, 
+            "y2" : 393.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_zipcode" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 427.0, 
+            "x2" : 1833.0, 
+            "y2" : 499.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_telephone" : {
+        "coordinates" : {
+            "x1" : 1833.0, 
+            "y1" : 426.0, 
+            "x2" : 2352.0, 
+            "y2" : 499.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_insured_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 535.0, 
+            "x2" : 852.0, 
+            "y2" : 598.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_insured_policy_group" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 634.0, 
+            "x2" : 852.0, 
+            "y2" : 693.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_9_b_reserved" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 726.0, 
+            "x2" : 853.0, 
+            "y2" : 798.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_9_c_reserved" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 829.0, 
+            "x2" : 853.0, 
+            "y2" : 895.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_insured_plan_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 929.0, 
+            "x2" : 853.0, 
+            "y2" : 995.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_policy_group" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 532.0, 
+            "x2" : 2352.0, 
+            "y2" : 597.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_plan_name" : {
+        "coordinates" : {
+            "x1" : 1452.0, 
+            "y1" : 829.0, 
+            "x2" : 2353.0, 
+            "y2" : 893.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1324.0, 
+            "x2" : 798.0, 
+            "y2" : 1384.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider_a" : {
+        "coordinates" : {
+            "x1" : 930.0, 
+            "y1" : 1291.0, 
+            "x2" : 1452.0, 
+            "y2" : 1336.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider_npi" : {
+        "coordinates" : {
+            "x1" : 930.0, 
+            "y1" : 1336.0, 
+            "x2" : 1452.0, 
+            "y2" : 1384.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 57.0, 
+            "y1" : 1525.0, 
+            "x2" : 331.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 444.0, 
+            "y1" : 1525.0, 
+            "x2" : 655.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 1781.0, 
+            "x2" : 926.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 1781.0, 
+            "x2" : 1301.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 1781.0, 
+            "x2" : 1718.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 1781.0, 
+            "x2" : 1837.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 1781.0, 
+            "x2" : 2354.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Federal_tax_id" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 2403.0, 
+            "x2" : 466.0, 
+            "y2" : 2471.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_account_no" : {
+        "coordinates" : {
+            "x1" : 649.0, 
+            "y1" : 2401.0, 
+            "x2" : 1086.0, 
+            "y2" : 2470.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Total_charge" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2397.0, 
+            "x2" : 1790.0, 
+            "y2" : 2469.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Amount_paid" : {
+        "coordinates" : {
+            "x1" : 1790.0, 
+            "y1" : 2398.0, 
+            "x2" : 2073.0, 
+            "y2" : 2468.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location" : {
+        "coordinates" : {
+            "x1" : 649.0, 
+            "y1" : 2504.0, 
+            "x2" : 1456.0, 
+            "y2" : 2666.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location_a" : {
+        "coordinates" : {
+            "x1" : 651.0, 
+            "y1" : 2668.0, 
+            "x2" : 995.0, 
+            "y2" : 2723.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location_b" : {
+        "coordinates" : {
+            "x1" : 995.0, 
+            "y1" : 2668.0, 
+            "x2" : 1456.0, 
+            "y2" : 2722.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2503.0, 
+            "x2" : 2355.0, 
+            "y2" : 2663.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider_a" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2665.0, 
+            "x2" : 1800.0, 
+            "y2" : 2721.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider_b" : {
+        "coordinates" : {
+            "x1" : 1801.0, 
+            "y1" : 2665.0, 
+            "x2" : 2355.0, 
+            "y2" : 2721.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("595f1e8211bacde968943521"), 
+    "form_type" : "concordia_form", 
+    "First_Name" : {
+        "coordinates" : {
+            "x1" : 183.0, 
+            "y1" : 0.0, 
+            "x2" : 954.0, 
+            "y2" : 119.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Middle_Name" : {
+        "coordinates" : {
+            "x1" : 954.0, 
+            "y1" : 0.0, 
+            "x2" : 1503.0, 
+            "y2" : 119.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Last_Name" : {
+        "coordinates" : {
+            "x1" : 1503.0, 
+            "y1" : 0.0, 
+            "x2" : 2344.0, 
+            "y2" : 119.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Country" : {
+        "coordinates" : {
+            "x1" : 882.0, 
+            "y1" : 289.0, 
+            "x2" : 1723.0, 
+            "y2" : 442.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("596f0d64482a32539c76ebfe"), 
+    "form_type" : "CMS1500_few", 
+    "Insured_ID" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 35.0, 
+            "x2" : 2350.0, 
+            "y2" : 98.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 137.0, 
+            "x2" : 852.0, 
+            "y2" : 197.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_birth_date_MM" : {
+        "coordinates" : {
+            "x1" : 852.0, 
+            "y1" : 153.0, 
+            "x2" : 970.0, 
+            "y2" : 196.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_birth_date_DD" : {
+        "coordinates" : {
+            "x1" : 970.0, 
+            "y1" : 153.0, 
+            "x2" : 1062.0, 
+            "y2" : 196.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_birth_date_YY" : {
+        "coordinates" : {
+            "x1" : 1062.0, 
+            "y1" : 153.0, 
+            "x2" : 1183.0, 
+            "y2" : 196.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_name" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 134.0, 
+            "x2" : 2350.0, 
+            "y2" : 193.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_address" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 233.0, 
+            "x2" : 854.0, 
+            "y2" : 300.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_city" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 336.0, 
+            "x2" : 742.0, 
+            "y2" : 398.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_state" : {
+        "coordinates" : {
+            "x1" : 743.0, 
+            "y1" : 336.0, 
+            "x2" : 852.0, 
+            "y2" : 398.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_zipcode" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 430.0, 
+            "x2" : 383.0, 
+            "y2" : 505.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_telephone" : {
+        "coordinates" : {
+            "x1" : 385.0, 
+            "y1" : 430.0, 
+            "x2" : 852.0, 
+            "y2" : 504.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_address" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 226.0, 
+            "x2" : 2350.0, 
+            "y2" : 298.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_city" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 331.0, 
+            "x2" : 2158.0, 
+            "y2" : 395.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_state" : {
+        "coordinates" : {
+            "x1" : 2158.0, 
+            "y1" : 330.0, 
+            "x2" : 2352.0, 
+            "y2" : 393.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_zipcode" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 427.0, 
+            "x2" : 1833.0, 
+            "y2" : 499.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_telephone" : {
+        "coordinates" : {
+            "x1" : 1833.0, 
+            "y1" : 426.0, 
+            "x2" : 2352.0, 
+            "y2" : 499.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_insured_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 535.0, 
+            "x2" : 852.0, 
+            "y2" : 598.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_policy_group" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 532.0, 
+            "x2" : 2352.0, 
+            "y2" : 597.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_birth_date_MM" : {
+        "coordinates" : {
+            "x1" : 1451.0, 
+            "y1" : 654.0, 
+            "x2" : 1630.0, 
+            "y2" : 700.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_birth_date_DD" : {
+        "coordinates" : {
+            "x1" : 1630.0, 
+            "y1" : 653.0, 
+            "x2" : 1714.0, 
+            "y2" : 700.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_birth_date_YY" : {
+        "coordinates" : {
+            "x1" : 1717.0, 
+            "y1" : 653.0, 
+            "x2" : 1946.0, 
+            "y2" : 700.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_plan_name" : {
+        "coordinates" : {
+            "x1" : 1452.0, 
+            "y1" : 829.0, 
+            "x2" : 2353.0, 
+            "y2" : 893.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Health_benefit_plan" : {
+        "coordinates" : {
+            "x1" : 1453.0, 
+            "y1" : 897.0, 
+            "x2" : 2353.0, 
+            "y2" : 992.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Illness_current_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1246.0, 
+            "x2" : 109.0, 
+            "y2" : 1292.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Illness_current_date_DD" : {
+        "coordinates" : {
+            "x1" : 109.0, 
+            "y1" : 1244.0, 
+            "x2" : 197.0, 
+            "y2" : 1292.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Illness_current_date_YY" : {
+        "coordinates" : {
+            "x1" : 199.0, 
+            "y1" : 1245.0, 
+            "x2" : 347.0, 
+            "y2" : 1290.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Initial_illness_date_MM" : {
+        "coordinates" : {
+            "x1" : 1048.0, 
+            "y1" : 1241.0, 
+            "x2" : 1154.0, 
+            "y2" : 1289.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Initial_illness_date_DD" : {
+        "coordinates" : {
+            "x1" : 1154.0, 
+            "y1" : 1241.0, 
+            "x2" : 1241.0, 
+            "y2" : 1289.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Initial_illness_date_YY" : {
+        "coordinates" : {
+            "x1" : 1241.0, 
+            "y1" : 1238.0, 
+            "x2" : 1400.0, 
+            "y2" : 1289.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 1581.0, 
+            "y1" : 1245.0, 
+            "x2" : 1651.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 1651.0, 
+            "y1" : 1245.0, 
+            "x2" : 1750.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 1750.0, 
+            "y1" : 1245.0, 
+            "x2" : 1941.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 1995.0, 
+            "y1" : 1245.0, 
+            "x2" : 2074.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 2074.0, 
+            "y1" : 1245.0, 
+            "x2" : 2160.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 2160.0, 
+            "y1" : 1245.0, 
+            "x2" : 2356.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1324.0, 
+            "x2" : 798.0, 
+            "y2" : 1384.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider_a" : {
+        "coordinates" : {
+            "x1" : 930.0, 
+            "y1" : 1291.0, 
+            "x2" : 1452.0, 
+            "y2" : 1336.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider_npi" : {
+        "coordinates" : {
+            "x1" : 930.0, 
+            "y1" : 1336.0, 
+            "x2" : 1452.0, 
+            "y2" : 1384.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 1581.0, 
+            "y1" : 1340.0, 
+            "x2" : 1651.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 1651.0, 
+            "y1" : 1340.0, 
+            "x2" : 1750.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 1750.0, 
+            "y1" : 1340.0, 
+            "x2" : 1941.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 1995.0, 
+            "y1" : 1340.0, 
+            "x2" : 2074.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 2074.0, 
+            "y1" : 1340.0, 
+            "x2" : 2160.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 2160.0, 
+            "y1" : 1340.0, 
+            "x2" : 2356.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Outside_lab_charges" : {
+        "coordinates" : {
+            "x1" : 1799.0, 
+            "y1" : 1428.0, 
+            "x2" : 2355.0, 
+            "y2" : 1484.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 57.0, 
+            "y1" : 1525.0, 
+            "x2" : 331.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 444.0, 
+            "y1" : 1525.0, 
+            "x2" : 655.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1781.0, 
+            "x2" : 80.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 80.0, 
+            "y1" : 1781.0, 
+            "x2" : 167.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 167.0, 
+            "y1" : 1781.0, 
+            "x2" : 259.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 259.0, 
+            "y1" : 1781.0, 
+            "x2" : 346.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 346.0, 
+            "y1" : 1781.0, 
+            "x2" : 440.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 440.0, 
+            "y1" : 1781.0, 
+            "x2" : 525.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_place_of_service" : {
+        "coordinates" : {
+            "x1" : 525.0, 
+            "y1" : 1781.0, 
+            "x2" : 622.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_emg" : {
+        "coordinates" : {
+            "x1" : 622.0, 
+            "y1" : 1781.0, 
+            "x2" : 711.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 1781.0, 
+            "x2" : 926.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 1781.0, 
+            "x2" : 1301.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_diagnosis_pointer" : {
+        "coordinates" : {
+            "x1" : 1301.0, 
+            "y1" : 1781.0, 
+            "x2" : 1454.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 1781.0, 
+            "x2" : 1718.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 1781.0, 
+            "x2" : 1837.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 1781.0, 
+            "x2" : 2354.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Federal_tax_id" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 2403.0, 
+            "x2" : 466.0, 
+            "y2" : 2471.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_account_no" : {
+        "coordinates" : {
+            "x1" : 649.0, 
+            "y1" : 2401.0, 
+            "x2" : 1086.0, 
+            "y2" : 2470.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Total_charge" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2397.0, 
+            "x2" : 1790.0, 
+            "y2" : 2469.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Amount_paid" : {
+        "coordinates" : {
+            "x1" : 1790.0, 
+            "y1" : 2398.0, 
+            "x2" : 2073.0, 
+            "y2" : 2468.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location" : {
+        "coordinates" : {
+            "x1" : 649.0, 
+            "y1" : 2504.0, 
+            "x2" : 1456.0, 
+            "y2" : 2666.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location_a" : {
+        "coordinates" : {
+            "x1" : 651.0, 
+            "y1" : 2668.0, 
+            "x2" : 995.0, 
+            "y2" : 2723.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location_b" : {
+        "coordinates" : {
+            "x1" : 995.0, 
+            "y1" : 2668.0, 
+            "x2" : 1456.0, 
+            "y2" : 2722.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2503.0, 
+            "x2" : 2355.0, 
+            "y2" : 2663.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider_a" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2665.0, 
+            "x2" : 1800.0, 
+            "y2" : 2721.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider_b" : {
+        "coordinates" : {
+            "x1" : 1801.0, 
+            "y1" : 2665.0, 
+            "x2" : 2355.0, 
+            "y2" : 2721.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("59705fd06a6637c55ee86fc0"), 
+    "form_type" : "CMS1500_full", 
+    "Claim_type" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 0.0, 
+            "x2" : 1450.0, 
+            "y2" : 102.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_ID" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 35.0, 
+            "x2" : 2350.0, 
+            "y2" : 98.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 137.0, 
+            "x2" : 852.0, 
+            "y2" : 197.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_birth_date_MM" : {
+        "coordinates" : {
+            "x1" : 852.0, 
+            "y1" : 153.0, 
+            "x2" : 970.0, 
+            "y2" : 196.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_birth_date_DD" : {
+        "coordinates" : {
+            "x1" : 970.0, 
+            "y1" : 153.0, 
+            "x2" : 1062.0, 
+            "y2" : 196.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_birth_date_YY" : {
+        "coordinates" : {
+            "x1" : 1062.0, 
+            "y1" : 153.0, 
+            "x2" : 1183.0, 
+            "y2" : 196.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_sex" : {
+        "coordinates" : {
+            "x1" : 1182.0, 
+            "y1" : 135.0, 
+            "x2" : 1450.0, 
+            "y2" : 197.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_name" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 134.0, 
+            "x2" : 2350.0, 
+            "y2" : 193.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_address" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 233.0, 
+            "x2" : 854.0, 
+            "y2" : 300.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_city" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 336.0, 
+            "x2" : 742.0, 
+            "y2" : 398.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_state" : {
+        "coordinates" : {
+            "x1" : 743.0, 
+            "y1" : 336.0, 
+            "x2" : 852.0, 
+            "y2" : 398.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_zipcode" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 430.0, 
+            "x2" : 383.0, 
+            "y2" : 505.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_telephone" : {
+        "coordinates" : {
+            "x1" : 385.0, 
+            "y1" : 430.0, 
+            "x2" : 852.0, 
+            "y2" : 504.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_relation_to_Insured" : {
+        "coordinates" : {
+            "x1" : 852.0, 
+            "y1" : 200.0, 
+            "x2" : 1450.0, 
+            "y2" : 300.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_address" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 226.0, 
+            "x2" : 2350.0, 
+            "y2" : 298.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_city" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 331.0, 
+            "x2" : 2158.0, 
+            "y2" : 395.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_state" : {
+        "coordinates" : {
+            "x1" : 2158.0, 
+            "y1" : 330.0, 
+            "x2" : 2352.0, 
+            "y2" : 393.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_zipcode" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 427.0, 
+            "x2" : 1833.0, 
+            "y2" : 499.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_telephone" : {
+        "coordinates" : {
+            "x1" : 1833.0, 
+            "y1" : 426.0, 
+            "x2" : 2352.0, 
+            "y2" : 499.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "8_reserved" : {
+        "coordinates" : {
+            "x1" : 852.0, 
+            "y1" : 331.0, 
+            "x2" : 1450.0, 
+            "y2" : 502.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_insured_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 535.0, 
+            "x2" : 852.0, 
+            "y2" : 598.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_insured_policy_group" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 634.0, 
+            "x2" : 852.0, 
+            "y2" : 693.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_9_b_reserved" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 726.0, 
+            "x2" : 853.0, 
+            "y2" : 798.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_9_c_reserved" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 829.0, 
+            "x2" : 853.0, 
+            "y2" : 895.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_insured_plan_name" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 929.0, 
+            "x2" : 853.0, 
+            "y2" : 995.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Employment" : {
+        "coordinates" : {
+            "x1" : 852.0, 
+            "y1" : 504.0, 
+            "x2" : 1452.0, 
+            "y2" : 894.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Claim_codes" : {
+        "coordinates" : {
+            "x1" : 854.0, 
+            "y1" : 928.0, 
+            "x2" : 1452.0, 
+            "y2" : 994.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_policy_group" : {
+        "coordinates" : {
+            "x1" : 1450.0, 
+            "y1" : 532.0, 
+            "x2" : 2352.0, 
+            "y2" : 597.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_birth_date_MM" : {
+        "coordinates" : {
+            "x1" : 1451.0, 
+            "y1" : 654.0, 
+            "x2" : 1630.0, 
+            "y2" : 700.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_birth_date_DD" : {
+        "coordinates" : {
+            "x1" : 1630.0, 
+            "y1" : 653.0, 
+            "x2" : 1714.0, 
+            "y2" : 700.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_birth_date_YY" : {
+        "coordinates" : {
+            "x1" : 1717.0, 
+            "y1" : 653.0, 
+            "x2" : 1946.0, 
+            "y2" : 700.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_sex" : {
+        "coordinates" : {
+            "x1" : 1946.0, 
+            "y1" : 600.0, 
+            "x2" : 2351.0, 
+            "y2" : 700.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Other_claimid" : {
+        "coordinates" : {
+            "x1" : 1452.0, 
+            "y1" : 731.0, 
+            "x2" : 2353.0, 
+            "y2" : 793.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insured_plan_name" : {
+        "coordinates" : {
+            "x1" : 1452.0, 
+            "y1" : 829.0, 
+            "x2" : 2353.0, 
+            "y2" : 893.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Health_benefit_plan" : {
+        "coordinates" : {
+            "x1" : 1453.0, 
+            "y1" : 897.0, 
+            "x2" : 2353.0, 
+            "y2" : 992.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_sign" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1000.0, 
+            "x2" : 1453.0, 
+            "y2" : 1188.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Insurer_sign" : {
+        "coordinates" : {
+            "x1" : 1452.0, 
+            "y1" : 996.0, 
+            "x2" : 2354.0, 
+            "y2" : 1184.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Illness_current_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1246.0, 
+            "x2" : 109.0, 
+            "y2" : 1292.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Illness_current_date_DD" : {
+        "coordinates" : {
+            "x1" : 109.0, 
+            "y1" : 1244.0, 
+            "x2" : 197.0, 
+            "y2" : 1292.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Illness_current_date_YY" : {
+        "coordinates" : {
+            "x1" : 199.0, 
+            "y1" : 1245.0, 
+            "x2" : 347.0, 
+            "y2" : 1290.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Initial_illness_date_MM" : {
+        "coordinates" : {
+            "x1" : 1048.0, 
+            "y1" : 1241.0, 
+            "x2" : 1154.0, 
+            "y2" : 1289.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Initial_illness_date_DD" : {
+        "coordinates" : {
+            "x1" : 1154.0, 
+            "y1" : 1241.0, 
+            "x2" : 1241.0, 
+            "y2" : 1289.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Initial_illness_date_YY" : {
+        "coordinates" : {
+            "x1" : 1241.0, 
+            "y1" : 1238.0, 
+            "x2" : 1400.0, 
+            "y2" : 1289.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 1581.0, 
+            "y1" : 1245.0, 
+            "x2" : 1651.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 1651.0, 
+            "y1" : 1245.0, 
+            "x2" : 1750.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 1750.0, 
+            "y1" : 1245.0, 
+            "x2" : 1941.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 1995.0, 
+            "y1" : 1245.0, 
+            "x2" : 2074.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 2074.0, 
+            "y1" : 1245.0, 
+            "x2" : 2160.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Unable_to_work_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 2160.0, 
+            "y1" : 1245.0, 
+            "x2" : 2356.0, 
+            "y2" : 1287.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1324.0, 
+            "x2" : 798.0, 
+            "y2" : 1384.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider_a" : {
+        "coordinates" : {
+            "x1" : 930.0, 
+            "y1" : 1291.0, 
+            "x2" : 1452.0, 
+            "y2" : 1336.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Referring_provider_npi" : {
+        "coordinates" : {
+            "x1" : 930.0, 
+            "y1" : 1336.0, 
+            "x2" : 1452.0, 
+            "y2" : 1384.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 1581.0, 
+            "y1" : 1340.0, 
+            "x2" : 1651.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 1651.0, 
+            "y1" : 1340.0, 
+            "x2" : 1750.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 1750.0, 
+            "y1" : 1340.0, 
+            "x2" : 1941.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 1995.0, 
+            "y1" : 1340.0, 
+            "x2" : 2074.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 2074.0, 
+            "y1" : 1340.0, 
+            "x2" : 2160.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Hospitalization_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 2160.0, 
+            "y1" : 1340.0, 
+            "x2" : 2356.0, 
+            "y2" : 1383.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Reserved_19" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1420.0, 
+            "x2" : 1453.0, 
+            "y2" : 1486.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Outside_lab_check" : {
+        "coordinates" : {
+            "x1" : 1453.0, 
+            "y1" : 1414.0, 
+            "x2" : 1798.0, 
+            "y2" : 1484.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Outside_lab_charges" : {
+        "coordinates" : {
+            "x1" : 1799.0, 
+            "y1" : 1428.0, 
+            "x2" : 2355.0, 
+            "y2" : 1484.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 57.0, 
+            "y1" : 1525.0, 
+            "x2" : 331.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 444.0, 
+            "y1" : 1525.0, 
+            "x2" : 655.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 832.0, 
+            "y1" : 1525.0, 
+            "x2" : 1043.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 1219.0, 
+            "y1" : 1525.0, 
+            "x2" : 1432.0, 
+            "y2" : 1578.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 57.0, 
+            "y1" : 1583.0, 
+            "x2" : 331.0, 
+            "y2" : 1627.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 444.0, 
+            "y1" : 1583.0, 
+            "x2" : 655.0, 
+            "y2" : 1627.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "7_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 832.0, 
+            "y1" : 1583.0, 
+            "x2" : 1043.0, 
+            "y2" : 1627.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "8_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 1219.0, 
+            "y1" : 1583.0, 
+            "x2" : 1432.0, 
+            "y2" : 1627.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "9_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 57.0, 
+            "y1" : 1632.0, 
+            "x2" : 331.0, 
+            "y2" : 1679.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "10_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 444.0, 
+            "y1" : 1632.0, 
+            "x2" : 655.0, 
+            "y2" : 1679.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "11_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 832.0, 
+            "y1" : 1632.0, 
+            "x2" : 1043.0, 
+            "y2" : 1679.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "12_Nature_of_illness" : {
+        "coordinates" : {
+            "x1" : 1219.0, 
+            "y1" : 1632.0, 
+            "x2" : 1432.0, 
+            "y2" : 1679.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Medicaid_resubmission_code" : {
+        "coordinates" : {
+            "x1" : 1453.0, 
+            "y1" : 1537.0, 
+            "x2" : 1795.0, 
+            "y2" : 1579.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Prior_authorization_no" : {
+        "coordinates" : {
+            "x1" : 1453.0, 
+            "y1" : 1612.0, 
+            "x2" : 2355.0, 
+            "y2" : 1683.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1781.0, 
+            "x2" : 80.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_service_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1880.0, 
+            "x2" : 80.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_service_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 1983.0, 
+            "x2" : 80.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_service_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 2079.0, 
+            "x2" : 80.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_service_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 2180.0, 
+            "x2" : 80.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_service_from_date_MM" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 2276.0, 
+            "x2" : 80.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 80.0, 
+            "y1" : 1781.0, 
+            "x2" : 167.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_service_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 80.0, 
+            "y1" : 1880.0, 
+            "x2" : 167.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_service_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 80.0, 
+            "y1" : 1983.0, 
+            "x2" : 167.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_service_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 80.0, 
+            "y1" : 2079.0, 
+            "x2" : 167.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_service_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 80.0, 
+            "y1" : 2180.0, 
+            "x2" : 167.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_service_from_date_DD" : {
+        "coordinates" : {
+            "x1" : 80.0, 
+            "y1" : 2276.0, 
+            "x2" : 167.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 167.0, 
+            "y1" : 1781.0, 
+            "x2" : 259.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_service_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 167.0, 
+            "y1" : 1880.0, 
+            "x2" : 259.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_service_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 167.0, 
+            "y1" : 1983.0, 
+            "x2" : 259.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_service_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 167.0, 
+            "y1" : 2079.0, 
+            "x2" : 259.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_service_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 167.0, 
+            "y1" : 2180.0, 
+            "x2" : 259.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_service_from_date_YY" : {
+        "coordinates" : {
+            "x1" : 167.0, 
+            "y1" : 2276.0, 
+            "x2" : 259.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 259.0, 
+            "y1" : 1781.0, 
+            "x2" : 346.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_service_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 259.0, 
+            "y1" : 1880.0, 
+            "x2" : 346.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_service_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 259.0, 
+            "y1" : 1983.0, 
+            "x2" : 346.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_service_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 259.0, 
+            "y1" : 2079.0, 
+            "x2" : 346.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_service_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 259.0, 
+            "y1" : 2180.0, 
+            "x2" : 346.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_service_to_date_MM" : {
+        "coordinates" : {
+            "x1" : 259.0, 
+            "y1" : 2276.0, 
+            "x2" : 346.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 346.0, 
+            "y1" : 1781.0, 
+            "x2" : 440.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_service_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 346.0, 
+            "y1" : 1880.0, 
+            "x2" : 440.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_service_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 346.0, 
+            "y1" : 1983.0, 
+            "x2" : 440.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_service_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 346.0, 
+            "y1" : 2079.0, 
+            "x2" : 440.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_service_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 346.0, 
+            "y1" : 2180.0, 
+            "x2" : 440.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_service_to_date_DD" : {
+        "coordinates" : {
+            "x1" : 346.0, 
+            "y1" : 2276.0, 
+            "x2" : 440.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_service_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 440.0, 
+            "y1" : 1781.0, 
+            "x2" : 525.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_service_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 440.0, 
+            "y1" : 1880.0, 
+            "x2" : 525.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_service_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 440.0, 
+            "y1" : 1983.0, 
+            "x2" : 525.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_service_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 440.0, 
+            "y1" : 2079.0, 
+            "x2" : 525.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_service_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 440.0, 
+            "y1" : 2180.0, 
+            "x2" : 525.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_service_to_date_YY" : {
+        "coordinates" : {
+            "x1" : 440.0, 
+            "y1" : 2276.0, 
+            "x2" : 525.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_place_of_service" : {
+        "coordinates" : {
+            "x1" : 525.0, 
+            "y1" : 1781.0, 
+            "x2" : 622.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_place_of_service" : {
+        "coordinates" : {
+            "x1" : 525.0, 
+            "y1" : 1880.0, 
+            "x2" : 622.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_place_of_service" : {
+        "coordinates" : {
+            "x1" : 525.0, 
+            "y1" : 1983.0, 
+            "x2" : 622.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_place_of_service" : {
+        "coordinates" : {
+            "x1" : 525.0, 
+            "y1" : 2079.0, 
+            "x2" : 622.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_place_of_service" : {
+        "coordinates" : {
+            "x1" : 525.0, 
+            "y1" : 2180.0, 
+            "x2" : 622.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_place_of_service" : {
+        "coordinates" : {
+            "x1" : 525.0, 
+            "y1" : 2276.0, 
+            "x2" : 622.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_emg" : {
+        "coordinates" : {
+            "x1" : 622.0, 
+            "y1" : 1781.0, 
+            "x2" : 711.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_emg" : {
+        "coordinates" : {
+            "x1" : 622.0, 
+            "y1" : 1880.0, 
+            "x2" : 711.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_emg" : {
+        "coordinates" : {
+            "x1" : 622.0, 
+            "y1" : 1983.0, 
+            "x2" : 711.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_emg" : {
+        "coordinates" : {
+            "x1" : 622.0, 
+            "y1" : 2079.0, 
+            "x2" : 711.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_emg" : {
+        "coordinates" : {
+            "x1" : 622.0, 
+            "y1" : 2180.0, 
+            "x2" : 711.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_emg" : {
+        "coordinates" : {
+            "x1" : 622.0, 
+            "y1" : 2276.0, 
+            "x2" : 711.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 1781.0, 
+            "x2" : 926.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 1880.0, 
+            "x2" : 926.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 1983.0, 
+            "x2" : 926.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 2079.0, 
+            "x2" : 926.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 2180.0, 
+            "x2" : 926.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_cpt" : {
+        "coordinates" : {
+            "x1" : 711.0, 
+            "y1" : 2276.0, 
+            "x2" : 926.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 1781.0, 
+            "x2" : 1301.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 1880.0, 
+            "x2" : 1301.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 1983.0, 
+            "x2" : 1301.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 2079.0, 
+            "x2" : 1301.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 2180.0, 
+            "x2" : 1301.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_modifier" : {
+        "coordinates" : {
+            "x1" : 926.0, 
+            "y1" : 2276.0, 
+            "x2" : 1301.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_diagnosis_pointer" : {
+        "coordinates" : {
+            "x1" : 1301.0, 
+            "y1" : 1781.0, 
+            "x2" : 1454.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_diagnosis_pointer" : {
+        "coordinates" : {
+            "x1" : 1301.0, 
+            "y1" : 1880.0, 
+            "x2" : 1454.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_diagnosis_pointer" : {
+        "coordinates" : {
+            "x1" : 1301.0, 
+            "y1" : 1983.0, 
+            "x2" : 1454.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_diagnosis_pointer" : {
+        "coordinates" : {
+            "x1" : 1301.0, 
+            "y1" : 2079.0, 
+            "x2" : 1454.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_diagnosis_pointer" : {
+        "coordinates" : {
+            "x1" : 1301.0, 
+            "y1" : 2180.0, 
+            "x2" : 1454.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_diagnosis_pointer" : {
+        "coordinates" : {
+            "x1" : 1301.0, 
+            "y1" : 2276.0, 
+            "x2" : 1454.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 1781.0, 
+            "x2" : 1718.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 1880.0, 
+            "x2" : 1718.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 1983.0, 
+            "x2" : 1718.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 2079.0, 
+            "x2" : 1718.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 2180.0, 
+            "x2" : 1718.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_charges" : {
+        "coordinates" : {
+            "x1" : 1454.0, 
+            "y1" : 2276.0, 
+            "x2" : 1718.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 1781.0, 
+            "x2" : 1837.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 1880.0, 
+            "x2" : 1837.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 1983.0, 
+            "x2" : 1837.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 2079.0, 
+            "x2" : 1837.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 2180.0, 
+            "x2" : 1837.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_units" : {
+        "coordinates" : {
+            "x1" : 1718.0, 
+            "y1" : 2276.0, 
+            "x2" : 1837.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "1_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 1781.0, 
+            "x2" : 2354.0, 
+            "y2" : 1880.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "2_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 1880.0, 
+            "x2" : 2354.0, 
+            "y2" : 1983.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "3_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 1983.0, 
+            "x2" : 2354.0, 
+            "y2" : 2079.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "4_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 2079.0, 
+            "x2" : 2354.0, 
+            "y2" : 2180.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "5_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 2180.0, 
+            "x2" : 2354.0, 
+            "y2" : 2276.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "6_rendering_provider_id" : {
+        "coordinates" : {
+            "x1" : 1986.0, 
+            "y1" : 2276.0, 
+            "x2" : 2354.0, 
+            "y2" : 2373.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Federal_tax_id" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 2403.0, 
+            "x2" : 466.0, 
+            "y2" : 2471.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Patient_account_no" : {
+        "coordinates" : {
+            "x1" : 649.0, 
+            "y1" : 2401.0, 
+            "x2" : 1086.0, 
+            "y2" : 2470.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Accept_assignment" : {
+        "coordinates" : {
+            "x1" : 1086.0, 
+            "y1" : 2371.0, 
+            "x2" : 1456.0, 
+            "y2" : 2471.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Total_charge" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2397.0, 
+            "x2" : 1790.0, 
+            "y2" : 2469.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Amount_paid" : {
+        "coordinates" : {
+            "x1" : 1790.0, 
+            "y1" : 2398.0, 
+            "x2" : 2073.0, 
+            "y2" : 2468.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Reserved_30" : {
+        "coordinates" : {
+            "x1" : 2073.0, 
+            "y1" : 2398.0, 
+            "x2" : 2355.0, 
+            "y2" : 2467.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Physician_signature" : {
+        "coordinates" : {
+            "x1" : 0.0, 
+            "y1" : 2474.0, 
+            "x2" : 649.0, 
+            "y2" : 2723.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location" : {
+        "coordinates" : {
+            "x1" : 649.0, 
+            "y1" : 2504.0, 
+            "x2" : 1456.0, 
+            "y2" : 2666.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location_a" : {
+        "coordinates" : {
+            "x1" : 651.0, 
+            "y1" : 2668.0, 
+            "x2" : 995.0, 
+            "y2" : 2723.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Service_facility_location_b" : {
+        "coordinates" : {
+            "x1" : 995.0, 
+            "y1" : 2668.0, 
+            "x2" : 1456.0, 
+            "y2" : 2722.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2503.0, 
+            "x2" : 2355.0, 
+            "y2" : 2663.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider_a" : {
+        "coordinates" : {
+            "x1" : 1456.0, 
+            "y1" : 2665.0, 
+            "x2" : 1800.0, 
+            "y2" : 2721.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }, 
+    "Billing_provider_b" : {
+        "coordinates" : {
+            "x1" : 1801.0, 
+            "y1" : 2665.0, 
+            "x2" : 2355.0, 
+            "y2" : 2721.0
+        }, 
+        "type" : 0.0, 
+        "padding" : [
+            0.0, 
+            0.0
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+	"Passport_No": {
+		"coordinates": {
+			"x1": 105,
+			"x2": 440,
+			"y1": 1025,
+			"y2": 1065
+		},
+		"type": "txt"
+	},
+	"Issue_Date_Passport": {
+		"coordinates": {
+			"x1": 440,
+			"x2": 670,
+			"y1": 1025,
+			"y2": 1065
+		},
+		"type": "txt"
+	},
+	"Place_Issue_Passport": {
+		"coordinates": {
+			"x1": 670,
+			"x2": 990,
+			"y1": 1025,
+			"y2": 1065
+		},
+		"type": "txt"
+	},
+	"Nationality": {
+		"coordinates": {
+			"x1": 990,
+			"x2": 1310,
+			"y1": 1025,
+			"y2": 1065
+		},
+		"type": "txt"
+	},
+	"Valid_upto_Passport": {
+		"coordinates": {
+			"x1": 1310,
+			"x2": 1520,
+			"y1": 1025,
+			"y2": 1065
+		},
+		"type": "txt"
+	},
+	"Visa_No": {
+		"coordinates": {
+			"x1": 105,
+			"x2": 440,
+			"y1": 1140,
+			"y2": 1180
+		},
+		"type": "txt"
+	},
+	"Issue_Date_Visa": {
+		"coordinates": {
+			"x1": 440,
+			"x2": 670,
+			"y1": 1140,
+			"y2": 1180
+		},
+		"type": "txt"
+	},
+	"Place_Issue_Visa": {
+		"coordinates": {
+			"x1": 670,
+			"x2": 1310,
+			"y1": 1140,
+			"y2": 1180
+		},
+		"type": "txt"
+	},
+	"Valid_upto_Visa": {
+		"coordinates": {
+			"x1": 1310,
+			"x2": 1520,
+			"y1": 1140,
+			"y2": 1180
+		},
+		"type": "txt"
+	}
+}

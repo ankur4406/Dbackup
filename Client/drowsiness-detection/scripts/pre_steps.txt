@@ -1,0 +1,11 @@
+pip install imutils
+pip install playsound
+
+pip install cmake
+pip install boost
+
+install http://landinghub.visualstudio.com/visual-cpp-build-tools - Not required
+
+download dlib-19.4.0.tar.gz and install from Command prompt using python setup.py install - Not required
+
+conda install -c menpo dlib=19.0

@@ -1,0 +1,74 @@
+{
+	"Tax_Information_Tax_Name" : {
+		"coordinates" : [
+			[
+				NumberInt(843), 
+				NumberInt(6052)
+			], 
+			[
+				NumberInt(1462), 
+				NumberInt(6133)
+			]
+		]
+	}, 
+	"Tracking_No" : {
+		"coordinates" : [
+			[
+				NumberInt(1556), 
+				NumberInt(2981)
+			], 
+			[
+				NumberInt(1962), 
+				NumberInt(3025)
+			]
+		]
+	}, 
+	"Tax_ID" : {
+		"coordinates" : [
+			[
+				NumberInt(1468), 
+				NumberInt(3131)
+			], 
+			[
+				NumberInt(1918), 
+				NumberInt(3156)
+			]
+		]
+	}, 
+	"Tax_Information_Tax_ID" : {
+		"coordinates" : [
+			[
+				NumberInt(193), 
+				NumberInt(6058)
+			], 
+			[
+				NumberInt(643), 
+				NumberInt(6089)
+			]
+		]
+	}, 
+	"Demographic_Change_Only" : {
+		"coordinates" : [
+			[
+				NumberInt(1561), 
+				NumberInt(3200)
+			], 
+			[
+				NumberInt(2031), 
+				NumberInt(3243)
+			]
+		]
+	}, 
+	"Tax_Information_NPI_No" : {
+		"coordinates" : [
+			[
+				NumberInt(1637), 
+				NumberInt(6058)
+			], 
+			[
+				NumberInt(1937), 
+				NumberInt(6089)
+			]
+		]
+	}
+}

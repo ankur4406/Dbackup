@@ -1,0 +1,1889 @@
+/usr/bin/python3.5 /home/ankurarora/Documents/cogx/git/nlp/xpms-nlp/tests/utils/test_intent_util.py
+Please update provider last name from Morris to Thompson
+[{'attributes': [],
+  'begin': 48,
+  'confidence': 0.99,
+  'end': 56,
+  'ent_type': [('PERSON', 0.4872996000077922), ('CITY', 0.6415708048708781)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Thompson',
+  'tok_begin': 8,
+  'tok_end': 8},
+ {'attributes': [],
+  'begin': 38,
+  'confidence': 0.99,
+  'end': 44,
+  'ent_type': [('PERSON', 0.4872996000077922), ('CITY', 0.6415708048708781)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Morris',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 38,
+  'confidence': 0.0,
+  'end': 56,
+  'ent_type': [('ORG', 0.4)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Morris to Thompson',
+  'tok_begin': 6,
+  'tok_end': 8,
+  'value': None},
+ {'attributes': [],
+  'begin': 14,
+  'confidence': 0.4,
+  'end': 22,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'provider',
+  'tok_begin': 2,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 23,
+  'confidence': 0.4,
+  'end': 32,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'last name',
+  'tok_begin': 3,
+  'tok_end': 4}]
+Please update provider last name from Morris to Thompson
+                ROOT                                             
+                 |                                                
+                 S                                               
+                 |                                                
+                 VP                                              
+   ______________|___________                                     
+  |                          VP                                  
+  |       ___________________|________________________            
+  |      |                   NP                       |          
+  |      |               ____|_________               |           
+  |      |              |              PP             PP         
+  |      |              |          ____|____       ___|_____      
+  |      |              NP        |         NP    |         NP   
+  |      |        ______|____     |         |     |         |     
+  VB     VB      NN     JJ   NN   IN       NNP    TO       NNP   
+  |      |       |      |    |    |         |     |         |     
+Please update provider last name from     Morris  to     Thompson
+
+[{'V': 'Please update',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'provider last name'},
+                {'qualifiers': ['from']},
+                {'type': [('PERSON', 0.4872996000077922),
+                          ('CITY', 0.6415708048708781)],
+                 'value': 'Morris'}),
+               ({'type': [('PERSON', 0.4872996000077922),
+                          ('CITY', 0.6415708048708781),
+                          ('NP', 0.33)],
+                 'value': 'provider last name Morris'},
+                {'qualifiers': ['to']},
+                {'type': [('PERSON', 0.4872996000077922),
+                          ('CITY', 0.6415708048708781)],
+                 'value': 'Thompson'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The medics rushed the patient down the hall into the emergency room.
+[{'attributes': [],
+  'begin': 39,
+  'confidence': 0.99,
+  'end': 43,
+  'ent_type': [('CITY', 0.5974073212395228), ('PERSON', 0.5167533357002521)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'hall',
+  'tok_begin': 7,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 10,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The medics',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 18,
+  'confidence': 0.4,
+  'end': 29,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the patient',
+  'tok_begin': 3,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 35,
+  'confidence': 0.4,
+  'end': 43,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the hall',
+  'tok_begin': 6,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 49,
+  'confidence': 0.4,
+  'end': 68,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the emergency room.',
+  'tok_begin': 9,
+  'tok_end': 12}]
+The medics rushed the patient down the hall into the emergency room.
+                                           ROOT                                         
+                                            |                                            
+                                            S                                           
+      ______________________________________|_________________________________________   
+     |                                      VP                                        | 
+     |            __________________________|______________________                   |  
+     |           |         |                PP                     PP                 | 
+     |           |         |            ____|____          ________|______            |  
+     NP          |         NP          |         NP       |               NP          | 
+  ___|____       |      ___|_____      |     ____|___     |     __________|______     |  
+ DT      NNS    VBD    DT        NN    IN   DT       NN   IN   DT         NN     NN   . 
+ |        |      |     |         |     |    |        |    |    |          |      |    |  
+The     medics rushed the     patient down the      hall into the     emergency room  . 
+
+[{'V': 'rushed',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'the patient'},
+                {'qualifiers': ['down']},
+                {'type': [('CITY', 0.5974073212395228),
+                          ('PERSON', 0.5167533357002521),
+                          ('NP', 0.33)],
+                 'value': 'the hall'}),
+               ({'type': [('CITY', 0.5974073212395228),
+                          ('PERSON', 0.5167533357002521),
+                          ('NP', 0.33)],
+                 'value': 'the hall'},
+                {'qualifiers': ['into']},
+                {'type': [('NP', 0.33)], 'value': 'the emergency room'}),
+               ({'type': [('NP', 0.33)], 'value': 'The medics'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The course was run by me in record time.
+[{'attributes': [],
+  'begin': 25,
+  'confidence': 0.99,
+  'end': 27,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'in',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 10,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The course',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 22,
+  'confidence': 0.4,
+  'end': 24,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'me',
+  'tok_begin': 5,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 28,
+  'confidence': 0.4,
+  'end': 40,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'record time.',
+  'tok_begin': 7,
+  'tok_end': 9}]
+The course was run by me in record time.
+                       ROOT                                
+                        |                                   
+                        S                                  
+      __________________|________________________________   
+     |              VP                                   | 
+     |           ___|____________                        |  
+     |          |                VP                      | 
+     |          |    ____________|________               |  
+     |          |   |        PP           PP             | 
+     |          |   |    ____|___     ____|_____         |  
+     NP         |   |   |        NP  |          NP       | 
+  ___|____      |   |   |        |   |     _____|___     |  
+ DT       NN   VBD VBN  IN      PRP  IN   NN        NN   . 
+ |        |     |   |   |        |   |    |         |    |  
+The     course was run  by       me  in record     time  . 
+
+[{'V': 'was run',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['by']},
+                {'type': [('NP', 0.33)], 'value': 'me'}),
+               ({'type': [('NP', 0.33)], 'value': 'me'},
+                {'qualifiers': ['in']},
+                {'type': [('NP', 0.33)], 'value': 'record time'}),
+               ({'type': [('NP', 0.33)], 'value': 'The course'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The metal beams were eventually corroded by the saltwater.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 15,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The metal beams',
+  'tok_begin': 0,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 44,
+  'confidence': 0.4,
+  'end': 58,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the saltwater.',
+  'tok_begin': 7,
+  'tok_end': 9}]
+The metal beams were eventually corroded by the saltwater.
+                        ROOT                                          
+                         |                                             
+                         S                                            
+       __________________|__________________________________________   
+      |                            VP                               | 
+      |           _________________|__________                      |  
+      |          |       |                    VP                    | 
+      |          |       |          __________|___                  |  
+      |          |       |         |              PP                | 
+      |          |       |         |       _______|___              |  
+      NP         |      ADVP       |      |           NP            | 
+  ____|_____     |       |         |      |        ___|______       |  
+ DT   NN   NNS  VBD      RB       VBN     IN      DT         NN     . 
+ |    |     |    |       |         |      |       |          |      |  
+The metal beams were eventually corroded  by     the     saltwater  . 
+
+[{'V': 'were eventually corroded',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['by']},
+                {'type': [('NP', 0.33)], 'value': 'the saltwater'}),
+               ({'type': [('NP', 0.33)], 'value': 'The metal beams'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+She chose the box with a big bow on it.
+[{'attributes': [],
+  'begin': 29,
+  'confidence': 0.99,
+  'end': 32,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'bow',
+  'tok_begin': 7,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'She',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 10,
+  'confidence': 0.4,
+  'end': 17,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the box',
+  'tok_begin': 2,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 23,
+  'confidence': 0.4,
+  'end': 32,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a big bow',
+  'tok_begin': 5,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 36,
+  'confidence': 0.4,
+  'end': 39,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'it.',
+  'tok_begin': 9,
+  'tok_end': 10}]
+She chose the box with a big bow on it.
+                           ROOT                            
+                            |                               
+                            S                              
+  __________________________|____________________________   
+ |                          VP                           | 
+ |     _____________________|____________________        |  
+ |    |        |                 PP              PP      | 
+ |    |        |        _________|___         ___|___    |  
+ NP   |        NP      |             NP      |       NP  | 
+ |    |     ___|___    |     ________|___    |       |   |  
+PRP  VBD   DT      NN  IN   DT       JJ  NN  IN     PRP  . 
+ |    |    |       |   |    |        |   |   |       |   |  
+She chose the     box with  a       big bow  on      it  . 
+
+[{'V': 'chose',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'the box'},
+                {'qualifiers': ['with']},
+                {'type': [('CITY', 0.99), ('NP', 0.33)], 'value': 'a big bow'}),
+               ({'type': [('CITY', 0.99), ('NP', 0.33)], 'value': 'a big bow'},
+                {'qualifiers': ['on']},
+                {'type': [('NP', 0.33)], 'value': 'it'}),
+               ({'type': [('NP', 0.33)], 'value': 'She'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Nobody came to the house for several days.
+[{'attributes': [],
+  'begin': 19,
+  'confidence': 0.99,
+  'end': 24,
+  'ent_type': [('PERSON', 0.4575593858370103), ('CITY', 0.6423963069561995)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'house',
+  'tok_begin': 4,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 29,
+  'confidence': 0.0,
+  'end': 41,
+  'ent_type': [('DATE', 0.4)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'several days',
+  'tok_begin': 6,
+  'tok_end': 7,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 6,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Nobody',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 15,
+  'confidence': 0.4,
+  'end': 24,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the house',
+  'tok_begin': 3,
+  'tok_end': 4}]
+Nobody came to the house for several days.
+                         ROOT                         
+                          |                            
+                          S                           
+   _______________________|_________________________   
+  |                       VP                        | 
+  |      _________________|__________               |  
+  |     |        PP                  PP             | 
+  |     |     ___|___           _____|_____         |  
+  NP    |    |       NP        |           NP       | 
+  |     |    |    ___|____     |      _____|___     |  
+  NN   VBD   TO  DT       NN   IN    JJ       NNS   . 
+  |     |    |   |        |    |     |         |    |  
+Nobody came  to the     house for several     days  . 
+
+[{'V': 'came',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['to']},
+                {'type': [('PERSON', 0.4575593858370103),
+                          ('CITY', 0.6423963069561995),
+                          ('NP', 0.33)],
+                 'value': 'the house'}),
+               ({'type': [('PERSON', 0.4575593858370103),
+                          ('CITY', 0.6423963069561995),
+                          ('NP', 0.33)],
+                 'value': 'the house'},
+                {'qualifiers': ['for']},
+                {'type': [('DATE', 0.4)], 'value': 'several days'}),
+               ({'type': [('NP', 0.33)], 'value': 'Nobody'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Many library resources will refer for other books available in the library for further reference or information.
+[{'attributes': [],
+  'begin': 23,
+  'confidence': 0.99,
+  'end': 27,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'will',
+  'tok_begin': 3,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.99,
+  'end': 4,
+  'ent_type': [('CITY', 0.5), ('PERSON', 0.5)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Many',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 60,
+  'confidence': 0.99,
+  'end': 62,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'in',
+  'tok_begin': 9,
+  'tok_end': 9},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 22,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Many library resources',
+  'tok_begin': 0,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 38,
+  'confidence': 0.4,
+  'end': 49,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'other books',
+  'tok_begin': 6,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 63,
+  'confidence': 0.4,
+  'end': 74,
+  'ent_type': [('NP', 0.33)],
+  'num': 6,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the library',
+  'tok_begin': 10,
+  'tok_end': 11},
+ {'attributes': [],
+  'begin': 79,
+  'confidence': 0.4,
+  'end': 96,
+  'ent_type': [('NP', 0.33)],
+  'num': 7,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'further reference',
+  'tok_begin': 13,
+  'tok_end': 14},
+ {'attributes': [],
+  'begin': 100,
+  'confidence': 0.4,
+  'end': 112,
+  'ent_type': [('NP', 0.33)],
+  'num': 8,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'information.',
+  'tok_begin': 16,
+  'tok_end': 17}]
+Many library resources will refer for other books available in the library for further reference or information.
+                                                         ROOT                                                                 
+                                                          |                                                                    
+                                                          S                                                                   
+         _________________________________________________|_________________________________________________________________   
+        |                     VP                                                                                            | 
+        |                _____|____                                                                                         |  
+        |               |          VP                                                                                       | 
+        |               |      ____|____                                                                                    |  
+        |               |     |         PP                                                                                  | 
+        |               |     |     ____|_________                                                                          |  
+        |               |     |    |              NP                                                                        | 
+        |               |     |    |          ____|______________                                                           |  
+        |               |     |    |         |                  ADJP                                                        | 
+        |               |     |    |         |             ______|____                                                      |  
+        |               |     |    |         |            |           PP                                                    | 
+        |               |     |    |         |            |       ____|_________                                            |  
+        |               |     |    |         |            |      |              NP                                          | 
+        |               |     |    |         |            |      |         _____|___________                                |  
+        |               |     |    |         |            |      |        |                 PP                              | 
+        |               |     |    |         |            |      |        |            _____|________                       |  
+        NP              |     |    |         NP           |      |        NP          |              NP                     | 
+  ______|________       |     |    |     ____|____        |      |     ___|_____      |      ________|______________        |  
+ JJ     NN      NNS     MD    VB   IN   JJ       NNS      JJ     IN   DT        NN    IN    JJ       NN     CC      NN      . 
+ |      |        |      |     |    |    |         |       |      |    |         |     |     |        |      |       |       |  
+Many library resources will refer for other     books available  in  the     library for further reference  or information  . 
+
+[{'V': 'refer',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['for', 'in', 'for']},
+                {'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'other books available the library further reference '
+                          'or information'}),
+               ({'type': [], 'value': ''},
+                {'qualifiers': ['in', 'for']},
+                {'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'the library further reference or information'}),
+               ({'type': [('NP', 0.33)], 'value': 'the library'},
+                {'qualifiers': ['for']},
+                {'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'further reference or information'}),
+               ({'type': [('CITY', 0.5), ('PERSON', 0.5), ('NP', 0.33)],
+                 'value': 'Many library resources'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+I need to go home, but all of the flights are cancelled.
+[{'attributes': [],
+  'begin': 42,
+  'confidence': 0.99,
+  'end': 45,
+  'ent_type': [('COUNTRY', 0.3712160081744392), ('CITY', 0.32820910177817364)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'are',
+  'tok_begin': 11,
+  'tok_end': 11},
+ {'attributes': [],
+  'begin': 13,
+  'confidence': 0.99,
+  'end': 18,
+  'ent_type': [('CITY', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'home,',
+  'tok_begin': 4,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 30,
+  'confidence': 0.4,
+  'end': 41,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the flights',
+  'tok_begin': 9,
+  'tok_end': 10}]
+I need to go home, but all of the flights are cancelled.
+                                  ROOT                                                  
+                                   |                                                     
+                                   S                                                    
+           ________________________|__________________________________________________   
+          S                    |   |                |                                 | 
+  ________|___                 |   |                |                                 |  
+ |            VP               |   |                |                                 | 
+ |    ________|___             |   |                |                                 |  
+ |   |            S            |   |                S                                 | 
+ |   |            |            |   |             ___|___________________              |  
+ |   |            VP           |   |            NP                      |             | 
+ |   |     _______|___         |   |     _______|___                    |             |  
+ |   |    |           VP       |   |    |           PP                  VP            | 
+ |   |    |        ___|___     |   |    |    _______|___             ___|______       |  
+ NP  |    |       |       NP   |   |    NP  |           NP          |          VP     | 
+ |   |    |       |       |    |   |    |   |        ___|_____      |          |      |  
+PRP VBP   TO      VB      NN   ,   CC   DT  IN      DT       NNS   VBP        VBN     . 
+ |   |    |       |       |    |   |    |   |       |         |     |          |      |  
+ I  need  to      go     home  ,  but  all  of     the     flights are     cancelled  . 
+
+[{'V': 'need go',
+  'entities': [({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('CITY', 0.99)], 'value': 'home'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'go',
+  'entities': [({'type': [('CITY', 0.99)], 'value': 'home'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'are cancelled',
+  'entities': [({'type': [], 'value': 'all'},
+                {'qualifiers': ['of']},
+                {'type': [('NP', 0.33)], 'value': 'the flights'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+They must be convinced of the commitment they are taking on.
+[{'attributes': [],
+  'begin': 46,
+  'confidence': 0.99,
+  'end': 49,
+  'ent_type': [('COUNTRY', 0.6745734982868796), ('CITY', 0.7672118619704715)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'are',
+  'tok_begin': 8,
+  'tok_end': 8},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 4,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'They',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 26,
+  'confidence': 0.4,
+  'end': 40,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the commitment',
+  'tok_begin': 5,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 41,
+  'confidence': 0.4,
+  'end': 45,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'they',
+  'tok_begin': 7,
+  'tok_end': 7}]
+They must be convinced of the commitment they are taking on.
+                            ROOT                                                
+                             |                                                   
+                             S                                                  
+  ___________________________|________________________________________________   
+ |         VP                                                                 | 
+ |     ____|______                                                            |  
+ |    |           VP                                                          | 
+ |    |     ______|______                                                     |  
+ |    |    |             VP                                                   | 
+ |    |    |       ______|___                                                 |  
+ |    |    |      |          PP                                               | 
+ |    |    |      |       ___|___________________                             |  
+ |    |    |      |      |                       NP                           | 
+ |    |    |      |      |         ______________|________                    |  
+ |    |    |      |      |        |                      SBAR                 | 
+ |    |    |      |      |        |                       |                   |  
+ |    |    |      |      |        |                       S                   | 
+ |    |    |      |      |        |               ________|_____              |  
+ |    |    |      |      |        |              |              VP            | 
+ |    |    |      |      |        |              |     _________|_____        |  
+ |    |    |      |      |        |              |    |               VP      | 
+ |    |    |      |      |        |              |    |          _____|___    |  
+ NP   |    |      |      |        NP             NP   |         |        PRT  | 
+ |    |    |      |      |    ____|______        |    |         |         |   |  
+PRP   MD   VB    VBN     IN  DT          NN     PRP  VBP       VBG        RP  . 
+ |    |    |      |      |   |           |       |    |         |         |   |  
+They must  be convinced  of the      commitment they are      taking      on  . 
+
+[{'V': 'be convinced are taking',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['of']},
+                {'type': [('NP', 0.33)], 'value': 'the commitment they'}),
+               ({'type': [('NP', 0.33)], 'value': 'They'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'are taking',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'they'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+I couldn't have done this without your support.
+[{'attributes': [],
+  'begin': 16,
+  'confidence': 0.99,
+  'end': 20,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'done',
+  'tok_begin': 4,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 34,
+  'confidence': 0.4,
+  'end': 47,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'your support.',
+  'tok_begin': 7,
+  'tok_end': 9}]
+I couldn't have done this without your support.
+                   ROOT                                  
+                    |                                     
+                    S                                    
+  __________________|__________________________________   
+ |                  VP                                 | 
+ |     _____________|____                              |  
+ |    |    |             VP                            | 
+ |    |    |    _________|______                       |  
+ |    |    |   |                VP                     | 
+ |    |    |   |     ___________|_____                 |  
+ |    |    |   |    |    |            PP               | 
+ |    |    |   |    |    |       _____|____            |  
+ NP   |    |   |    |    NP     |          NP          | 
+ |    |    |   |    |    |      |      ____|_____      |  
+PRP   MD   RB  VB  VBN   DT     IN   PRP$        NN    . 
+ |    |    |   |    |    |      |     |          |     |  
+ I  could n't have done this without your     support  . 
+
+[{'V': "n't have done",
+  'entities': [({'type': [], 'value': 'this'},
+                {'qualifiers': ['without']},
+                {'type': [('NP', 0.33)], 'value': 'your support'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+The accident happened between noon and one o'clock.
+[{'attributes': [],
+  'begin': 30,
+  'confidence': 0.99,
+  'end': 34,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'noon',
+  'tok_begin': 4,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 4,
+  'confidence': 0.99,
+  'end': 12,
+  'ent_type': [('CITY', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'accident',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 22,
+  'confidence': 0.0,
+  'end': 50,
+  'ent_type': [('TIME', 0.6946334416390769), ('DATETIME', 0.5651435342728364)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "between noon and one o'clock",
+  'tok_begin': 3,
+  'tok_end': 7,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 12,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'The accident',
+  'tok_begin': 0,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 39,
+  'confidence': 0.4,
+  'end': 51,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "one o'clock.",
+  'tok_begin': 6,
+  'tok_end': 8}]
+The accident happened between noon and one o'clock.
+                                  ROOT                        
+                                   |                           
+                                   S                          
+      _____________________________|________________________   
+     |                       VP                             | 
+     |               ________|_____                         |  
+     |              |              PP                       | 
+     |              |         _____|____                    |  
+     |              |        |          NP                  | 
+     |              |        |      ____|_______            |  
+     NP             |        |     NP   |       NP          | 
+  ___|_____         |        |     |    |    ___|_____      |  
+ DT        NN      VBD       IN    NN   CC  CD        RB    . 
+ |         |        |        |     |    |   |         |     |  
+The     accident happened between noon and one     o'clock  . 
+
+[{'V': "happened o'clock",
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['between']},
+                {'type': [('CITY', 0.99)], 'value': 'noon and one'}),
+               ({'type': [('CITY', 0.99), ('NP', 0.33)],
+                 'value': 'The accident'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Update the provider contact number with 657-980-4568
+[{'attributes': [],
+  'begin': 40,
+  'confidence': 0.0,
+  'end': 43,
+  'ent_type': [('CARDINAL', 0.4)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': '657',
+  'tok_begin': 6,
+  'tok_end': 6,
+  'value': None},
+ {'attributes': [],
+  'begin': 40,
+  'confidence': 0.4,
+  'end': 52,
+  'ent_type': [('PHONE', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': '657-980-4568',
+  'tok_begin': 6,
+  'tok_end': 10},
+ {'attributes': [],
+  'begin': 7,
+  'confidence': 0.4,
+  'end': 34,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the provider contact number',
+  'tok_begin': 1,
+  'tok_end': 4}]
+Update the provider contact number with PHONE1
+       ROOT                                        
+        |                                           
+        NP                                         
+   _____|_______________                            
+  |                     NP                         
+  |             ________|_________________          
+  |            |                          PP       
+  |            |                      ____|____     
+  NP           NP                    |         NP  
+  |      ______|_______________      |         |    
+ NNP    DT     NN       NN     NN    IN        NN  
+  |     |      |        |      |     |         |    
+Update the  provider contact number with     PHONE1
+
+[]
+I made potato salad for the potluck.
+[{'attributes': [],
+  'begin': 2,
+  'confidence': 0.99,
+  'end': 6,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'made',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 7,
+  'confidence': 0.4,
+  'end': 19,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'potato salad',
+  'tok_begin': 2,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 24,
+  'confidence': 0.4,
+  'end': 36,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the potluck.',
+  'tok_begin': 5,
+  'tok_end': 7}]
+I made potato salad for the potluck.
+                     ROOT                        
+                      |                           
+                      S                          
+  ____________________|________________________   
+ |                    VP                       | 
+ |    ________________|________                |  
+ |   |           |             PP              | 
+ |   |           |          ___|___            |  
+ NP  |           NP        |       NP          | 
+ |   |      _____|____     |    ___|_____      |  
+PRP VBD    NN         NN   IN  DT        NN    . 
+ |   |     |          |    |   |         |     |  
+ I  made potato     salad for the     potluck  . 
+
+[{'V': 'made',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'potato salad'},
+                {'qualifiers': ['for']},
+                {'type': [('NP', 0.33)], 'value': 'the potluck'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Measure the distance from here to there.
+[{'attributes': [],
+  'begin': 8,
+  'confidence': 0.4,
+  'end': 20,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the distance',
+  'tok_begin': 1,
+  'tok_end': 2}]
+Measure the distance from here to there.
+                             ROOT                           
+                              |                              
+                              NP                            
+    __________________________|___________________________   
+   |                      NP                    |         | 
+   |          ____________|________             |         |  
+   |         |                     PP           PP        | 
+   |         |                 ____|___      ___|____     |  
+   NP        NP               |        NP   |        NP   | 
+   |      ___|_____           |        |    |        |    |  
+   NN    DT        NN         IN       RB   TO       EX   . 
+   |     |         |          |        |    |        |    |  
+Measure the     distance     from     here  to     there  . 
+
+[]
+It is difficult to decide on a university to apply to because you cannot really know the quality until you attend.
+[{'attributes': [],
+  'begin': 31,
+  'confidence': 0.99,
+  'end': 41,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'university',
+  'tok_begin': 7,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 2,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'It',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 29,
+  'confidence': 0.4,
+  'end': 41,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a university',
+  'tok_begin': 6,
+  'tok_end': 7},
+ {'attributes': [],
+  'begin': 62,
+  'confidence': 0.4,
+  'end': 65,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'you',
+  'tok_begin': 12,
+  'tok_end': 12},
+ {'attributes': [],
+  'begin': 85,
+  'confidence': 0.4,
+  'end': 96,
+  'ent_type': [('NP', 0.33)],
+  'num': 5,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the quality',
+  'tok_begin': 17,
+  'tok_end': 18},
+ {'attributes': [],
+  'begin': 103,
+  'confidence': 0.4,
+  'end': 106,
+  'ent_type': [('NP', 0.33)],
+  'num': 6,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'you',
+  'tok_begin': 20,
+  'tok_end': 20}]
+It is difficult to decide on a university to apply to because you cannot really know the quality until you attend.
+                                                                 ROOT                                                                    
+                                                                  |                                                                       
+                                                                  S                                                                      
+  ________________________________________________________________|____________________________________________________________________   
+ |          VP                                                                                                                         | 
+ |    ______|______                                                                                                                    |  
+ |   |            ADJP                                                                                                                 | 
+ |   |       ______|_____                                                                                                              |  
+ |   |      |            S                                                                                                             | 
+ |   |      |            |                                                                                                             |  
+ |   |      |            VP                                                                                                            | 
+ |   |      |       _____|_____                                                                                                        |  
+ |   |      |      |           VP                                                                                                      | 
+ |   |      |      |      _____|___                                                                                                    |  
+ |   |      |      |     |         PP                                                                                                  | 
+ |   |      |      |     |      ___|______                                                                                             |  
+ |   |      |      |     |     |          NP                                                                                           | 
+ |   |      |      |     |     |    ______|____________                                                                                |  
+ |   |      |      |     |     |   |      |            S                                                                               | 
+ |   |      |      |     |     |   |      |            |                                                                               |  
+ |   |      |      |     |     |   |      |            VP                                                                              | 
+ |   |      |      |     |     |   |      |        ____|____                                                                           |  
+ |   |      |      |     |     |   |      |       |         VP                                                                         | 
+ |   |      |      |     |     |   |      |       |     ____|_____                                                                     |  
+ |   |      |      |     |     |   |      |       |    |          PP                                                                   | 
+ |   |      |      |     |     |   |      |       |    |     _____|_________                                                           |  
+ |   |      |      |     |     |   |      |       |    |    |              SBAR                                                        | 
+ |   |      |      |     |     |   |      |       |    |    |      _________|_______________                                           |  
+ |   |      |      |     |     |   |      |       |    |    |     |                         S                                          | 
+ |   |      |      |     |     |   |      |       |    |    |     |      ___________________|____                                      |  
+ |   |      |      |     |     |   |      |       |    |    |     |     |                        VP                                    | 
+ |   |      |      |     |     |   |      |       |    |    |     |     |    ____________________|_________                            |  
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |                    VP                          | 
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |      ______________|___________                |  
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |     |        |                SBAR             | 
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |     |        |             ____|____           |  
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |     |        |            |         S          | 
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |     |        |            |     ____|____      |  
+ NP  |      |      |     |     |   |      |       |    |    |     |     NP  |    |   ADVP   |        NP           |    NP        VP    | 
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |     |     ___|_____       |    |         |     |  
+PRP VBZ     JJ     TO    VB    IN  DT     NN      TO   VB   TO    IN   PRP  MD   RB   RB    VB   DT        NN     IN  PRP       VBP    . 
+ |   |      |      |     |     |   |      |       |    |    |     |     |   |    |    |     |    |         |      |    |         |     |  
+ It  is difficult  to  decide  on  a  university  to apply  to because you can  not really know the     quality until you      attend  . 
+
+[{'V': 'is decide apply not really know attend',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['on', 'to', 'to', 'because', 'until']},
+                {'type': [('CITY', 0.99), ('NP', 0.33)],
+                 'value': 'a university you the quality you'}),
+               ({'type': [], 'value': ''},
+                {'qualifiers': ['to', 'because', 'until']},
+                {'type': [('NP', 0.33)], 'value': 'you'}),
+               ({'type': [('NP', 0.33)], 'value': 'It'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'decide apply not really know attend',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['on', 'to', 'to', 'because', 'until']},
+                {'type': [('CITY', 0.99), ('NP', 0.33)],
+                 'value': 'a university you the quality you'}),
+               ({'type': [], 'value': ''},
+                {'qualifiers': ['to', 'because', 'until']},
+                {'type': [('NP', 0.33)], 'value': 'you'})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'apply not really know attend',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['to', 'because', 'until']},
+                {'type': [('NP', 0.33)], 'value': 'you'})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'not really know attend',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'you'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'the quality'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'you'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'attend',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'you'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+There was no one at the library but me.
+[{'attributes': [],
+  'begin': 10,
+  'confidence': 0.4,
+  'end': 16,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'no one',
+  'tok_begin': 2,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 20,
+  'confidence': 0.4,
+  'end': 31,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the library',
+  'tok_begin': 5,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 36,
+  'confidence': 0.4,
+  'end': 39,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'me.',
+  'tok_begin': 8,
+  'tok_end': 9}]
+There was no one at the library but me.
+                      ROOT                                    
+                       |                                       
+                       S                                      
+   ____________________|____________________________________   
+  |                    VP                                   | 
+  |     _______________|____                                |  
+  |    |                    NP                              | 
+  |    |        ____________|_________                      |  
+  |    |       |                      PP                    | 
+  |    |       |        ______________|_____                |  
+  |    |       |       |                    NP              | 
+  |    |       |       |         ___________|_______        |  
+  |    |       |       |        |                   PP      | 
+  |    |       |       |        |                ___|___    |  
+  NP   |       NP      |        NP              |       NP  | 
+  |    |    ___|___    |     ___|_____          |       |   |  
+  EX  VBD  DT      NN  IN   DT        NN        CC     PRP  . 
+  |    |   |       |   |    |         |         |       |   |  
+There was  no     one  at  the     library     but      me  . 
+
+[{'V': 'was',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'no one'},
+                {'qualifiers': ['at']},
+                {'type': [('NP', 0.33)], 'value': 'the library but me'}),
+               ({'type': [('NP', 0.33)], 'value': 'the library'},
+                {'qualifiers': []},
+                {'type': [('NP', 0.33)], 'value': 'me'}),
+               ({'type': [], 'value': ''},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Money was generously donated to the homeless shelter by United Nations.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.99,
+  'end': 5,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'Money',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 56,
+  'confidence': 0.99,
+  'end': 62,
+  'ent_type': [('CITY', 0.99)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'United',
+  'tok_begin': 9,
+  'tok_end': 9},
+ {'attributes': [],
+  'begin': 56,
+  'confidence': 0.0,
+  'end': 70,
+  'ent_type': [('ORG', 0.4)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'United Nations',
+  'tok_begin': 9,
+  'tok_end': 10,
+  'value': None},
+ {'attributes': [],
+  'begin': 32,
+  'confidence': 0.4,
+  'end': 52,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the homeless shelter',
+  'tok_begin': 5,
+  'tok_end': 7}]
+Money was generously donated to the homeless shelter by United Nations.
+                                 ROOT                                                
+                                  |                                                   
+                                  S                                                  
+   _______________________________|________________________________________________   
+  |                               VP                                               | 
+  |     __________________________|__________                                      |  
+  |    |      |                              VP                                    | 
+  |    |      |          ____________________|___________________                  |  
+  |    |      |         |              PP                        PP                | 
+  |    |      |         |      ________|_____                ____|_____            |  
+  NP   |     ADVP       |     |              NP             |          NP          | 
+  |    |      |         |     |    __________|________      |     _____|_____      |  
+  NN  VBD     RB       VBN    TO  DT         JJ       NN    IN  NNP         NNPS   . 
+  |    |      |         |     |   |          |        |     |    |           |     |  
+Money was generously donated  to the      homeless shelter  by United     Nations  . 
+
+[{'V': 'was generously donated',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['to']},
+                {'type': [('NP', 0.33)], 'value': 'the homeless shelter'}),
+               ({'type': [('NP', 0.33)], 'value': 'the homeless shelter'},
+                {'qualifiers': ['by']},
+                {'type': [('CITY', 0.99), ('ORG', 0.4)],
+                 'value': 'United Nations'}),
+               ({'type': [('CITY', 0.99)], 'value': 'Money'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Make sure to take this medicine with food.
+[{'attributes': [],
+  'begin': 5,
+  'confidence': 0.99,
+  'end': 9,
+  'ent_type': [('CITY', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'sure',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 18,
+  'confidence': 0.4,
+  'end': 31,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'this medicine',
+  'tok_begin': 4,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 37,
+  'confidence': 0.4,
+  'end': 42,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'food.',
+  'tok_begin': 7,
+  'tok_end': 8}]
+Make sure to take this medicine with food.
+                    ROOT                               
+                     |                                  
+                     S                                 
+       ______________|_______________________________   
+      VP                                             | 
+  ____|____                                          |  
+ |        ADJP                                       | 
+ |     ____|_________                                |  
+ |    |              S                               | 
+ |    |              |                               |  
+ |    |              VP                              | 
+ |    |     _________|__________                     |  
+ |    |    |                    VP                   | 
+ |    |    |     _______________|___________         |  
+ |    |    |    |         |                 PP       | 
+ |    |    |    |         |             ____|___     |  
+ |    |    |    |         NP           |        NP   | 
+ |    |    |    |     ____|_____       |        |    |  
+ VB   JJ   TO   VB   DT         NN     IN       NN   . 
+ |    |    |    |    |          |      |        |    |  
+Make sure  to  take this     medicine with     food  . 
+
+[{'V': 'Make take',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'this medicine'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'food'})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'take',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'this medicine'},
+                {'qualifiers': ['with']},
+                {'type': [('NP', 0.33)], 'value': 'food'})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+There is a strange sound coming from outside.
+[{'attributes': [],
+  'begin': 11,
+  'confidence': 0.99,
+  'end': 18,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'strange',
+  'tok_begin': 3,
+  'tok_end': 3},
+ {'attributes': [],
+  'begin': 9,
+  'confidence': 0.4,
+  'end': 24,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'a strange sound',
+  'tok_begin': 2,
+  'tok_end': 4}]
+There is a strange sound coming from outside.
+                       ROOT                            
+                        |                               
+                        S                              
+   _____________________|____________________________   
+  |        VP                                        | 
+  |     ___|____________                             |  
+  |    |                NP                           | 
+  |    |          ______|___________                 |  
+  |    |         |                  VP               | 
+  |    |         |             _____|____            |  
+  |    |         |            |          PP          | 
+  |    |         |            |      ____|_____      |  
+  NP   |         NP           |     |          NP    | 
+  |    |    _____|______      |     |          |     |  
+  EX  VBZ  DT    JJ     NN   VBG    IN         JJ    . 
+  |    |   |     |      |     |     |          |     |  
+There  is  a  strange sound coming from     outside  . 
+
+[{'V': 'is coming',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['from']},
+                {'type': [], 'value': 'outside'}),
+               ({'type': [], 'value': ''},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'a strange sound outside'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'coming',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['from']},
+                {'type': [], 'value': 'outside'}),
+               ({'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'a strange sound outside'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+You cannot play outside until you finish your homework.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'You',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 30,
+  'confidence': 0.4,
+  'end': 33,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'you',
+  'tok_begin': 6,
+  'tok_end': 6},
+ {'attributes': [],
+  'begin': 41,
+  'confidence': 0.4,
+  'end': 55,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'your homework.',
+  'tok_begin': 8,
+  'tok_end': 10}]
+You cannot play outside until you finish your homework.
+                          ROOT                                     
+                           |                                        
+                           S                                       
+  _________________________|_____________________________________   
+ |                         VP                                    | 
+ |    _____________________|____                                 |  
+ |   |   |                      VP                               | 
+ |   |   |    __________________|____                            |  
+ |   |   |   |      |               SBAR                         | 
+ |   |   |   |      |       _________|_____                      |  
+ |   |   |   |      |      |               S                     | 
+ |   |   |   |      |      |     __________|___                  |  
+ |   |   |   |      |      |    |              VP                | 
+ |   |   |   |      |      |    |     _________|____             |  
+ NP  |   |   |     ADVP    |    NP   |              NP           | 
+ |   |   |   |      |      |    |    |          ____|_____       |  
+PRP  MD  RB  VB     JJ     IN  PRP  VBP       PRP$        NN     . 
+ |   |   |   |      |      |    |    |         |          |      |  
+You can not play outside until you finish     your     homework  . 
+
+[{'V': 'not play finish',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'You'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'you'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'your homework'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'finish',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'you'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''}),
+               ({'type': [('NP', 0.33)], 'value': 'your homework'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+They are arriving sometime between lunch and dinner.
+[{'attributes': [],
+  'begin': 5,
+  'confidence': 0.99,
+  'end': 8,
+  'ent_type': [('CITY', 0.5), ('COUNTRY', 0.5)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'are',
+  'tok_begin': 1,
+  'tok_end': 1},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 4,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'They',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 35,
+  'confidence': 0.4,
+  'end': 40,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'lunch',
+  'tok_begin': 5,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 45,
+  'confidence': 0.4,
+  'end': 52,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'dinner.',
+  'tok_begin': 7,
+  'tok_end': 8}]
+They are arriving sometime between lunch and dinner.
+                             ROOT                          
+                              |                             
+                              S                            
+  ____________________________|__________________________   
+ |          VP                                           | 
+ |     _____|_________________                           |  
+ |    |                       VP                         | 
+ |    |      _________________|___________               |  
+ |    |     |        |                    PP             | 
+ |    |     |        |         ___________|___           |  
+ NP   |     |       ADVP      |               NP         | 
+ |    |     |        |        |       ________|____      |  
+PRP  VBP   VBG       RB       IN     NN       CC   NN    . 
+ |    |     |        |        |      |        |    |     |  
+They are arriving sometime between lunch     and dinner  . 
+
+[{'V': 'are arriving sometime',
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['between']},
+                {'type': [('NP', 0.33)], 'value': 'lunch and dinner'}),
+               ({'type': [('NP', 0.33)], 'value': 'They'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+I take medicine for my headaches.
+[{'attributes': [],
+  'begin': 20,
+  'confidence': 0.99,
+  'end': 22,
+  'ent_type': [('PERSON', 0.99)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'my',
+  'tok_begin': 4,
+  'tok_end': 4},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 1,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'I',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 7,
+  'confidence': 0.4,
+  'end': 15,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'medicine',
+  'tok_begin': 2,
+  'tok_end': 2},
+ {'attributes': [],
+  'begin': 20,
+  'confidence': 0.4,
+  'end': 33,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'my headaches.',
+  'tok_begin': 4,
+  'tok_end': 6}]
+I take medicine for my headaches.
+                  ROOT                           
+                   |                              
+                   S                             
+  _________________|___________________________   
+ |                 VP                          | 
+ |    _____________|____                       |  
+ |   |                  NP                     | 
+ |   |       ___________|___                   |  
+ |   |      |               PP                 | 
+ |   |      |       ________|____              |  
+ NP  |      NP     |             NP            | 
+ |   |      |      |         ____|______       |  
+PRP VBP     NN     IN      PRP$        NNS     . 
+ |   |      |      |        |           |      |  
+ I  take medicine for       my      headaches  . 
+
+[{'V': 'take',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'medicine'},
+                {'qualifiers': ['for']},
+                {'type': [('PERSON', 0.99), ('NP', 0.33)],
+                 'value': 'my headaches'}),
+               ({'type': [], 'value': 'I'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+Do not open until instructed.
+[]
+Do not open until instructed.
+              ROOT                    
+               |                       
+               S                      
+          _____|____________________   
+         VP                         | 
+  _______|_____                     |  
+ |   |         VP                   | 
+ |   |    _____|____                |  
+ |   |   |         SBAR             | 
+ |   |   |      ____|_______        |  
+ |   |   |     |            S       | 
+ |   |   |     |            |       |  
+ |   |   |     |            VP      | 
+ |   |   |     |            |       |  
+VBP  RB  VB    IN          VBN      . 
+ |   |   |     |            |       |  
+ Do not open until      instructed  . 
+
+[{'V': 'Do not open instructed',
+  'entities': [],
+  'predicate_score': 1.0,
+  'sent_num': 0},
+ {'V': 'instructed', 'entities': [], 'predicate_score': 1.0, 'sent_num': 0}]
+He didn't arrive until 10 o'clock this evening.
+[{'attributes': [],
+  'begin': 23,
+  'confidence': 0.0,
+  'end': 46,
+  'ent_type': [('TIME', 0.4)],
+  'num': 0,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "10 o'clock this evening",
+  'tok_begin': 5,
+  'tok_end': 8,
+  'value': None},
+ {'attributes': [],
+  'begin': 17,
+  'confidence': 0.0,
+  'datetime_iso_end': '2018-02-21T22:00:00.000Z',
+  'datetime_iso_start': None,
+  'end': 46,
+  'ent_type': [('DATETIME', 0.5), ('DATETIME', 0.5)],
+  'num': 0,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "until 10 o'clock this evening",
+  'tok_begin': 4,
+  'tok_end': 8,
+  'value': None},
+ {'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 2,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'He',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 23,
+  'confidence': 0.4,
+  'end': 33,
+  'ent_type': [('NP', 0.33)],
+  'num': 4,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': "10 o'clock",
+  'tok_begin': 5,
+  'tok_end': 6}]
+He didn't arrive until 10 o'clock this evening.
+                    ROOT                                   
+                     |                                      
+                     S                                     
+  ___________________|___________________________________   
+ |                   VP                                  | 
+ |    _______________|________                           |  
+ |   |   |                    VP                         | 
+ |   |   |     _______________|____________              |  
+ |   |   |    |           PP               |             | 
+ |   |   |    |       ____|___             |             |  
+ NP  |   |    |      |        NP         NP-TMP          | 
+ |   |   |    |      |        |      ______|_______      |  
+PRP VBD  RB   VB     IN       CD    RB     DT      NN    . 
+ |   |   |    |      |        |     |      |       |     |  
+ He did n't arrive until      10 o'clock  this  evening  . 
+
+[{'V': "did n't arrive o'clock",
+  'entities': [({'type': [], 'value': ''},
+                {'qualifiers': ['until']},
+                {'type': [], 'value': '10'}),
+               ({'type': [('NP', 0.33)], 'value': 'He'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+She gently placed the antique vase upon the shelf.
+[{'attributes': [],
+  'begin': 0,
+  'confidence': 0.4,
+  'end': 3,
+  'ent_type': [('NP', 0.33)],
+  'num': 1,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'She',
+  'tok_begin': 0,
+  'tok_end': 0},
+ {'attributes': [],
+  'begin': 18,
+  'confidence': 0.4,
+  'end': 34,
+  'ent_type': [('NP', 0.33)],
+  'num': 2,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the antique vase',
+  'tok_begin': 3,
+  'tok_end': 5},
+ {'attributes': [],
+  'begin': 40,
+  'confidence': 0.4,
+  'end': 50,
+  'ent_type': [('NP', 0.33)],
+  'num': 3,
+  'relevance': 0.0,
+  'sent_num': 0,
+  'text': 'the shelf.',
+  'tok_begin': 7,
+  'tok_end': 9}]
+She gently placed the antique vase upon the shelf.
+                        ROOT                             
+                         |                                
+                         S                               
+  _______________________|_____________________________   
+ |    |                        VP                      | 
+ |    |       _________________|_________              |  
+ |    |      |           |               PP            | 
+ |    |      |           |           ____|___          |  
+ NP  ADVP    |           NP         |        NP        | 
+ |    |      |      _____|_____     |     ___|____     |  
+PRP   RB    VBD    DT    JJ    NN   IN   DT       NN   . 
+ |    |      |     |     |     |    |    |        |    |  
+She gently placed the antique vase upon the     shelf  . 
+
+[{'V': 'placed',
+  'entities': [({'type': [('NP', 0.33)], 'value': 'the antique vase'},
+                {'qualifiers': ['upon']},
+                {'type': [('NP', 0.33)], 'value': 'the shelf'}),
+               ({'type': [('NP', 0.33)], 'value': 'She'},
+                {'qualifiers': None},
+                {'type': [], 'value': ''})],
+  'predicate_score': 1.0,
+  'sent_num': 0}]
+
+Process finished with exit code 0
